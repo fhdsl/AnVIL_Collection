@@ -57,11 +57,11 @@ jobs:
       rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
       render_student_guide: "${{ env.RENDER_STUDENT_GUIDE }}"
       dockerfiles_changed: steps.verify-changed-files.outputs.files_changed
-
-  anvil-library-build:
-    name: AnVIL Library Build
+      
+  build-collection:
+    name: Build Collection
     needs: yaml-check
-    uses: ./.github/workflows/anvil-library-build.yml
+    uses: ./.github/workflows/build-collection.yml
     with:
       render-type: 'preview'
       repository: $GITHUB_REPOSITORY
