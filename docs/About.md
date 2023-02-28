@@ -10,7 +10,6 @@ These credits are based on our [course contributors table guidelines](https://gi
 
 |Credits|Names|
 |-------|-----|
-
 |**Technical**||
 |Course Publishing Engineer and Maintainer| [Ava Hoffman] |
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright]|
