@@ -33,10 +33,9 @@ jobs:
       toggle_quiz_check: "${{ env.CHECK_QUIZZES }}"
       render_student_guide: "${{ env.RENDER_STUDENT_GUIDE }}"
 
-  anvil-library-build:
-    name: AnVIL Library Build
-    needs: yaml-check
-    uses: ./.github/workflows/anvil-library-build.yml
+  build-collection:
+    name: Build Collection
+    uses: ./.github/workflows/build-collection.yml
     with:
       render-type: 'main'
       repository: $GITHUB_REPOSITORY
