@@ -11,11 +11,6 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 # Courses and Guides {-}
 
-<!-- Hide TOC -->
-```{js, echo = FALSE}
-$(document).ready(function(e) {gitbook.sidebar.toggle(false, false)});
-```
-
 Please check out our full collection of AnVIL and related resources below!
 
 This page was last updated on `r Sys.time()`
