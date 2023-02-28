@@ -117,7 +117,7 @@ for (page in 1:last){
       mutate(is_template = str_detect(topics, "template")) %>%
       filter(is_anvil | is_gdscn) %>% 
       filter(!is_template) %>% 
-      select(!c(is_anvil, is_gdscn)) %>% 
+      select(!c(is_anvil, is_gdscn, is_template)) %>% 
     
     # Get repository book titles
     get_book_title()

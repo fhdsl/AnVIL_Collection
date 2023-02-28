@@ -18,7 +18,7 @@ make_collection_table <- function(exclude = NULL) {
       # Concatenate columns to create links
       df <-
         df %>%
-        mutate(`Book Name` = paste0("[", name, "](", homepage, ") ([github](", html_url, "))")) %>%
+        mutate(`Book Name` = paste0("[", book_title, "](", homepage, ") ([github](", html_url, "))")) %>%
         rename(Description = description, Topics = topics) %>%
         select(`Book Name`, Description, Topics)
       
