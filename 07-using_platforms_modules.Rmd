@@ -1,0 +1,97 @@
+# Using programming platforms on AnVIL
+
+Modules about opening, touring, and closing AnVIL platforms
+
+<br>
+
+## Video overview on using Jupyter Notebooks 
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_jupyter_video.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+
+## Video overview on using Galaxy
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_galaxy_video.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Starting Galaxy
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_galaxy_start.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Navigating Galaxy
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_galaxy_navigate.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Deleting Galaxy
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_galaxy_delete.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+
+## Video overview on using RStudio
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_rstudio_video.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Launching RStudio
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_rstudio_launch.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Touring RStudio
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_rstudio_tour.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Pausing RStudio
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_rstudio_pause.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Deleting RStudio
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_rstudio_delete.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```

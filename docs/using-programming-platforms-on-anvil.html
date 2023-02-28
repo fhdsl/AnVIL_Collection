@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 7 Using programming platforms on AnVIL | AnVIL Book Name</title>
+  <meta name="description" content="Description about Course/Book." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 7 Using programming platforms on AnVIL | AnVIL Book Name" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Description about Course/Book." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 7 Using programming platforms on AnVIL | AnVIL Book Name" />
+  
+  <meta name="twitter:description" content="Description about Course/Book." />
+  
+
+
+
+<meta name="date" content="2023-02-24" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/AnVIL_style/anvil_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="onboarding.html"/>
+<link rel="next" href="student-instructions.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/AnVIL_style/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://anvilproject.org/" target="_blank"><img src="assets/AnVIL_style/logo-anvil.png" style="width: 80%; padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Book</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#skills-level"><i class="fa fa-check"></i>Skills Level</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="learning-objectives.html"><a href="learning-objectives.html"><i class="fa fa-check"></i>Learning Objectives</a>
+<ul>
+<li class="chapter" data-level="" data-path="learning-objectives.html"><a href="learning-objectives.html#anvil-collection"><i class="fa fa-check"></i>AnVIL Collection</a></li>
+</ul></li>
+<li class="part"><span><b>Demo Chapters</b></span></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.3</b> Curriculum</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="a-new-chapter.html"><a href="a-new-chapter.html"><i class="fa fa-check"></i><b>2</b> A new chapter</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#learning-objectives-1"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#libraries"><i class="fa fa-check"></i><b>2.2</b> Libraries</a></li>
+<li class="chapter" data-level="2.3" data-path="a-new-chapter.html"><a href="a-new-chapter.html#subtopic"><i class="fa fa-check"></i><b>2.3</b> Subtopic</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#code-examples"><i class="fa fa-check"></i><b>2.3.1</b> Code examples</a></li>
+<li class="chapter" data-level="2.3.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#image-example"><i class="fa fa-check"></i><b>2.3.2</b> Image example</a></li>
+<li class="chapter" data-level="2.3.3" data-path="a-new-chapter.html"><a href="a-new-chapter.html#video-examples"><i class="fa fa-check"></i><b>2.3.3</b> Video examples</a></li>
+<li class="chapter" data-level="2.3.4" data-path="a-new-chapter.html"><a href="a-new-chapter.html#links-to-files"><i class="fa fa-check"></i><b>2.3.4</b> Links to files</a></li>
+<li class="chapter" data-level="2.3.5" data-path="a-new-chapter.html"><a href="a-new-chapter.html#links-to-websites"><i class="fa fa-check"></i><b>2.3.5</b> Links to websites</a></li>
+<li class="chapter" data-level="2.3.6" data-path="a-new-chapter.html"><a href="a-new-chapter.html#citation-examples"><i class="fa fa-check"></i><b>2.3.6</b> Citation examples</a></li>
+<li class="chapter" data-level="2.3.7" data-path="a-new-chapter.html"><a href="a-new-chapter.html#callout-boxes"><i class="fa fa-check"></i><b>2.3.7</b> Callout boxes</a></li>
+<li class="chapter" data-level="2.3.8" data-path="a-new-chapter.html"><a href="a-new-chapter.html#dropdown-summaries"><i class="fa fa-check"></i><b>2.3.8</b> Dropdown summaries</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="a-new-chapter.html"><a href="a-new-chapter.html#print-out-session-info"><i class="fa fa-check"></i><b>2.4</b> Print out session info</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="anvil-module-library.html"><a href="anvil-module-library.html"><i class="fa fa-check"></i><b>3</b> AnVIL Module Library</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="anvil-module-library.html"><a href="anvil-module-library.html#include-using-cowborrow_chapter"><i class="fa fa-check"></i><b>3.1</b> Include using <code>cow::borrow_chapter()</code></a></li>
+<li class="chapter" data-level="3.2" data-path="anvil-module-library.html"><a href="anvil-module-library.html#background-highlighting-for-borrowed-chapters"><i class="fa fa-check"></i><b>3.2</b> Background Highlighting for Borrowed Chapters</a></li>
+</ul></li>
+<li class="part"><span><b>AnVIL Modules</b></span></li>
+<li class="chapter" data-level="4" data-path="workspaces.html"><a href="workspaces.html"><i class="fa fa-check"></i><b>4</b> Workspaces</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="workspaces.html"><a href="workspaces.html#clone-a-workspace"><i class="fa fa-check"></i><b>4.1</b> Clone a Workspace</a></li>
+<li class="chapter" data-level="4.2" data-path="workspaces.html"><a href="workspaces.html#create-a-workspace"><i class="fa fa-check"></i><b>4.2</b> Create a Workspace</a></li>
+<li class="chapter" data-level="4.3" data-path="workspaces.html"><a href="workspaces.html#open-a-workspace"><i class="fa fa-check"></i><b>4.3</b> Open a Workspace</a></li>
+<li class="chapter" data-level="4.4" data-path="workspaces.html"><a href="workspaces.html#share-a-workspace"><i class="fa fa-check"></i><b>4.4</b> Share a Workspace</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="billing.html"><a href="billing.html"><i class="fa fa-check"></i><b>5</b> Billing</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="billing.html"><a href="billing.html#create-google-billing-account"><i class="fa fa-check"></i><b>5.1</b> Create Google Billing Account</a></li>
+<li class="chapter" data-level="5.2" data-path="billing.html"><a href="billing.html#add-terra-to-google-billing-account"><i class="fa fa-check"></i><b>5.2</b> Add Terra to Google Billing Account</a></li>
+<li class="chapter" data-level="5.3" data-path="billing.html"><a href="billing.html#add-members-to-google-billing-account"><i class="fa fa-check"></i><b>5.3</b> Add Members to Google Billing Account</a></li>
+<li class="chapter" data-level="5.4" data-path="billing.html"><a href="billing.html#set-alerts-for-google-billing"><i class="fa fa-check"></i><b>5.4</b> Set Alerts for Google Billing</a></li>
+<li class="chapter" data-level="5.5" data-path="billing.html"><a href="billing.html#view-spend-for-google-billing"><i class="fa fa-check"></i><b>5.5</b> View Spend for Google Billing</a></li>
+<li class="chapter" data-level="5.6" data-path="billing.html"><a href="billing.html#create-terra-billing-project"><i class="fa fa-check"></i><b>5.6</b> Create Terra Billing Project</a></li>
+<li class="chapter" data-level="5.7" data-path="billing.html"><a href="billing.html#add-member-to-terra-billing-project"><i class="fa fa-check"></i><b>5.7</b> Add Member to Terra Billing Project</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>6</b> Onboarding</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="onboarding.html"><a href="onboarding.html#create-google-account"><i class="fa fa-check"></i><b>6.1</b> Create Google Account</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html"><i class="fa fa-check"></i><b>7</b> Using programming platforms on AnVIL</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#video-overview-on-using-jupyter-notebooks"><i class="fa fa-check"></i><b>7.1</b> Video overview on using Jupyter Notebooks</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#objectives"><i class="fa fa-check"></i><b>7.1.1</b> Objectives</a></li>
+<li class="chapter" data-level="7.1.2" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#slides"><i class="fa fa-check"></i><b>7.1.2</b> Slides</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#video-overview-on-using-galaxy"><i class="fa fa-check"></i><b>7.2</b> Video overview on using Galaxy</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#objectives-1"><i class="fa fa-check"></i><b>7.2.1</b> Objectives</a></li>
+<li class="chapter" data-level="7.2.2" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#slides-1"><i class="fa fa-check"></i><b>7.2.2</b> Slides</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#starting-galaxy"><i class="fa fa-check"></i><b>7.3</b> Starting Galaxy</a></li>
+<li class="chapter" data-level="7.4" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#navigating-galaxy"><i class="fa fa-check"></i><b>7.4</b> Navigating Galaxy</a></li>
+<li class="chapter" data-level="7.5" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#deleting-galaxy"><i class="fa fa-check"></i><b>7.5</b> Deleting Galaxy</a></li>
+<li class="chapter" data-level="7.6" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#video-overview-on-using-rstudio"><i class="fa fa-check"></i><b>7.6</b> Video overview on using RStudio</a>
+<ul>
+<li class="chapter" data-level="7.6.1" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#objectives-2"><i class="fa fa-check"></i><b>7.6.1</b> Objectives</a></li>
+<li class="chapter" data-level="7.6.2" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#slides-2"><i class="fa fa-check"></i><b>7.6.2</b> Slides</a></li>
+</ul></li>
+<li class="chapter" data-level="7.7" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#launching-rstudio"><i class="fa fa-check"></i><b>7.7</b> Launching RStudio</a></li>
+<li class="chapter" data-level="7.8" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#touring-rstudio"><i class="fa fa-check"></i><b>7.8</b> Touring RStudio</a></li>
+<li class="chapter" data-level="7.9" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#pausing-rstudio"><i class="fa fa-check"></i><b>7.9</b> Pausing RStudio</a></li>
+<li class="chapter" data-level="7.10" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#deleting-rstudio"><i class="fa fa-check"></i><b>7.10</b> Deleting RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="student-instructions.html"><a href="student-instructions.html"><i class="fa fa-check"></i><b>8</b> Student instructions</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="student-instructions.html"><a href="student-instructions.html#student-account-setup"><i class="fa fa-check"></i><b>8.1</b> Student Account Setup</a></li>
+<li class="chapter" data-level="8.2" data-path="student-instructions.html"><a href="student-instructions.html#student-instructions-for-cloning-a-workspace"><i class="fa fa-check"></i><b>8.2</b> Student instructions for cloning a Workspace</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="student-instructions.html"><a href="student-instructions.html#with-no-variables-set"><i class="fa fa-check"></i><b>8.2.1</b> With no variables set:</a></li>
+<li class="chapter" data-level="8.2.2" data-path="student-instructions.html"><a href="student-instructions.html#with-variables-set"><i class="fa fa-check"></i><b>8.2.2</b> With variables set:</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="student-instructions.html"><a href="student-instructions.html#student-instructions-for-launching-rstudio"><i class="fa fa-check"></i><b>8.3</b> Student instructions for launching RStudio</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="student-instructions.html"><a href="student-instructions.html#using-default-rstudio-environment"><i class="fa fa-check"></i><b>8.3.1</b> Using default RStudio environment:</a></li>
+<li class="chapter" data-level="8.3.2" data-path="student-instructions.html"><a href="student-instructions.html#using-custom-rstudio-environment"><i class="fa fa-check"></i><b>8.3.2</b> Using custom RStudio environment:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="why-anvil.html"><a href="why-anvil.html"><i class="fa fa-check"></i><b>9</b> Why AnVIL</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="why-anvil.html"><a href="why-anvil.html#why-anvil-for-instructors"><i class="fa fa-check"></i><b>9.1</b> Why AnVIL for Instructors?</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="10" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>10</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="https://hutchdatascience.org/"> The Fred Hutch Data Science Lab </a></p>
+<a href="https://hutchdatascience.org/" target="_blank"><img src="https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/style-sets/fhdasl/copy_to_assets/big-dasl-stacked.png" style="width: 80%; padding-left: 34px; padding-top: 8px;"</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/AK12iVXTjsB7yCUUA"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">AnVIL Book Name</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/AnVIL_style/dasl_thin_main_image.png">
+</div>
+<div id="using-programming-platforms-on-anvil" class="section level1" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Using programming platforms on AnVIL</h1>
+<p>Modules about opening, touring, and closing AnVIL platforms</p>
+<p><br></p>
+<div id="video-overview-on-using-jupyter-notebooks" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Video overview on using Jupyter Notebooks</h2>
+<p>Here is a video tutorial that describes the basics of using Jupyter Notebook on AnVIL.</p>
+<iframe src="https://drive.google.com/file/d/1ZhPYFy4zuAHhPhF6T4pUgSReBmPJM-wg/preview" width="640" height="360" allow="autoplay">
+</iframe>
+<div id="objectives" class="section level3" number="7.1.1">
+<h3><span class="header-section-number">7.1.1</span> Objectives</h3>
+<ul>
+<li>Start compute for your Jupyter environment</li>
+<li>Create notebook to perform analysis</li>
+<li>Stop compute to minimize expenses</li>
+</ul>
+</div>
+<div id="slides" class="section level3" number="7.1.2">
+<h3><span class="header-section-number">7.1.2</span> Slides</h3>
+<p>The slides for this tutorial are are located <a href="https://docs.google.com/presentation/d/1GYUP874Qd7K3S0Ls6iWY_M4jywpRb53qw0f78OBCFwk">here</a>.</p>
+</div>
+</div>
+<div id="video-overview-on-using-galaxy" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Video overview on using Galaxy</h2>
+<p>Here is a video tutorial that describes the basics of using Galaxy on AnVIL.</p>
+<iframe src="https://drive.google.com/file/d/16QEY8x-gBsUkKEeO3w_H-I4SLIBPloXd/preview" width="640" height="360" allow="autoplay">
+</iframe>
+<div id="objectives-1" class="section level3" number="7.2.1">
+<h3><span class="header-section-number">7.2.1</span> Objectives</h3>
+<ul>
+<li>Start compute for your Galaxy on AnVIL</li>
+<li>Run tool to quality control sequencing reads</li>
+<li>Stop compute to minimize expenses</li>
+</ul>
+</div>
+<div id="slides-1" class="section level3" number="7.2.2">
+<h3><span class="header-section-number">7.2.2</span> Slides</h3>
+<p>The slides for this tutorial are are located <a href="https://docs.google.com/presentation/d/1yYCg4cPVBMMDghT17B4XzROieqyMH99Ex9nMm_Scm9Q">here</a>.</p>
+</div>
+</div>
+<div id="starting-galaxy" class="section level2" number="7.3">
+<h2><span class="header-section-number">7.3</span> Starting Galaxy</h2>
+<p>Note that, in order to use Galaxy, you must have access to a Terra Workspace with permission to compute (i.e. you must be a “Writer” or “Owner” of the Workspace).</p>
+<p>Open your Workspace, and click on the “NOTEBOOKS” tab. Next, click on “Create a Cloud Environment for Galaxy”. You should see a popup window on the right side of the screen. Click on “NEXT” and “CREATE” to keep all settings as-is. This will take 8-10 minutes. When it is done, click “LAUNCH GALAXY”.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_ged15532ded_0_788.png" title="Screenshot of the Workspace Notebooks tab. The notebook tab name and the plus button that starts a cloud environment for Galaxy have been highlighted," alt="Screenshot of the Workspace Notebooks tab. The notebook tab name and the plus button that starts a cloud environment for Galaxy have been highlighted," width="480" /></p>
+</div>
+<div id="navigating-galaxy" class="section level2" number="7.4">
+<h2><span class="header-section-number">7.4</span> Navigating Galaxy</h2>
+<p>Notice the three main sections.</p>
+<p><strong>Tools</strong> - These are all of the bioinformatics tool packages available for you to use.</p>
+<p><strong>The Main Dashboard</strong> - This contains flash messages and posts when you first open Galaxy, but when we are using data this is the main interface area.</p>
+<p><strong>History</strong> - When you start a project you will be able to see all of the documents in the project in the history. Now be aware, this can become very busy. Also the naming that Galaxy uses is not very intuitive, so you must make sure that you label your files with something that makes sense to you.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_ged15532ded_0_816.png" title="Screenshot of the Galaxy landing page. The Tools and History headings have been highlighted." alt="Screenshot of the Galaxy landing page. The Tools and History headings have been highlighted." width="480" /></p>
+<p>On the welcome page, there are links to tutorials. You may try these out on your own. If you want to try a new analysis this is a good place to start.</p>
+</div>
+<div id="deleting-galaxy" class="section level2" number="7.5">
+<h2><span class="header-section-number">7.5</span> Deleting Galaxy</h2>
+<p>Once you are done with your activity, you’ll need to shut down your Galaxy cloud environment. This frees up the cloud resources for others and minimizes computing cost. The following steps will delete your work, so make sure you are completely finished at this point. Otherwise, you will have to repeat your work from the previous steps.</p>
+<p>Return to AnVIL, and find the Galaxy logo that shows your cloud environment is running. Click on this logo:</p>
+<p><img src="07-using_platforms_modules_files/figure-html/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_gf243efded1_0_134.png" title="Screenshot of the Workspace menu. The currently running Galaxy cloud environment logo on the top right of the page is highlighted." alt="Screenshot of the Workspace menu. The currently running Galaxy cloud environment logo on the top right of the page is highlighted." width="480" /></p>
+<p>Next, click on “DELETE ENVIRONMENT OPTIONS”:</p>
+<p><img src="07-using_platforms_modules_files/figure-html/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_gf243efded1_0_140.png" title="Screenshot of the cloud environment pop out menu. The “DELETE ENVIRONMENT OPTIONS” link is highlighted." alt="Screenshot of the cloud environment pop out menu. The “DELETE ENVIRONMENT OPTIONS” link is highlighted." width="480" /></p>
+<p>Finally, select “Delete everything, including persistent disk”. Make sure you are done with the activity and then click “DELETE”.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I_gf243efded1_0_146.png" title="Screenshot of the cloud environment pop out menu. The “Delete everything, including persistent disk” radio button has been checked and is highlighted. The “DELETE” button is highlighted." alt="Screenshot of the cloud environment pop out menu. The “Delete everything, including persistent disk” radio button has been checked and is highlighted. The “DELETE” button is highlighted." width="480" /></p>
+</div>
+<div id="video-overview-on-using-rstudio" class="section level2" number="7.6">
+<h2><span class="header-section-number">7.6</span> Video overview on using RStudio</h2>
+<p>Here is a video tutorial that describes the basics of using RStudio on AnVIL.</p>
+<iframe src="https://drive.google.com/file/d/1v72ZG8JIRDUaewFQgGfcCO_qoM4eYmYX/preview" width="640" height="360" allow="autoplay">
+</iframe>
+<div id="objectives-2" class="section level3" number="7.6.1">
+<h3><span class="header-section-number">7.6.1</span> Objectives</h3>
+<ul>
+<li>Start compute for your RStudio environment</li>
+<li>Tour RStudio on AnVIL</li>
+<li>Stop compute to minimize expenses</li>
+</ul>
+</div>
+<div id="slides-2" class="section level3" number="7.6.2">
+<h3><span class="header-section-number">7.6.2</span> Slides</h3>
+<p>The slides for this tutorial are are located <a href="https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw">here</a>.</p>
+</div>
+</div>
+<div id="launching-rstudio" class="section level2" number="7.7">
+<h2><span class="header-section-number">7.7</span> Launching RStudio</h2>
+<div class="warning">
+<p>AnVIL is very versatile and can scale up to use very powerful cloud computers. It’s very important that you select a cloud computing environment appropriate to your needs to avoid runaway costs. If you are uncertain, start with the default settings; it is fairly easy to increase your compute resources later, if needed, but harder to scale down.</p>
+</div>
+<p>Note that, in order to use RStudio, you must have access to a Terra Workspace with permission to compute (i.e. you must be a “Writer” or “Owner” of the Workspace).</p>
+<ol style="list-style-type: decimal">
+<li><p>Open Terra - use a web browser to go to <a href="https://anvil.terra.bio/"><code>anvil.terra.bio</code></a></p></li>
+<li><p>In the drop-down menu on the left, navigate to “Workspaces”. Click the triple bar in the top left corner to access the menu. Click “Workspaces”.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g117989bd49c_0_150.png" title="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." alt="Screenshot of Terra drop-down menu.  The &quot;hamburger&quot; button to extend the drop-down menu is highlighted, and the menu item &quot;Workspaces&quot; is highlighted." width="100%" /></p></li>
+<li><p>Click on the name of your Workspace. You should be routed to a link that looks like: <code>https://anvil.terra.bio/#workspaces/&lt;billing-project&gt;/&lt;workspace-name&gt;</code>.</p></li>
+<li><p>Click on the cloud icon on the far right to access your Cloud Environment options.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_22.png" title="Screenshot of a Terra Workspace. The cloud icon to create a new cloud environment is highlighted." alt="Screenshot of a Terra Workspace. The cloud icon to create a new cloud environment is highlighted." width="100%" /></p></li>
+<li><p>In the dialogue box, click the “Settings” button under RStudio</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_18.png" title="Screenshot of the Cloud Environment Details dialogue box. The Settings button under RStudio is highlighted." alt="Screenshot of the Cloud Environment Details dialogue box. The Settings button under RStudio is highlighted." width="100%" /></p></li>
+<li><p>You will see some details about the default RStudio cloud environment, and a list of costs because it costs a small amount of money to use cloud computing.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_35.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The cost to run the environment is highlighted." width="100%" /></p></li>
+<li><p>If you are uncertain about what you need, the default configuration is a reasonable, cost-conservative choice. It is fairly easy to increase your compute resources later, if needed, but harder to scale down. Click the “Create” button.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_41.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The &quot;CREATE&quot; button is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The &quot;CREATE&quot; button is highlighted." width="100%" /></p></li>
+<li><p>Otherwise, click “CUSTOMIZE” to modify the environment for your needs.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_48.png" title="Screenshot of the RStudio Cloud Environment dialogue box. The &quot;CUSTOMIZE&quot; button is highlighted." alt="Screenshot of the RStudio Cloud Environment dialogue box. The &quot;CUSTOMIZE&quot; button is highlighted." width="100%" /></p></li>
+<li><p>The dialogue box will close and you will be returned to your Workspace. You can see the status of your cloud environment by hovering over the RStudio logo. It will take a few minutes for Terra to request computers and install software.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_91.png" title="Screenshot of a Terra Workspace. The hovertext for the RStudio icon is highlighted, and indicates that the status of the environment is &quot;Creating&quot;." alt="Screenshot of a Terra Workspace. The hovertext for the RStudio icon is highlighted, and indicates that the status of the environment is &quot;Creating&quot;." width="100%" /></p></li>
+<li><p>When your environment is ready, its status will change to “Running”. Click on the RStudio logo to open a new dialogue box that will let you launch RStudio.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_95.png" title="Screenshot of a Terra Workspace. The hovertext for the RStudio icon is highlighted, and indicates that the status of the environment is &quot;Running&quot;." alt="Screenshot of a Terra Workspace. The hovertext for the RStudio icon is highlighted, and indicates that the status of the environment is &quot;Running&quot;." width="100%" /></p></li>
+<li><p>Click the launch icon to open RStudio. This is also where you can pause, modify, or delete your environment when needed.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_99.png" title="Screenshot of the RStudio Environment Details dialogue box. The &quot;Open&quot; button is highlighted." alt="Screenshot of the RStudio Environment Details dialogue box. The &quot;Open&quot; button is highlighted." width="100%" /></p></li>
+<li><p>You should now see the RStudio interface with information about the version printed to the console.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1a35Mb8f0M-bQkBcHa1cyQc6YxXoBLtExCz96nv08vkA_g14ea2db115d_0_103.png" title="Screenshot of the RStudio environment interface." alt="Screenshot of the RStudio environment interface." width="100%" /></p></li>
+</ol>
+</div>
+<div id="touring-rstudio" class="section level2" number="7.8">
+<h2><span class="header-section-number">7.8</span> Touring RStudio</h2>
+<p>Next, we will be using RStudio and the package <code>Glimma</code> to create interactive plots. See <a href="https://bioconductor.org/packages/release/bioc/vignettes/Glimma/inst/doc/limma_edger.html">this vignette</a> for more information.</p>
+<ol style="list-style-type: decimal">
+<li><p>The Bioconductor team has created a very useful package to programmatically interact with Terra and Google Cloud. Install the <code>AnVIL</code> package. It will make some steps easier as we go along.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_49.png" title="Screenshot of the RStudio environment interface. Code has been typed in the console and is highlighted." alt="Screenshot of the RStudio environment interface. Code has been typed in the console and is highlighted." width="480" /></p></li>
+<li><p>You can now quickly install precompiled binaries using the AnVIL package’s <code>install()</code> function. We will use it to install the <code>Glimma</code> package and the <code>airway</code> package. The <code>airway</code> package contains a <code>SummarizedExperiment</code> data class. This data describes an RNA-Seq experiment on four human airway smooth muscle cell lines treated with dexamethasone.</p></li>
+</ol>
+<p>{Note: for some of the packages, you will have to install packaged from the CRAN repository, using the install.packages() function. The examples will show you which install method to use.}</p>
+<pre><code>&lt;img src=&quot;07-using_platforms_modules_files/figure-html//1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_56.png&quot; title=&quot;Screenshot of the RStudio environment interface. Code has been typed in the console and is highlighted.&quot; alt=&quot;Screenshot of the RStudio environment interface. Code has been typed in the console and is highlighted.&quot; width=&quot;480&quot; /&gt;</code></pre>
+<ol style="list-style-type: decimal">
+<li><p>Load the example data.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_56.png" title="Screenshot of the RStudio environment interface. Code has been typed in the console and is highlighted." alt="Screenshot of the RStudio environment interface. Code has been typed in the console and is highlighted." width="480" /></p></li>
+<li><p>The multidimensional scaling (MDS) plot is frequently used to explore differences in samples. When this data is MDS transformed, the first two dimensions explain the greatest variance between samples, and the amount of variance decreases monotonically with increasing dimension. The following code will launch a new window where you can interact with the MDS plot.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_70.png" title="Screenshot of the Glimma popout showing the data in an MDS plot. All data points are blue." alt="Screenshot of the Glimma popout showing the data in an MDS plot. All data points are blue." width="480" /></p></li>
+<li><p>Change the <code>colour_by</code> setting to “groups” so you can easily distinguish between groups. In this data, the “group” is the treatment.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_77.png" title="Screenshot of the Glimma popout showing the data in an MDS plot. Data points are colored blue and orange by group. The colour by dropdown menu on the interactive plot is hightlighted." alt="Screenshot of the Glimma popout showing the data in an MDS plot. Data points are colored blue and orange by group. The colour by dropdown menu on the interactive plot is hightlighted." width="480" /></p></li>
+<li><p>You can download the interactive html file by clicking on “Save As”.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g1204ed6da7f_0_0.png" title="Screenshot of the Glimma popout showing the data in an MDS plot. The Save As menu is highlighted." alt="Screenshot of the Glimma popout showing the data in an MDS plot. The Save As menu is highlighted." width="480" /></p></li>
+<li><p>You can also download plots and other files created directly in RStudio. To download the following plot, click on “Export” and save in your preferred format to the default directory. This saves the file in your cloud environment.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g1204ed6da7f_0_12.png" title="Screenshot of the RStudio interface. A plot has been created. The Export menu has been highlighted." alt="Screenshot of the RStudio interface. A plot has been created. The Export menu has been highlighted." width="480" /></p></li>
+<li><p>You should see the plot in the “Files” pane.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g1204ed6da7f_0_19.png" title="Screenshot of the RStudio interface. A plot has been created. The saved pdf file is now visible under the &quot;Files&quot; pane." alt="Screenshot of the RStudio interface. A plot has been created. The saved pdf file is now visible under the &quot;Files&quot; pane." width="480" /></p></li>
+<li><p>Select this file and click “More” &gt; “Export”</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g1204ed6db6a_0_0.png" title="Screenshot of the RStudio interface. A plot has been created. The saved pdf file is now visible under the &quot;Files&quot; pane. The &quot;More&quot; and &quot;Export&quot; menus have been highlighted." alt="Screenshot of the RStudio interface. A plot has been created. The saved pdf file is now visible under the &quot;Files&quot; pane. The &quot;More&quot; and &quot;Export&quot; menus have been highlighted." width="480" /></p></li>
+<li><p>Select “Download” to save the file to your local machine.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g1204ed6db6a_0_8.png" title="Screenshot of the RStudio interface. The popup to download the selected file has been highlighted," alt="Screenshot of the RStudio interface. The popup to download the selected file has been highlighted," width="480" /></p></li>
+</ol>
+</div>
+<div id="pausing-rstudio" class="section level2" number="7.9">
+<h2><span class="header-section-number">7.9</span> Pausing RStudio</h2>
+<ol style="list-style-type: decimal">
+<li><p>The upper right corner reminds you that you are accruing cloud computing costs.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_84.png" title="Screenshot of the RStudio interface. The icon on the top right showing that the cloud environment is running is highlighted." alt="Screenshot of the RStudio interface. The icon on the top right showing that the cloud environment is running is highlighted." width="480" /></p></li>
+<li><p>You should minimize charges when you are not performing an analysis. You can do this by clicking on “Stop cloud environment”. This will release the CPU and memory resources for other people to use. Note that your work will be saved in the environment and continue to accrue a very small cost. This work will be lost if the cloud environment gets deleted. If there is anything you would like to save permanently, it’s a good idea to copy it from your compute environment to another location, such as the Workspace bucket, GitHub, or your local machine, depending on your needs.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1BLTCaogA04bbeSD1tR1Wt-mVceQA6FHXa8FmFzIARrg_g11f12bc99af_0_91.png" title="Screenshot of the RStudio interface. The stop icon on the top right which stops the cloud environment is highlighted." alt="Screenshot of the RStudio interface. The stop icon on the top right which stops the cloud environment is highlighted." width="480" /></p></li>
+</ol>
+</div>
+<div id="deleting-rstudio" class="section level2" number="7.10">
+<h2><span class="header-section-number">7.10</span> Deleting RStudio</h2>
+<ol style="list-style-type: decimal">
+<li><p>Stopping your cloud environment only pauses your work. When you are ready to delete the cloud environment, click on the gear icon in the upper right corner to “Update cloud environment”.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_41.png" title="Screenshot of the Workspace page. The gear icon on the top right that updates the cloud environment is highlighted." alt="Screenshot of the Workspace page. The gear icon on the top right that updates the cloud environment is highlighted." width="480" /></p></li>
+<li><p>Click on “Delete Environment Options”.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_20.png" title="Screenshot of the cloud environment popout. &quot;Delete environment options&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete environment options&quot; is highlighted." width="480" /></p></li>
+<li><p>If you are certain that you do not need the data and configuration on your disk, you should select “Delete everything, including persistent disk”. If there is anything you would like to save, open the compute environment and copy the file(s) from your compute environment to another location, such as the Workspace bucket, GitHub, or your local machine, depending on your needs.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_46.png" title="Screenshot of the cloud environment popout. &quot;Delete everything, including persistent disk&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete everything, including persistent disk&quot; is highlighted." width="480" /></p></li>
+<li><p>Select “DELETE”.</p>
+<p><img src="07-using_platforms_modules_files/figure-html/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw_ge1182913a6_0_51.png" title="Screenshot of the cloud environment popout. &quot;Delete&quot; is highlighted." alt="Screenshot of the cloud environment popout. &quot;Delete&quot; is highlighted." width="480" /></p></li>
+</ol>
+
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="onboarding.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="student-instructions.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

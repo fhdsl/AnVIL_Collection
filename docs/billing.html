@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Billing | AnVIL Book Name</title>
+  <meta name="description" content="Description about Course/Book." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Billing | AnVIL Book Name" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Description about Course/Book." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Billing | AnVIL Book Name" />
+  
+  <meta name="twitter:description" content="Description about Course/Book." />
+  
+
+
+
+<meta name="date" content="2023-02-24" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/AnVIL_style/anvil_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="workspaces.html"/>
+<link rel="next" href="onboarding.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/AnVIL_style/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://anvilproject.org/" target="_blank"><img src="assets/AnVIL_style/logo-anvil.png" style="width: 80%; padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Book</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#skills-level"><i class="fa fa-check"></i>Skills Level</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="learning-objectives.html"><a href="learning-objectives.html"><i class="fa fa-check"></i>Learning Objectives</a>
+<ul>
+<li class="chapter" data-level="" data-path="learning-objectives.html"><a href="learning-objectives.html#anvil-collection"><i class="fa fa-check"></i>AnVIL Collection</a></li>
+</ul></li>
+<li class="part"><span><b>Demo Chapters</b></span></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.3</b> Curriculum</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="a-new-chapter.html"><a href="a-new-chapter.html"><i class="fa fa-check"></i><b>2</b> A new chapter</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#learning-objectives-1"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#libraries"><i class="fa fa-check"></i><b>2.2</b> Libraries</a></li>
+<li class="chapter" data-level="2.3" data-path="a-new-chapter.html"><a href="a-new-chapter.html#subtopic"><i class="fa fa-check"></i><b>2.3</b> Subtopic</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#code-examples"><i class="fa fa-check"></i><b>2.3.1</b> Code examples</a></li>
+<li class="chapter" data-level="2.3.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#image-example"><i class="fa fa-check"></i><b>2.3.2</b> Image example</a></li>
+<li class="chapter" data-level="2.3.3" data-path="a-new-chapter.html"><a href="a-new-chapter.html#video-examples"><i class="fa fa-check"></i><b>2.3.3</b> Video examples</a></li>
+<li class="chapter" data-level="2.3.4" data-path="a-new-chapter.html"><a href="a-new-chapter.html#links-to-files"><i class="fa fa-check"></i><b>2.3.4</b> Links to files</a></li>
+<li class="chapter" data-level="2.3.5" data-path="a-new-chapter.html"><a href="a-new-chapter.html#links-to-websites"><i class="fa fa-check"></i><b>2.3.5</b> Links to websites</a></li>
+<li class="chapter" data-level="2.3.6" data-path="a-new-chapter.html"><a href="a-new-chapter.html#citation-examples"><i class="fa fa-check"></i><b>2.3.6</b> Citation examples</a></li>
+<li class="chapter" data-level="2.3.7" data-path="a-new-chapter.html"><a href="a-new-chapter.html#callout-boxes"><i class="fa fa-check"></i><b>2.3.7</b> Callout boxes</a></li>
+<li class="chapter" data-level="2.3.8" data-path="a-new-chapter.html"><a href="a-new-chapter.html#dropdown-summaries"><i class="fa fa-check"></i><b>2.3.8</b> Dropdown summaries</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="a-new-chapter.html"><a href="a-new-chapter.html#print-out-session-info"><i class="fa fa-check"></i><b>2.4</b> Print out session info</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="anvil-module-library.html"><a href="anvil-module-library.html"><i class="fa fa-check"></i><b>3</b> AnVIL Module Library</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="anvil-module-library.html"><a href="anvil-module-library.html#include-using-cowborrow_chapter"><i class="fa fa-check"></i><b>3.1</b> Include using <code>cow::borrow_chapter()</code></a></li>
+<li class="chapter" data-level="3.2" data-path="anvil-module-library.html"><a href="anvil-module-library.html#background-highlighting-for-borrowed-chapters"><i class="fa fa-check"></i><b>3.2</b> Background Highlighting for Borrowed Chapters</a></li>
+</ul></li>
+<li class="part"><span><b>AnVIL Modules</b></span></li>
+<li class="chapter" data-level="4" data-path="workspaces.html"><a href="workspaces.html"><i class="fa fa-check"></i><b>4</b> Workspaces</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="workspaces.html"><a href="workspaces.html#clone-a-workspace"><i class="fa fa-check"></i><b>4.1</b> Clone a Workspace</a></li>
+<li class="chapter" data-level="4.2" data-path="workspaces.html"><a href="workspaces.html#create-a-workspace"><i class="fa fa-check"></i><b>4.2</b> Create a Workspace</a></li>
+<li class="chapter" data-level="4.3" data-path="workspaces.html"><a href="workspaces.html#open-a-workspace"><i class="fa fa-check"></i><b>4.3</b> Open a Workspace</a></li>
+<li class="chapter" data-level="4.4" data-path="workspaces.html"><a href="workspaces.html#share-a-workspace"><i class="fa fa-check"></i><b>4.4</b> Share a Workspace</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="billing.html"><a href="billing.html"><i class="fa fa-check"></i><b>5</b> Billing</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="billing.html"><a href="billing.html#create-google-billing-account"><i class="fa fa-check"></i><b>5.1</b> Create Google Billing Account</a></li>
+<li class="chapter" data-level="5.2" data-path="billing.html"><a href="billing.html#add-terra-to-google-billing-account"><i class="fa fa-check"></i><b>5.2</b> Add Terra to Google Billing Account</a></li>
+<li class="chapter" data-level="5.3" data-path="billing.html"><a href="billing.html#add-members-to-google-billing-account"><i class="fa fa-check"></i><b>5.3</b> Add Members to Google Billing Account</a></li>
+<li class="chapter" data-level="5.4" data-path="billing.html"><a href="billing.html#set-alerts-for-google-billing"><i class="fa fa-check"></i><b>5.4</b> Set Alerts for Google Billing</a></li>
+<li class="chapter" data-level="5.5" data-path="billing.html"><a href="billing.html#view-spend-for-google-billing"><i class="fa fa-check"></i><b>5.5</b> View Spend for Google Billing</a></li>
+<li class="chapter" data-level="5.6" data-path="billing.html"><a href="billing.html#create-terra-billing-project"><i class="fa fa-check"></i><b>5.6</b> Create Terra Billing Project</a></li>
+<li class="chapter" data-level="5.7" data-path="billing.html"><a href="billing.html#add-member-to-terra-billing-project"><i class="fa fa-check"></i><b>5.7</b> Add Member to Terra Billing Project</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>6</b> Onboarding</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="onboarding.html"><a href="onboarding.html#create-google-account"><i class="fa fa-check"></i><b>6.1</b> Create Google Account</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html"><i class="fa fa-check"></i><b>7</b> Using programming platforms on AnVIL</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#video-overview-on-using-jupyter-notebooks"><i class="fa fa-check"></i><b>7.1</b> Video overview on using Jupyter Notebooks</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#objectives"><i class="fa fa-check"></i><b>7.1.1</b> Objectives</a></li>
+<li class="chapter" data-level="7.1.2" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#slides"><i class="fa fa-check"></i><b>7.1.2</b> Slides</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#video-overview-on-using-galaxy"><i class="fa fa-check"></i><b>7.2</b> Video overview on using Galaxy</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#objectives-1"><i class="fa fa-check"></i><b>7.2.1</b> Objectives</a></li>
+<li class="chapter" data-level="7.2.2" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#slides-1"><i class="fa fa-check"></i><b>7.2.2</b> Slides</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#starting-galaxy"><i class="fa fa-check"></i><b>7.3</b> Starting Galaxy</a></li>
+<li class="chapter" data-level="7.4" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#navigating-galaxy"><i class="fa fa-check"></i><b>7.4</b> Navigating Galaxy</a></li>
+<li class="chapter" data-level="7.5" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#deleting-galaxy"><i class="fa fa-check"></i><b>7.5</b> Deleting Galaxy</a></li>
+<li class="chapter" data-level="7.6" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#video-overview-on-using-rstudio"><i class="fa fa-check"></i><b>7.6</b> Video overview on using RStudio</a>
+<ul>
+<li class="chapter" data-level="7.6.1" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#objectives-2"><i class="fa fa-check"></i><b>7.6.1</b> Objectives</a></li>
+<li class="chapter" data-level="7.6.2" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#slides-2"><i class="fa fa-check"></i><b>7.6.2</b> Slides</a></li>
+</ul></li>
+<li class="chapter" data-level="7.7" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#launching-rstudio"><i class="fa fa-check"></i><b>7.7</b> Launching RStudio</a></li>
+<li class="chapter" data-level="7.8" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#touring-rstudio"><i class="fa fa-check"></i><b>7.8</b> Touring RStudio</a></li>
+<li class="chapter" data-level="7.9" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#pausing-rstudio"><i class="fa fa-check"></i><b>7.9</b> Pausing RStudio</a></li>
+<li class="chapter" data-level="7.10" data-path="using-programming-platforms-on-anvil.html"><a href="using-programming-platforms-on-anvil.html#deleting-rstudio"><i class="fa fa-check"></i><b>7.10</b> Deleting RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="student-instructions.html"><a href="student-instructions.html"><i class="fa fa-check"></i><b>8</b> Student instructions</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="student-instructions.html"><a href="student-instructions.html#student-account-setup"><i class="fa fa-check"></i><b>8.1</b> Student Account Setup</a></li>
+<li class="chapter" data-level="8.2" data-path="student-instructions.html"><a href="student-instructions.html#student-instructions-for-cloning-a-workspace"><i class="fa fa-check"></i><b>8.2</b> Student instructions for cloning a Workspace</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="student-instructions.html"><a href="student-instructions.html#with-no-variables-set"><i class="fa fa-check"></i><b>8.2.1</b> With no variables set:</a></li>
+<li class="chapter" data-level="8.2.2" data-path="student-instructions.html"><a href="student-instructions.html#with-variables-set"><i class="fa fa-check"></i><b>8.2.2</b> With variables set:</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="student-instructions.html"><a href="student-instructions.html#student-instructions-for-launching-rstudio"><i class="fa fa-check"></i><b>8.3</b> Student instructions for launching RStudio</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="student-instructions.html"><a href="student-instructions.html#using-default-rstudio-environment"><i class="fa fa-check"></i><b>8.3.1</b> Using default RStudio environment:</a></li>
+<li class="chapter" data-level="8.3.2" data-path="student-instructions.html"><a href="student-instructions.html#using-custom-rstudio-environment"><i class="fa fa-check"></i><b>8.3.2</b> Using custom RStudio environment:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="why-anvil.html"><a href="why-anvil.html"><i class="fa fa-check"></i><b>9</b> Why AnVIL</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="why-anvil.html"><a href="why-anvil.html#why-anvil-for-instructors"><i class="fa fa-check"></i><b>9.1</b> Why AnVIL for Instructors?</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="10" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>10</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="https://hutchdatascience.org/"> The Fred Hutch Data Science Lab </a></p>
+<a href="https://hutchdatascience.org/" target="_blank"><img src="https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/style-sets/fhdasl/copy_to_assets/big-dasl-stacked.png" style="width: 80%; padding-left: 34px; padding-top: 8px;"</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/AK12iVXTjsB7yCUUA"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">AnVIL Book Name</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/AnVIL_style/dasl_thin_main_image.png">
+</div>
+<div id="billing" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Billing</h1>
+<p>Modules about billing and Billing Projects on Google Cloud Platform and Terra.</p>
+<p><br></p>
+<div id="create-google-billing-account" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Create Google Billing Account</h2>
+<div class="borrowed_chunk">
+<ol style="list-style-type: decimal">
+<li><p>Log in to the <a href="https://console.cloud.google.com/">Google Cloud Platform</a> console using your Google ID. <strong>Make sure to use the same Google account ID you use to log into Terra.</strong></p></li>
+<li><p>If you are a first time user, don’t forget to claim your free credits! If you haven’t been to the console before, once you accept the Terms of Service you will be greeted with an invitation to “Try for Free.”</p>
+<p><img src="05-billing_modules_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_0.png" title="Screenshot of the Google Cloud Console with the &quot;Try for Free&quot; button highlighted." alt="Screenshot of the Google Cloud Console with the &quot;Try for Free&quot; button highlighted." width="480" /></p></li>
+<li><p>Follow the instructions to sign up for a Billing Account and get your credits.</p></li>
+<li><p>Choose “Individual Account”. This “billing account” is just for managing billing, so you don’t need to be able to add your lab members. You will need to give either a credit card or bank account for security. Don’t worry! <strong>You won’t be billed until you explicitly turn on automatic billing</strong>.</p>
+<p><img src="05-billing_modules_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_146.png" title="Screenshot of the Google Cloud Billing Account Setup, with &quot;Individual Account&quot; highlighted.  Also highlighted is text stating &quot;You won't be charged unless you manually upgrade to a paid account.&quot;" alt="Screenshot of the Google Cloud Billing Account Setup, with &quot;Individual Account&quot; highlighted.  Also highlighted is text stating &quot;You won't be charged unless you manually upgrade to a paid account.&quot;" width="480" /></p></li>
+<li><p>You can view and edit your new Billing Account, by selecting “Billing” from the left-hand menu, or going direction to the billing console <a href="https://console.cloud.google.com/billing">console.cloud.google.com/billing</a></p>
+<p><img src="05-billing_modules_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_293.png" title="Screenshot of the Google Cloud Console dropdown menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console dropdown menu, with &quot;Billing&quot; highlighted." width="480" /></p></li>
+<li><p>Clicking on the Billing Account name will allow you to manage the account, including accessing reports, setting alerts, and managing payments and billing. We will cover account management in greater detail below.</p>
+<p><img src="05-billing_modules_files/figure-html/1tGpzZaQxoTAcxs_nyyNL2FOqypjEofEnMVpBtZiAw4A_g116ca06e27d_0_437.png" title="Screenshot of the Google Cloud Console Billing Page, with the name of the new billing account highlighted." alt="Screenshot of the Google Cloud Console Billing Page, with the name of the new billing account highlighted." width="480" /></p></li>
+</ol>
+<p>At any point, you can create additional Billing Accounts using the <strong>Create Account</strong> button. We recommend creating a new Billing Account for each funding source.</p>
+</div>
+</div>
+<div id="add-terra-to-google-billing-account" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Add Terra to Google Billing Account</h2>
+<div class="borrowed_chunk">
+<p>This gives Terra permission to create projects and send charges to the Google Billing Account, and must be done by an administrator of the Google Billing Account.</p>
+<p>Terra needs to be added as a “Billing Account User”:</p>
+<ol style="list-style-type: decimal">
+<li><p>Log in to the <a href="https://console.cloud.google.com/">Google Cloud Platform</a> console using your Google ID.</p></li>
+<li><p>Navigate to <a href="https://console.cloud.google.com/billing">Billing</a></p>
+<p><img src="05-billing_modules_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g115e284bdc2_0_144.png" title="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." width="480" /></p></li>
+<li><p>You may be automatically directed to view a specific Billing Account. If you see information about a single account rather than a list of your Billing Accounts, you can get back to the list by clicking “Manage Billing Accounts” from the drop-down menu.</p>
+<p><img src="05-billing_modules_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g115e284bdc2_0_295.png" title="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." alt="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." width="480" /></p></li>
+<li><p>Check the box next to the Billing Account you wish to add Terra to, click “ADD MEMBER”.</p>
+<p><img src="05-billing_modules_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2c647a7_0_151.png" title="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." alt="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." width="480" /></p></li>
+<li><p>Enter <code>terra-billing@terra.bio</code> in the text box. In the drop-down menu, mouse over Billing, then choose “<strong>Billing Account User</strong>”.</p>
+<p><img src="05-billing_modules_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2d0fe67_0_0.png" title="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The text box is highlighted and has been filled in with &quot;terra-billing@terra.bio&quot;.  In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account User&quot; are highlighted." alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The text box is highlighted and has been filled in with &quot;terra-billing@terra.bio&quot;.  In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account User&quot; are highlighted." width="480" /></p></li>
+<li><p>Click “SAVE”.</p>
+<p><img src="05-billing_modules_files/figure-html/1OqSVH5Y4v97-OKMnEDGGuhKBJwc9fyXc-Q1-ivbeZmA_g116e2d0fe67_0_146.png" title="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." width="480" /></p></li>
+</ol>
+</div>
+</div>
+<div id="add-members-to-google-billing-account" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Add Members to Google Billing Account</h2>
+<div class="borrowed_chunk">
+<p>Anyone you wish to add to the Billing Account will need their own Google ID.</p>
+<p>To add a member to a Billing Project:</p>
+<ol style="list-style-type: decimal">
+<li><p>Log in to the <a href="https://console.cloud.google.com/">Google Cloud Platform</a> console using your Google ID.</p></li>
+<li><p>Navigate to <a href="https://console.cloud.google.com/billing">Billing</a></p>
+<p><img src="05-billing_modules_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g115e284bdc2_0_144.png" title="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." width="480" /></p></li>
+<li><p>You may be automatically directed to view a specific Billing Account. If you see information about a single account rather than a list of your Billing Accounts, you can get back to the list by clicking “Manage Billing Accounts” from the drop-down menu.</p>
+<p><img src="05-billing_modules_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g115e284bdc2_0_295.png" title="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." alt="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." width="480" /></p></li>
+<li><p>Check the box next to the Billing Account you wish to add a member to, click “ADD MEMBER”.</p>
+<p><img src="05-billing_modules_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_151.png" title="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." alt="Screenshot of Google Cloud Billing Accounts Overview. The checkbox next to the name of a Billing Account is checked and highlighted, and the &quot;Add Member&quot; button is highlighted." width="480" /></p></li>
+<li><p>Enter their Google ID in the text box. In the drop-down menu, mouse over Billing, then choose the appropriate role.</p>
+<p><img src="05-billing_modules_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_296.png" title="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account Viewer&quot; are highlighted." alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. In the drop-down menu labeled &quot;Select a Role&quot;, the item &quot;Billing&quot; and the submenu item &quot;Billing Account Viewer&quot; are highlighted." width="480" /></p></li>
+<li><p>Click “SAVE”.</p>
+<p><img src="05-billing_modules_files/figure-html/1j1wRbaDyHJJhZQcWcP4xeYgIoaIBRIF3LIZpiDPBumw_g116e2c647a7_0_441.png" title="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." alt="Screenshot of the dialogue box for adding a member to a Google Cloud Billing Accounts. The Save button is highlighted." width="480" /></p></li>
+</ol>
+</div>
+</div>
+<div id="set-alerts-for-google-billing" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Set Alerts for Google Billing</h2>
+<div class="borrowed_chunk">
+<ol style="list-style-type: decimal">
+<li><p>Log in to the <a href="https://console.cloud.google.com/">Google Cloud Platform</a> console using the Google ID associated with your Google Cloud projects.</p></li>
+<li><p>Open the dropdown menu on the top left and click on <a href="https://console.cloud.google.com/billing">Billing</a>.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_144.png" title="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." width="480" /></p></li>
+<li><p>You may be automatically directed to view a specific Billing Account. If you see information about a single account (and it’s not the one you’re interested in), you can get back to the list of all your Billing Accounts by clicking “Manage Billing Accounts” from the drop-down menu.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_295.png" title="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." alt="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." width="480" /></p></li>
+<li><p>Click on the name of the Billing Account you want to set alerts for.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_150.png" title="Screenshot of Google Cloud Billing Accounts Overview. A Billing Account name is highlighted." alt="Screenshot of Google Cloud Billing Accounts Overview. A Billing Account name is highlighted." width="480" /></p></li>
+<li><p>In the left-hand menu, click “Budgets &amp; alerts”.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_442.png" title="Screenshot of an individual Google Cloud Billing Account with the left-hand menu item &quot;Budgets &amp; alerts&quot; highlighted." alt="Screenshot of an individual Google Cloud Billing Account with the left-hand menu item &quot;Budgets &amp; alerts&quot; highlighted." width="480" /></p></li>
+<li><p>Click the “Create Budget” tab.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_587.png" title="Screenshot of the budgets and alerts page for a Google Cloud Billing Account. The &quot;Create Budget&quot; button highlighted." alt="Screenshot of the budgets and alerts page for a Google Cloud Billing Account. The &quot;Create Budget&quot; button highlighted." width="480" /></p></li>
+<li><p>Enter a name for your budget, and then choose which projects you want to monitor. Then click “Next”.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_732.png" title="Screenshot of the form for setting budget scope for a Google Cloud Billing Account. Three things are highlighted:  1) the box for entering a &quot;Name&quot; for the budget, 2) the dropdown menu labeled &quot;Projects&quot; for selecting which Billing Projects are part of the budget, and 3) the &quot;Next&quot; button." alt="Screenshot of the form for setting budget scope for a Google Cloud Billing Account. Three things are highlighted:  1) the box for entering a &quot;Name&quot; for the budget, 2) the dropdown menu labeled &quot;Projects&quot; for selecting which Billing Projects are part of the budget, and 3) the &quot;Next&quot; button." width="480" /></p></li>
+<li><p>For Budget Type, select “Specified amount”. Enter the total budget amount for the month (you will set alerts at different thresholds in the next step). Click “<strong>Next</strong>” (do not click “Finish”).</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_878.png" title="Screenshot of the form for setting budget amount for a Google Cloud Billing Account.  The drop-down menu labeled &quot;Budget type&quot; is highlighted and &quot;Specified amount&quot; is selected.  Also highlighted are the text box labeled &quot;Target amount&quot; and the &quot;Next&quot; button." alt="Screenshot of the form for setting budget amount for a Google Cloud Billing Account.  The drop-down menu labeled &quot;Budget type&quot; is highlighted and &quot;Specified amount&quot; is selected.  Also highlighted are the text box labeled &quot;Target amount&quot; and the &quot;Next&quot; button." width="480" /></p></li>
+<li><p>Enter the threshold amounts where you want to receive an alert. We recommend starting with 50% and 90%. You can set other alerts if you prefer.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_1025.png" title="Screenshot of the form for setting budget actions for a Google Cloud Billing Account.  The boxes for entering &quot;Percent of budget&quot; or &quot;Amount&quot; are highlighted.  The drop-down menu labeled &quot;Trigger on&quot; is highlighted and &quot;Actual&quot; is selected." alt="Screenshot of the form for setting budget actions for a Google Cloud Billing Account.  The boxes for entering &quot;Percent of budget&quot; or &quot;Amount&quot; are highlighted.  The drop-down menu labeled &quot;Trigger on&quot; is highlighted and &quot;Actual&quot; is selected." width="480" /></p></li>
+<li><p>Check the box for “Email alerts to billing admins and users”, then click “<strong>Finish</strong>”. Now you (as the owner and admin), along with anyone you added with admin or user privileges (e.g. lab managers) will receive alerts when your lab members reach the specified spending thresholds. These emails will be sent to the Gmail accounts associated with the Billing Account.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_1169.png" title="Screenshot of the form for setting budget alerts for a Google Cloud Billing Account.  The checkbox labeled &quot;Email alerts to billing admins and users&quot; is highligheted and checked.  The &quot;Finish&quot; button is highlighted." alt="Screenshot of the form for setting budget alerts for a Google Cloud Billing Account.  The checkbox labeled &quot;Email alerts to billing admins and users&quot; is highligheted and checked.  The &quot;Finish&quot; button is highlighted." width="480" /></p></li>
+<li><p>You can edit your budgets at any time by going to Billing &gt; Budgets &amp; alerts, and clicking on the name of the budget you want to edit.</p>
+<p><img src="05-billing_modules_files/figure-html/1GBYTx25VzBFh7kI_elgMC0fmOMm4YhcfW8wIJ1EkmKY_g115e284bdc2_0_1314.png" title="Screenshot of the Google Cloud Billing Account Budgets and alerts overview.  Four items are highlighted illustrating how to view and edit an existing budget: 1) The top-left &quot;hamburger&quot; button for extending the drop-down menu, 2) the drop-down menu item &quot;Billing&quot;, 3) the submenu item &quot;Budgets &amp; alerts, 4) the name of a budget." alt="Screenshot of the Google Cloud Billing Account Budgets and alerts overview.  Four items are highlighted illustrating how to view and edit an existing budget: 1) The top-left &quot;hamburger&quot; button for extending the drop-down menu, 2) the drop-down menu item &quot;Billing&quot;, 3) the submenu item &quot;Budgets &amp; alerts, 4) the name of a budget." width="480" /></p></li>
+</ol>
+</div>
+</div>
+<div id="view-spend-for-google-billing" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> View Spend for Google Billing</h2>
+<div class="borrowed_chunk">
+<p>You can always check your current spend through the Google Billing console, but remember</p>
+<ul>
+<li>There is a reporting delay (~1 day), so you cannot immediately see what an analysis cost</li>
+<li>Costs are reported at the level of Workspaces, so if there are multiple people using a Workspace, you will not be able to determine which of them was responsible for the charges.</li>
+</ul>
+<p>The Google Billing console displays information by Billing Account. To view spending:</p>
+<ol style="list-style-type: decimal">
+<li><p>Log in to the <a href="https://console.cloud.google.com/">Google Cloud Platform</a> console using the Google ID associated with your Google Cloud projects.</p></li>
+<li><p>Open the dropdown menu on the top left and click on <a href="https://console.cloud.google.com/billing">Billing</a>.</p>
+<p><img src="05-billing_modules_files/figure-html/1Ofs1As7XZWmxnaBOZvNYzAiuuaYgn1ce700eHyCNg2Y_g115e284bdc2_0_144.png" title="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." alt="Screenshot of the Google Cloud Console drop-down menu, with &quot;Billing&quot; highlighted." width="480" /></p></li>
+<li><p>You may be automatically directed to view a specific Billing Account. If you see information about a single account (and it’s not the one you’re interested in), you can get back to the list of all your Billing Accounts by clicking “Manage Billing Accounts” from the drop-down menu.</p>
+<p><img src="05-billing_modules_files/figure-html/1Ofs1As7XZWmxnaBOZvNYzAiuuaYgn1ce700eHyCNg2Y_g115e284bdc2_0_295.png" title="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." alt="Screenshot of an individual Google Cloud Billing Account with the drop-down menu item &quot;Manage Billing Accounts&quot; highlighted." width="480" /></p></li>
+<li><p>Click on the name of the Billing Account for the project you want to view.</p>
+<p><img src="05-billing_modules_files/figure-html/1Ofs1As7XZWmxnaBOZvNYzAiuuaYgn1ce700eHyCNg2Y_g115e284bdc2_0_150.png" title="Screenshot of Google Cloud Billing Accounts Overview. A Billing Account name is highlighted." alt="Screenshot of Google Cloud Billing Accounts Overview. A Billing Account name is highlighted." width="480" /></p></li>
+<li><p>Look at the top of the <strong>Overview</strong> tab to see your month-to-date spending.</p>
+<p><img src="05-billing_modules_files/figure-html/1Ofs1As7XZWmxnaBOZvNYzAiuuaYgn1ce700eHyCNg2Y_g1149729109c_0_0.png" title="Screenshot of a Google Cloud Billing Account Overview." alt="Screenshot of a Google Cloud Billing Account Overview." width="480" /></p></li>
+<li><p>Scroll further down the <strong>Overview</strong> tab to show your top projects.</p>
+<p><img src="05-billing_modules_files/figure-html/1Ofs1As7XZWmxnaBOZvNYzAiuuaYgn1ce700eHyCNg2Y_g1149729109c_0_143.png" title="Screenshot of a Google Cloud Billing Account top projects." alt="Screenshot of a Google Cloud Billing Account top projects." width="480" /></p></li>
+<li><p>Click on the <strong>Reports</strong> tab to see more detailed information about each of your projects. This is probably the most useful tab for exploring costs of individual projects over time.</p>
+<p><img src="05-billing_modules_files/figure-html/1Ofs1As7XZWmxnaBOZvNYzAiuuaYgn1ce700eHyCNg2Y_g1149729109c_0_433.png" title="Screenshot of a Google Cloud Billing Account Reports tab." alt="Screenshot of a Google Cloud Billing Account Reports tab." width="480" /></p></li>
+<li><p>Click on the <strong>Cost table</strong> tab to obtain a convenient table of spending per project.</p>
+<p><img src="05-billing_modules_files/figure-html/1Ofs1As7XZWmxnaBOZvNYzAiuuaYgn1ce700eHyCNg2Y_g1149729109c_0_577.png" title="Screenshot of a Google Cloud Billing Account Cost table tab." alt="Screenshot of a Google Cloud Billing Account Cost table tab." width="480" /></p></li>
+</ol>
+</div>
+</div>
+<div id="create-terra-billing-project" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Create Terra Billing Project</h2>
+<div class="borrowed_chunk">
+<ol style="list-style-type: decimal">
+<li><p><a href="https://anvil.terra.bio/#workspaces">Launch Terra</a> and sign in with your Google account. If this is your first time logging in to Terra, you will need to accept the Terms of Service.</p></li>
+<li><p>In the drop-down menu on the left, navigate to “Billing”. Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click “Billing”. You can also navigate there directly with this link: <a href="https://anvil.terra.bio/#billing" class="uri">https://anvil.terra.bio/#billing</a></p>
+<p><img src="05-billing_modules_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" /></p></li>
+<li><p>On the Billing page, click the “+ CREATE” button to create a new Billing Project. If prompted, select the Google account to use. If prompted, give Terra permission to manage Google Cloud Platform billing accounts.</p>
+<p><img src="05-billing_modules_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_149.png" title="Screenshot of the Terra Billing Page.  The &quot;plus&quot; button next to &quot;Billing Projects&quot; is highlighted." alt="Screenshot of the Terra Billing Page.  The &quot;plus&quot; button next to &quot;Billing Projects&quot; is highlighted." width="100%" /></p></li>
+<li><p>Enter a <strong>unique</strong> name for your Terra Billing Project and select the appropriate Google Billing Account. The name of the Terra Billing Project must:</p>
+<ul>
+<li>Only contain lowercase letters, numbers and hyphens</li>
+<li>Start with a lowercase letter</li>
+<li>Not end with a hyphen</li>
+<li>Be between 6 and 30 characters</li>
+</ul>
+<p><img src="05-billing_modules_files/figure-html/1POwxqv4p6AfPHJlN9VNq0TaT44fA2RAFSpIERIMHdWU_g116f8d759be_0_293.png" title="Screenshot of the Terra Add Billing Project dialog box." alt="Screenshot of the Terra Add Billing Project dialog box." width="100%" /></p></li>
+</ol>
+<p>The page doesn’t always update as soon as the Billing Project is created. If it’s been a couple of minutes and you don’t see a change, try refreshing the page.</p>
+</div>
+</div>
+<div id="add-member-to-terra-billing-project" class="section level2" number="5.7">
+<h2><span class="header-section-number">5.7</span> Add Member to Terra Billing Project</h2>
+<div class="borrowed_chunk">
+<ol style="list-style-type: decimal">
+<li><p><a href="https://anvil.terra.bio/#workspaces">Launch Terra</a> and sign in with your Google account.</p></li>
+<li><p>In the drop-down menu on the left, navigate to “Billing”. Click the triple bar in the top left corner to access the menu. Click the arrow next to your name to expand the menu, then click “Billing”. You can also navigate there directly with this link: <a href="https://anvil.terra.bio/#billing" class="uri">https://anvil.terra.bio/#billing</a></p>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g116f8d759be_0_2.png" title="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." alt="Screenshot of the Terra drop-down menu.  Three items are highlighted: 1) the &quot;hamburger&quot; button for extending the drop-down menu, 2) the arrow next to your username, for extending the drop-down submenu, and 3) the submenu item &quot;Billing&quot;." width="100%" /></p></li>
+<li><p>Click “Owned by You” and find the Billing Project. If you do not see the Billing Project in this list, then you are not an Owner and do not have permission to add members.</p>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g116f8d759be_0_149.png" title="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below." alt="Screenshot of the Terra Billing Projects menu.  The submenu &quot;Owned by you&quot; is highlighted and has been expanded, showing a list of Billing Projects below." width="100%" /></p></li>
+<li><p>Click on the name of the Billing Project.</p>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_29.png" title="Screenshot of the Terra Billing Projects menu.  The submenu has been expanded, and the name of one of the Billing Projects is highlighted." alt="Screenshot of the Terra Billing Projects menu.  The submenu has been expanded, and the name of one of the Billing Projects is highlighted." width="100%" /></p></li>
+<li><p>Click on the “Members” tab to view and manage members. Then click the “Add User” button.</p>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_14.png" title="Screenshot of a Terra Billing Project management page.  The tab labeled &quot;Members&quot; is highlighed and has been selected, and the button labeled &quot;Add User&quot; is highlighted." alt="Screenshot of a Terra Billing Project management page.  The tab labeled &quot;Members&quot; is highlighed and has been selected, and the button labeled &quot;Add User&quot; is highlighted." width="100%" /></p></li>
+<li><p>Enter the email address of the user or group you’d like to add the the Billing Project.</p>
+<ul>
+<li>If adding an individual, make sure to enter the account that they use to access AnVIL.</li>
+<li>If adding a Terra Group, use the Group email address, which can be found on the Terra Group management page.</li>
+</ul>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_36.png" title="Screenshot of the dialog box for adding users to a Terra Billing Project.  The textbox labeled &quot;User email&quot; is highlighed and has been filled in." alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The textbox labeled &quot;User email&quot; is highlighed and has been filled in." width="100%" /></p></li>
+<li><p>If this user or group will need to add and remove other users of the Billing Project, check the Owner box. Otherwise leave it unchecked.</p>
+<ul>
+<li>It’s often a good idea to have at least one other Owner of a Billing Project in order to avoid getting locked out, in case the original owner leaves or loses access to their account.</li>
+</ul>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_42.png" title="Screenshot of the dialog box for adding users to a Terra Billing Project.  The checkbox labeled &quot;Can manage users (Owner)&quot; is highlighed." alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The checkbox labeled &quot;Can manage users (Owner)&quot; is highlighed." width="100%" /></p></li>
+<li><p>Click “ADD USER”.</p>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_48.png" title="Screenshot of the dialog box for adding users to a Terra Billing Project.  The button labeled &quot;ADD USER&quot; is highlighed." alt="Screenshot of the dialog box for adding users to a Terra Billing Project.  The button labeled &quot;ADD USER&quot; is highlighed." width="100%" /></p></li>
+<li><p>You should now see the user or group listed in the Billing Project members, along with the appropriate role. They should now be able to use the Billing Project to fund work on AnVIL.</p>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_55.png" title="Screenshot of a Terra Billing Project member management page.  A user email and role are highlighted." alt="Screenshot of a Terra Billing Project member management page.  A user email and role are highlighted." width="100%" /></p></li>
+<li><p>If you need to remove members or modify their roles, you can do so at any time by clicking the teardrop button next to their name.</p>
+<p><img src="05-billing_modules_files/figure-html/10-YvYQqI2y32ErihJJMbyLAL4nPIkPA2MLk_6Ee7fXw_g1edc2edcaf8_1_62.png" title="Screenshot of a Terra Billing Project member management page.  The teardrop button for one user is highlighted." alt="Screenshot of a Terra Billing Project member management page.  The teardrop button for one user is highlighted." width="100%" /></p></li>
+</ol>
+</div>
+
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="workspaces.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="onboarding.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+# (PART\*) AnVIL Modules {-}
+
+# Workspaces
+
+Modules about Terra Workspaces
+
+<br>
+
+## Clone a Workspace
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_workspace_clone.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Create a Workspace
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_workspace_create.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Open a Workspace
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_workspace_open.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
+## Share a Workspace
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_workspace_share.Rmd",
+  repo_name = "jhudsl/AnVIL_Template"
+)
+```
+
