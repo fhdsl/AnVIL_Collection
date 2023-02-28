@@ -10,6 +10,8 @@ description: Description about Course/Book.
 favicon: assets/AnVIL_style/anvil_favicon.ico
 ---
 
+# The collection {-}
+
 Please check out our full collection of AnVIL and related resources below!
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
