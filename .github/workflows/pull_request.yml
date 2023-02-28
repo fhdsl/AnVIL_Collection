@@ -156,35 +156,12 @@ jobs:
         id: bookdown
         run: Rscript -e "bookdown::render_book('index.Rmd', output_format = 'all')"
 
-      # Render a student guide if specified. This is a bit clunky because 
-      # Bookdown does not work well if the files aren't named as such in the 
-      # root directory
-      - name: Run student guide render
-        if: ${{needs.yaml-check.outputs.render_student_guide == 'yes'}}
-        id: student_guide
-        run: |
-          mkdir tmp1
-          mv _bookdown.yml _output.yml tmp1
-          mv student-guide/_bookdown.yml student-guide/_output.yml .
-          Rscript -e "bookdown::render_book('index.Rmd', output_format = 'all')"
-          mv _bookdown.yml _output.yml student-guide
-          mv tmp1/_bookdown.yml tmp1/_output.yml .
-          rm -r tmp1
-
-      # Run TOC-less version
-      # Rendered content for Leanpub and Coursera is very similar.
-      # This job creates a shared scaffold for both.
-      - name: Run TOC-less version of render
-        id: tocless
-        run: Rscript -e "ottrpal::render_without_toc()"
-
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes
       - name: Check on render steps
-        if: steps.bookdown.outcome != 'success' || steps.tocless.outcome != 'success'
+        if: steps.bookdown.outcome != 'success'
         run: |
           echo Bookdown status ${{steps.bookdown.outcome}}
-          echo Toc-less status ${{steps.tocless.outcome}}
           exit 1
 
       # Commit the rendered bookdown files
@@ -213,11 +190,7 @@ jobs:
         run: |
           course_name=$(head -n 1 student-guide/_bookdown.yml | cut -d'"' -f 2| tr " " "-")
           bookdown_link=$(echo "https://htmlpreview.github.io/?https://raw.githubusercontent.com/$GITHUB_REPOSITORY/preview-${{ github.event.pull_request.number }}/docs/index.html")
-          tocless_link=$(echo "https://htmlpreview.github.io/?https://raw.githubusercontent.com/$GITHUB_REPOSITORY/preview-${{ github.event.pull_request.number }}/docs/no_toc/index.html")
-          student_docx_link=$(echo "https://github.com/$GITHUB_REPOSITORY/raw/preview-${{ github.event.pull_request.number }}/student-guide/$course_name.docx")
           echo ::set-output name=bookdown_link::$bookdown_link
-          echo ::set-output name=tocless_link::$tocless_link
-          echo ::set-output name=student_docx_link::$student_docx_link
           echo ::set-output name=time::$(date +'%Y-%m-%d')
           echo ::set-output name=commit_id::$GITHUB_SHA
           echo ${{steps.commit.outputs.changes}}
@@ -231,8 +204,6 @@ jobs:
           body: |
             Re-rendered previews from the latest commit:
             - See [preview of Bookdown here](${{ steps.build-components.outputs.bookdown_link }})
-            - See [preview of Coursera/Leanpub version here](${{ steps.build-components.outputs.tocless_link }})
-            - Download the [preview of the Student Guide .docx file](${{ steps.build-components.outputs.student_docx_link }})
 
             _Updated at ${{ steps.build-components.outputs.time }} with changes from ${{ steps.build-components.outputs.commit_id }}_
           edit-mode: replace

@@ -2,7 +2,9 @@ book_filename: "AnVIL Collection"
 chapter_name: ""
 repo: https://github.com/jhudsl/AnVIL_Collection/
 rmd_files: ["index.Rmd",
-            "About.Rmd"]
+            "Contribute.Rmd",
+            "About.Rmd",
+            "Session-info.Rmd"]
 new_session: yes
 bibliography: [book.bib]
 delete_merged_file: true
@@ -12,4 +14,3 @@ language:
 output_dir: "docs"
 output:
     bookdown::html_book
-      

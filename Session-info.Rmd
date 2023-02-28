@@ -1,0 +1,6 @@
+
+# Session Info {-}
+
+```{r, echo = FALSE}
+devtools::session_info()
+```
