@@ -10,12 +10,17 @@ CoV
 dex
 dexamethasone
 dropdown
+fhdsl
 GDSCN
 github
+githubusercontent
 Glimma
 glimmaMDS
 Gmail
+https
 impactful
+jhudatascience
+jhudsl
 Jupyter
 limma
 MDS
@@ -33,6 +38,7 @@ px
 reproducibility
 Rmd
 RStudio
+tsv
 underserved
 Workspaces
 Workspace's

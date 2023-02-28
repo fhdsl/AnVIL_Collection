@@ -19,7 +19,7 @@ For repositories under other organizations, you can fork the repository into the
 
 You can use the following link:
 
-<https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/collection.tsv>
+https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/collection.tsv
 
 ## How do I edit **description**, **homepage**, and **topics**?
 
@@ -37,7 +37,7 @@ Enter a concise description, for example "A guide for instructors using AnVIL fo
 
 ### Edit repository homepage
 
-Make sure you link to the website where your course is being rendered. For example, this repository links to <https://jhudatascience.org/AnVIL_Book_Instructor_Guide>.
+Make sure you link to the website where your course is being rendered. For example, this repository links to https://jhudatascience.org/AnVIL_Book_Instructor_Guide.
 
 ![Add a homepage link to the repository.](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-homepage.png)
 
