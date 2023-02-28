@@ -2,6 +2,7 @@ book_filename: "AnVIL Collection"
 chapter_name: ""
 repo: https://github.com/jhudsl/AnVIL_Collection/
 rmd_files: ["index.Rmd",
+            "Contribute.Rmd",
             "About.Rmd",
             "Session-info.Rmd"]
 new_session: yes
