@@ -39,11 +39,6 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Funder(s)| Institution/individual who funded course including grant number|
 |Funding Staff| Staff members who help with funding|
 
-&nbsp;
-
-```{r, echo = FALSE}
-devtools::session_info()
-```
 
 <!-- Author information -->
 
