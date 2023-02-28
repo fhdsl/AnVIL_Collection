@@ -24,7 +24,7 @@ The collection is rendered nightly at 3am EST.
 
 ### How can I add my new course/content to the AnVIL Collection?
 
-Your repository must be created under the jhudsl or fhdsl organizations and meet the above criteria. For more information see the [FAQ](https://hutchdatascience.org/DaSL_Collection/faq/) tab.
+Your repository must be created under the jhudsl or fhdsl organizations and meet the above criteria. For more information see the [Contribute](https://hutchdatascience.org/AnVIL_Collection/contribute.html) section.
 
 For repositories under other organizations, you can fork the repository into the jhudsl or fhdsl organizations. [Example](https://github.com/fhdsl/Data-Wrangling)
 
