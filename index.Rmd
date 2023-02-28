@@ -11,17 +11,22 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 # Courses and Guides {-}
 
-<!-- Hide TOC -->
-```{js, echo = FALSE}
-$(document).ready(function(e) {gitbook.sidebar.toggle(false, false)});
-```
-
 Please check out our full collection of AnVIL and related resources below!
 
 This page was last updated on `r Sys.time()`
 
+## AnVIL Resources {-}
+
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(), format = "html")
+knitr::kable(make_collection_table(exclude_gdscn_from_table = TRUE), format = "html")
+```
+
+## GDSCN Resources {-}
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_collection.R")
+
+knitr::kable(make_collection_table(make_gsdcn_only_table = TRUE), format = "html")
 ```
