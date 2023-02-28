@@ -30,7 +30,7 @@ make_collection_table <- function(make_gsdcn_only_table = FALSE, exclude_gdscn_f
       df <-
         df %>%
         dplyr::arrange(book_title) %>% 
-        mutate(`Book Name` = paste0("[", book_title, "](", homepage, ") ([github](", html_url, "))")) %>%
+        mutate(`Book Name` = paste0("[", book_title, "](", homepage, ")")) %>%
         rename(Description = description, Topics = topics) %>%
         select(`Book Name`, Description, Topics)
       
