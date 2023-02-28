@@ -121,8 +121,7 @@ for (page in 1:last){
     # Get repository book titles
     get_book_title()
 
-  full_repo_df <- rbind(full_repo_df, repo_df) %>%
-    dplyr::arrange(name)
+  full_repo_df <- rbind(full_repo_df, repo_df) 
 }
 
 # --------- Save the collection ---------
