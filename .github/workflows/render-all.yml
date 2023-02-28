@@ -5,6 +5,8 @@ name: Render all output courses
 
 on:
   workflow_dispatch:
+  schedule:
+  - cron: "0 3 * * *"
   push:
     branches: [ main, staging ]
     paths:
@@ -44,7 +46,7 @@ jobs:
 
   render-bookdown:
     name: Render bookdown
-    needs: [yaml-check, anvil-library-build]
+    needs: [yaml-check, build-collection]
     runs-on: ubuntu-latest
     container:
       image: ${{needs.yaml-check.outputs.rendering_docker_image}}
@@ -110,7 +112,7 @@ jobs:
 
   render-tocless:
     name: Render TOC-less version for Leanpub or Coursera
-    needs: [yaml-check, anvil-library-build]
+    needs: [yaml-check, build-collection]
     runs-on: ubuntu-latest
     container:
       image: ${{needs.yaml-check.outputs.rendering_docker_image}}
@@ -147,7 +149,7 @@ jobs:
 
   render-leanpub:
     name: Finish Leanpub prep
-    needs: [yaml-check, anvil-library-build, render-tocless]
+    needs: [yaml-check, build-collection, render-tocless]
     runs-on: ubuntu-latest
     container:
       image: jhudsl/ottrpal:main
@@ -213,7 +215,7 @@ jobs:
 
   render-coursera:
     name: Finish Coursera prep
-    needs: [yaml-check, anvil-library-build, render-tocless]
+    needs: [yaml-check, build-collection, render-tocless]
     runs-on: ubuntu-latest
     container:
       image: ${{needs.yaml-check.outputs.rendering_docker_image}}

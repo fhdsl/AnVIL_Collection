@@ -13,16 +13,11 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 Please check out our full collection of AnVIL and related resources below!
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-source("scripts/anvil_repo_table.R")
+source("scripts/render_collection.R")
 
-# Add below any repositories that should not be added
-exclude = c(
-  "anvil-intro",
-  "AnVIL_Template",
-  "AnVIL_Template_Test",
-  "GDSCN_bookdown_style"
-)
-
-# Create table for AnVIL repos detected through the API
-knitr::kable(make_anvil_repo_table(exclude), format = "html")
+knitr::kable(make_collection_table(), format = "html")
 ```
+
+<br><br><br>
+This page was last updated on `r Sys.time()`
+
