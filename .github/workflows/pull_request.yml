@@ -159,7 +159,7 @@ jobs:
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes
       - name: Check on render steps
-        if: steps.bookdown.outcome != 'success' || steps.tocless.outcome != 'success'
+        if: steps.bookdown.outcome != 'success'
         run: |
           echo Bookdown status ${{steps.bookdown.outcome}}
           exit 1
