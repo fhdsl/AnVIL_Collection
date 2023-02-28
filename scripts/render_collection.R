@@ -1,7 +1,7 @@
 library(dplyr)
 library(stringr)
 
-make_collection_table <- function(exclude = NULL) {
+make_collection_table <- function(make_gsdcn_only_table = FALSE, exclude_gdscn_from_table = FALSE) {
   # Read in repos found by GHA
   df <- tryCatch(
     # Check for the file created by GHA
@@ -14,6 +14,17 @@ make_collection_table <- function(exclude = NULL) {
         df$name %>%
         stringr::str_replace_all("_Book_", ": ") %>%
         stringr::str_replace_all("_", " ")
+      
+      # Filter gdscn if desired
+      if(make_gsdcn_only_table & !(exclude_gdscn_from_table)){
+        df <- df %>% filter(is_gdscn == TRUE)
+      }
+      if(exclude_gdscn_from_table & !(make_gsdcn_only_table)){
+        df <- df %>% filter(is_gdscn == FALSE)
+      }
+      if(make_gsdcn_only_table & exclude_gdscn_from_table){
+        message("Cannot have both 'GDSCN only' and 'exclude GDSCN' options selected")
+      }
       
       # Concatenate columns to create links
       df <-
