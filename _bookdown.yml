@@ -1,5 +1,5 @@
 book_filename: "AnVIL Collection"
-chapter_name: ""
+chapter_name: "Chapter "
 repo: https://github.com/jhudsl/AnVIL_Collection/
 rmd_files: ["index.Rmd",
             "About.Rmd"]
@@ -8,8 +8,7 @@ bibliography: [book.bib]
 delete_merged_file: true
 language:
   ui:
-    chapter_name: ""
+    chapter_name: "Chapter"
 output_dir: "docs"
 output:
     bookdown::html_book
-      
