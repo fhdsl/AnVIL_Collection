@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-03-02 03:12:47
+This page was last updated on 2023-03-03 03:59:53
 
 ## AnVIL Resources {-}
 
@@ -37,14 +37,14 @@ This page was last updated on 2023-03-02 03:12:47
    <td style="text-align:left;"> anvil, genomics, pca, urban-data-science </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [AnVIL: SRA Data](https://hutchdatascience.org/AnVIL_SRA_Data/) </td>
-   <td style="text-align:left;"> Pull Sequence Read Archive (SRA) data into AnVIL </td>
-   <td style="text-align:left;"> anvil, genomics, ncbi-database, sequence-read-archive </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [Epigenetics on AnVIL: Nature vs Nurture](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/) </td>
    <td style="text-align:left;"> An introductory activity for epigenetics, or the idea of &quot;nature versus nurture&quot; in genetics. Learners use the UCSC Genome Browser. </td>
    <td style="text-align:left;"> anvil, course, epigenetics, human-genomes, module, ucsc-browser </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Getting Started on AnVIL](https://jhudatascience.org/AnVIL_Book_Getting_Started) </td>
+   <td style="text-align:left;"> A guide for getting started using AnVIL </td>
+   <td style="text-align:left;"> anvil, cloud-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Molecular Phylogenetic Techniques](https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/) </td>
