@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-03-03 03:59:53
+This page was last updated on 2023-03-04 03:06:07
 
 ## AnVIL Resources {-}
 
@@ -35,6 +35,11 @@ This page was last updated on 2023-03-03 03:59:53
    <td style="text-align:left;"> [AnVIL Urban Genomics: Identifying population structure among feral pigeon populations](https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/) </td>
    <td style="text-align:left;"> Lab module and lectures for exploring PCA using feral pigeon populations </td>
    <td style="text-align:left;"> anvil, genomics, pca, urban-data-science </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL: SRA Data](https://hutchdatascience.org/AnVIL_SRA_Data/) </td>
+   <td style="text-align:left;"> Pull Sequence Read Archive (SRA) data into AnVIL </td>
+   <td style="text-align:left;"> anvil, genomics, ncbi-database, sequence-read-archive </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Epigenetics on AnVIL: Nature vs Nurture](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/) </td>
