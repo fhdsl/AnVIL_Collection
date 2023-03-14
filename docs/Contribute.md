@@ -27,22 +27,22 @@ https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/collecti
 
 Start by clicking the gear button on the top right of the repository page on GitHub next to "About".
 
-![Where is the `gear` button next to the "About" menu?](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-about.png)
+![Where is the `gear` button next to the "About" menu?](https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/screenshots/repo-about.png)
 
 ### Edit repository description
 
 Enter a concise description, for example "A guide for instructors using AnVIL for workshops, lessons, or courses."
 
-![Add a description to the repository.](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-description.png)
+![Add a description to the repository.](https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/screenshots/repo-description.png)
 
 ### Edit repository homepage
 
 Make sure you link to the website where your course is being rendered. For example, this repository links to https://jhudatascience.org/AnVIL_Book_Instructor_Guide.
 
-![Add a homepage link to the repository.](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-homepage.png)
+![Add a homepage link to the repository.](https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/screenshots/repo-homepage.png)
 
 ### Edit repository topics
 
 Finally, you should add any relevant topics, as they will be listed in the Collection table!
 
-![Add tags to the repository.](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-tags.png)
+![Add tags to the repository.](https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/screenshots/repo-tags.png)
