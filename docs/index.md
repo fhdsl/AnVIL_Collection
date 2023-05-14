@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-05-13 03:04:50
+This page was last updated on 2023-05-14 03:05:18
 
 ## AnVIL Resources {-}
 
@@ -28,8 +28,8 @@ This page was last updated on 2023-05-13 03:04:50
 <tbody>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos](https://hutchdatascience.org/AnVIL_Demos/) </td>
-   <td style="text-align:left;"> ⏱ 30-minute demos to help get you started on AnVIL! </td>
-   <td style="text-align:left;"> anvil, cloud, cloud-computing, genomics, introduction, research </td>
+   <td style="text-align:left;"> ⏱ 30-minute demos and tutorials from our live AnVIL series </td>
+   <td style="text-align:left;"> anvil, cloud, cloud-computing, genomics, research </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide) </td>
