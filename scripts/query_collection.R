@@ -30,29 +30,33 @@ get_book_title <- function(df) {
   # Create dummy column
   df$book_title <- ""
   
-  for (i in 1:nrow(df)) {
-    # Make raw content url
-    base_url <-
-      str_replace(df[i, ]$html_url, "github.com", "raw.githubusercontent.com")
-    readlines_url <- paste0(base_url, "/main/index.Rmd")
-    
-    # Readlines from url
-    index_data <- readLines(readlines_url)
-    
-    # Get book metadata
-    metadata_lines <- grep("---", index_data)
-    book_metadata <-
-      index_data[(metadata_lines[1] + 1):(metadata_lines[2] - 1)]
-    
-    # Extract title
-    book_title <- book_metadata[grep("title:",  book_metadata)]
-    
-    # Strip extra characters
-    book_title <- str_replace(book_title, 'title: \"', '')
-    book_title <- str_replace(book_title, '\"', '')
-    
-    # Append
-    df$book_title[i] <- book_title
+  if (nrow(df) >= 1) {
+    for (i in 1:nrow(df)) {
+      # Make raw content url
+      base_url <-
+        str_replace(df[i,]$html_url, "github.com", "raw.githubusercontent.com")
+      readlines_url <- paste0(base_url, "/main/index.Rmd")
+      
+      # Readlines from url
+      index_data <- readLines(readlines_url)
+      
+      # Get book metadata
+      metadata_lines <- grep("---", index_data)
+      book_metadata <-
+        index_data[(metadata_lines[1] + 1):(metadata_lines[2] - 1)]
+      
+      # Extract title
+      book_title <- book_metadata[grep("title:",  book_metadata)]
+      
+      # Strip extra characters
+      book_title <- str_replace(book_title, 'title: \"', '')
+      book_title <- str_replace(book_title, '\"', '')
+      
+      # Append
+      df$book_title[i] <- book_title
+    }
+  } else {
+    message("Empty Data Frame -- no titles added to this last chunk.")
   }
   
   return(df)
