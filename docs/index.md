@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-08-04 03:05:08
+This page was last updated on 2023-08-05 03:05:16
 
 ## AnVIL Resources {-}
 
@@ -55,11 +55,6 @@ This page was last updated on 2023-08-04 03:05:08
    <td style="text-align:left;"> [Getting Started on AnVIL](https://jhudatascience.org/AnVIL_Book_Getting_Started) </td>
    <td style="text-align:left;"> A guide for getting started using AnVIL </td>
    <td style="text-align:left;"> anvil, cloud-computing </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Molecular Phylogenetic Techniques](https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/) </td>
-   <td style="text-align:left;"> A semester-long course on the basics of molecular phylogenetic techniques </td>
-   <td style="text-align:left;"> anvil, r-programming </td>
   </tr>
 </tbody>
 </table>
