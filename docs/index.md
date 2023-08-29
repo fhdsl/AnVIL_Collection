@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-08-29 15:50:13
+This page was last updated on 2023-08-29 15:58:00
 
 ## AnVIL Resources {-}
 
@@ -47,6 +47,11 @@ This page was last updated on 2023-08-29 15:50:13
    <td style="text-align:left;"> anvil, genomics, pca, urban-data-science </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> [AnVIL WDL Workflows](https://github.com/fhdsl/AnVIL_WDLs/tree/main) </td>
+   <td style="text-align:left;"> Raw WDL workflow files for use on AnVIL and other platforms </td>
+   <td style="text-align:left;"> anvil, genomics, wdl, workflows </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> [AnVIL: SRA Data](https://hutchdatascience.org/AnVIL_SRA_Data/) </td>
    <td style="text-align:left;"> Pull Sequence Read Archive (SRA) data into AnVIL </td>
    <td style="text-align:left;"> anvil, genomics, ncbi-database, sequence-read-archive </td>
@@ -65,11 +70,6 @@ This page was last updated on 2023-08-29 15:50:13
    <td style="text-align:left;"> [Molecular Phylogenetic Techniques](https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/) </td>
    <td style="text-align:left;"> A semester-long course on the basics of molecular phylogenetic techniques </td>
    <td style="text-align:left;"> anvil, r-programming </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [NA](https://github.com/fhdsl/AnVIL_WDLs/tree/main) </td>
-   <td style="text-align:left;"> WDL workflows for use on AnVIL and other platforms </td>
-   <td style="text-align:left;"> anvil, genomics, wdl, workflows </td>
   </tr>
 </tbody>
 </table>
