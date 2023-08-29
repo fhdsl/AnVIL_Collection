@@ -119,6 +119,7 @@ jobs:
 
       - name: Commit styled files
         run: |
+          git config --system --add safe.directory "$GITHUB_WORKSPACE"
           git add \*.Rmd
           git commit -m 'Style Rmds' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
