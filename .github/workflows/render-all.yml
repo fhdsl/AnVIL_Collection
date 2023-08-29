@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
         # Use the yaml-env-action action.
       - name: Load environment from YAML
@@ -54,14 +54,14 @@ jobs:
 
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_PAT }}
 
       - name: Login as jhudsl-robot
         run: |
-
+          git config --system --add safe.directory "$GITHUB_WORKSPACE"
           git config --local user.email "itcrtrainingnetwork@gmail.com"
           git config --local user.name "jhudsl-robot"
 
@@ -120,13 +120,14 @@ jobs:
 
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_PAT }}
 
       - name: Login as jhudsl-robot
         run: |
+          git config --system --add safe.directory "$GITHUB_WORKSPACE"
           git config --local user.email "itcrtrainingnetwork@gmail.com"
           git config --local user.name "jhudsl-robot"
 
@@ -157,13 +158,14 @@ jobs:
 
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_PAT }}
 
       - name: Login as jhudsl-robot
         run: |
+          git config --system --add safe.directory "$GITHUB_WORKSPACE"
           git config --local user.email "itcrtrainingnetwork@gmail.com"
           git config --local user.name "jhudsl-robot"
 
@@ -223,13 +225,14 @@ jobs:
 
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_PAT }}
 
       - name: Login as jhudsl-robot
         run: |
+          git config --system --add safe.directory "$GITHUB_WORKSPACE"
           git config --local user.email "itcrtrainingnetwork@gmail.com"
           git config --local user.name "jhudsl-robot"
 

@@ -34,26 +34,36 @@ get_book_title <- function(df) {
     for (i in 1:nrow(df)) {
       # Make raw content url
       base_url <-
-        str_replace(df[i,]$html_url, "github.com", "raw.githubusercontent.com")
+        str_replace(df[i, ]$html_url,
+                    "github.com",
+                    "raw.githubusercontent.com")
       readlines_url <- paste0(base_url, "/main/index.Rmd")
       
       # Readlines from url
-      index_data <- readLines(readlines_url)
-      
-      # Get book metadata
-      metadata_lines <- grep("---", index_data)
-      book_metadata <-
-        index_data[(metadata_lines[1] + 1):(metadata_lines[2] - 1)]
-      
-      # Extract title
-      book_title <- book_metadata[grep("title:",  book_metadata)]
-      
-      # Strip extra characters
-      book_title <- str_replace(book_title, 'title: \"', '')
-      book_title <- str_replace(book_title, '\"', '')
-      
-      # Append
-      df$book_title[i] <- book_title
+      tryCatch({
+        index_data <- readLines(readlines_url)
+        
+        # Get book metadata
+        metadata_lines <- grep("---", index_data)
+        book_metadata <-
+          index_data[(metadata_lines[1] + 1):(metadata_lines[2] - 1)]
+        
+        # Extract title
+        book_title <-
+          book_metadata[grep("title:",  book_metadata)]
+        
+        # Strip extra characters
+        book_title <- str_replace(book_title, 'title: \"', '')
+        book_title <- str_replace(book_title, '\"', '')
+        
+        # Append
+        df$book_title[i] <- book_title
+      },
+      error = function(e) {
+        message(paste0('An index.Rmd file was not detected for ', df$name[i]))
+        df$book_title[i] <- df$name[i]
+        print(e)
+      })
     }
   } else {
     message("Empty Data Frame -- no titles added to this last chunk.")
@@ -68,10 +78,12 @@ message(paste("Querying Github API..."))
 
 # Request search results specific to jhudsl + fhdsl + DataTrail organizations
 # Also allows us to pull in repos forked into these organizations
-url <- "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+fork:true&per_page=50"
+url <-
+  "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+fork:true&per_page=50"
 
 # Provide the appropriate GH token & Make the request
-req <- GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
+req <-
+  GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
 
 if (!(httr::http_error(req))) {
   message(paste("API request successful!"))
@@ -82,50 +94,55 @@ if (!(httr::http_error(req))) {
 # --------- Traverse pages ---------
 
 # Pull out the last page number of the request
-last <- str_extract(req$headers$link, pattern = '.(?=>; rel=\"last\")')
+last <-
+  str_extract(req$headers$link, pattern = '.(?=>; rel=\"last\")')
 
 full_repo_df <- tibble()
-for (page in 1:last){
-
-  url <- paste0("https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+fork:true&per_page=50&page=", page)
+for (page in 1:last) {
+  url <-
+    paste0(
+      "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+fork:true&per_page=50&page=",
+      page
+    )
   message(paste("Gathering results from:", url))
-  req <- GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
+  req <-
+    GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
   repo_dat <-
     jsonlite::fromJSON(httr::content(req, as = "text"), flatten = TRUE)
   message(paste("... Gathered", nrow(repo_dat$items), "repositories."))
-
+  
   repo_df <-
     tibble(repo_dat$items) %>%
     select(full_name, homepage, html_url, description, private) %>%
     separate(full_name, into = c("org", "name"), sep = "/") %>%
-
+    
     # Collapse topics so they can be printed
     bind_cols(tibble(topics = unlist(
       lapply(repo_dat$items$topics, paste, collapse = ", ")
     ))) %>%
-
+    
     # Drop private repos and remove org column
     filter(!(private)) %>%
     select(!c(private, org)) %>%
-
+    
     # Rearrange columns
     relocate(description, .before = topics) %>%
-
+    
     # Keep only those with homepages and descriptions
-    filter(!(is.na(homepage)), homepage != "",!(is.na(description))) %>%
-  
+    filter(!(is.na(homepage)), homepage != "", !(is.na(description))) %>%
+    
     # Keep only AnVIL and GDSCN related content
     # Exclude templates
-    mutate(is_anvil = str_detect(topics, "anvil")) %>% 
-      mutate(is_gdscn = str_detect(topics, "gdscn")) %>%
-      mutate(is_template = str_detect(topics, "template")) %>%
-      filter(is_anvil | is_gdscn) %>% 
-      filter(!is_template) %>% 
+    mutate(is_anvil = str_detect(topics, "anvil")) %>%
+    mutate(is_gdscn = str_detect(topics, "gdscn")) %>%
+    mutate(is_template = str_detect(topics, "template")) %>%
+    filter(is_anvil | is_gdscn) %>%
+    filter(!is_template) %>%
     
     # Get repository book titles
     get_book_title()
-
-  full_repo_df <- rbind(full_repo_df, repo_df) 
+  
+  full_repo_df <- rbind(full_repo_df, repo_df)
 }
 
 # --------- Save the collection ---------
