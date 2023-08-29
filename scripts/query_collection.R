@@ -34,14 +34,17 @@ get_book_title <- function(df) {
     for (i in 1:nrow(df)) {
       # Make raw content url
       base_url <-
-        str_replace(df[i, ]$html_url,
+        str_replace(df[i,]$html_url,
                     "github.com",
                     "raw.githubusercontent.com")
-      readlines_url <- paste0(base_url, "/main/index.Rmd")
       
-      # Readlines from url
-      tryCatch({
-        index_data <- readLines(readlines_url)
+      # Determine if the index.Rmd file can be read
+      try_url <-
+        try(readLines(paste0(base_url, "/main/index.Rmd")), silent = TRUE)
+      
+      # If try was ok, continue reading index file
+      if (class(try_url) != "try-error") {
+        index_data <- readLines(paste0(base_url, "/main/index.Rmd"))
         
         # Get book metadata
         metadata_lines <- grep("---", index_data)
@@ -58,13 +61,28 @@ get_book_title <- function(df) {
         
         # Append
         df$book_title[i] <- book_title
-      },
-      error = function(e) {
-        message(paste0('An index.Rmd file was not detected for ', df$name[i]))
-        df$book_title[i] <- df$name[i]
-        print(e)
-      })
-    }
+      } else {
+        tryCatch({
+          message(paste0("Can't read index.Rmd for repository '", base_url, "'. Trying README.md file.."))
+          
+          readme_data <- readLines(paste0(base_url, "/main/README.md"))
+          
+          # Extract title -- assume this is markdown H1
+          book_title <-
+            readme_data[grep("# ",  readme_data)]
+          
+          # Strip extra characters
+          book_title <- str_replace(book_title, '# ', '')
+          
+          # Append
+          df$book_title[i] <- book_title
+        },
+        error = function(e) {
+          df$book_title[i] <- df$name[i]
+          print(e)
+        })
+      } # End else statement
+    } # End for loop
   } else {
     message("Empty Data Frame -- no titles added to this last chunk.")
   }
@@ -129,7 +147,7 @@ for (page in 1:last) {
     relocate(description, .before = topics) %>%
     
     # Keep only those with homepages and descriptions
-    filter(!(is.na(homepage)), homepage != "", !(is.na(description))) %>%
+    filter(!(is.na(homepage)), homepage != "",!(is.na(description))) %>%
     
     # Keep only AnVIL and GDSCN related content
     # Exclude templates
