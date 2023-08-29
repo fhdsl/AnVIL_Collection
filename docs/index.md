@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-08-29 14:52:06
+This page was last updated on 2023-08-29 14:57:59
 
 ## AnVIL Resources {-}
 
@@ -26,6 +26,11 @@ This page was last updated on 2023-08-29 14:52:06
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Book: Subsetting Your Data with WDL](https://hutchdatascience.org/AnVIL_Data_Subsetting/) </td>
+   <td style="text-align:left;"> Tutorial for running the fastq_subsample WDL workflow on AnVIL! </td>
+   <td style="text-align:left;"> anvil, genomics, wdl, wdl-workflow, workflow </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos](https://hutchdatascience.org/AnVIL_Demos/) </td>
    <td style="text-align:left;"> ⏱ 30-minute demos and tutorials from our live AnVIL series </td>
@@ -61,6 +66,11 @@ This page was last updated on 2023-08-29 14:52:06
    <td style="text-align:left;"> A semester-long course on the basics of molecular phylogenetic techniques </td>
    <td style="text-align:left;"> anvil, r-programming </td>
   </tr>
+  <tr>
+   <td style="text-align:left;"> [NA](https://github.com/fhdsl/AnVIL_WDLs/tree/main) </td>
+   <td style="text-align:left;"> WDL workflows for use on AnVIL and other platforms </td>
+   <td style="text-align:left;"> anvil, genomics, wdl, workflows </td>
+  </tr>
 </tbody>
 </table>
 
@@ -79,11 +89,6 @@ This page was last updated on 2023-08-29 14:52:06
    <td style="text-align:left;"> [GDSCN Book: SARS with Galaxy on AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/) </td>
    <td style="text-align:left;"> Lab module and lectures for variant detection in SARS-CoV-2 using Galaxy </td>
    <td style="text-align:left;"> anvil, gdscn, genomics, module, sars-cov-2, variant-detection </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [GDSCN Book: SARS with RStudio on AnVIL](https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/) </td>
-   <td style="text-align:left;"> Lab module and lectures for identifying phylogenetic history of SARS variants using R </td>
-   <td style="text-align:left;"> anvil, gdscn, phylogenetic-analysis, sars-cov-2 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Intro R with swirl](https://jhudatascience.org/GDSCN_Book_swirl/) </td>
