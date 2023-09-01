@@ -110,9 +110,9 @@ while (!is.null(nextPageToken)) {
     jsonlite::fromJSON(httr::content(req, as = "text"), flatten = TRUE)
   
   # Determine if next page is present
-  nextPageToken <- upload.json$nextPageToken
+  nextPageToken <- channel_dat$nextPageToken
   
-  page_df <- as.data.frame(upload.json$items)
+  page_df <- as.data.frame(channel_dat$items)
   if (is.null(shorts_df)) {
     shorts_df <- page_df
   } else {
