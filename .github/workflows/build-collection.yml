@@ -79,9 +79,8 @@ jobs:
         run: |
           sudo apt-get install libcurl4-openssl-dev
 
-          # Need a clean render of the collection every time
-          # rm -f resources/collection.tsv
-          # rm -f index.html
+          # Need a clean render of the youtube data every time
+          # rm -f resources/youtube_metadata.tsv
 
           # Run script
           Rscript --vanilla "scripts/gather_youtube.R" --yt_key "$YT_KEY"
@@ -91,6 +90,12 @@ jobs:
         with:
           name: channel
           path: resources/youtube_metadata.tsv
+          
+      - name: Archive youtube playlist results
+        uses: actions/upload-artifact@v2
+        with:
+          name: channel
+          path: resources/youtube_shorts_data.tsv
 
       # Commit the rendered bookdown files
       - name: Commit collection .tsv to main
