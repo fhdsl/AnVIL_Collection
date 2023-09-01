@@ -97,24 +97,24 @@ jobs:
           name: youtube_shorts_data
           path: resources/youtube_shorts_data.tsv
 
-      # Commit the rendered bookdown files
-      - name: Commit collection .tsv to main
+      # Commit the created files
+      - name: Commit .tsv files to main
         if: ${{ inputs.render-type == 'main' }}
         env:
           GH_PAT: ${{ secrets.gh_pat }}
         run: |
-          git add --force resources/collection.tsv
-          git commit -m 'Add collection file' || echo "No changes to commit"
+          git add --force resources/collection.tsv resources/youtube_metadata.tsv resources/youtube_shorts_data.tsv
+          git commit -m 'Add API query files' || echo "No changes to commit"
           git fetch
           git merge -s recursive --strategy-option=ours origin/main --allow-unrelated-histories
           git push -u origin main || echo "No changes to push"
 
-      - name: Commit collection .tsv to preview
+      - name: Commit .tsv files to preview
         if: ${{ inputs.render-type == 'preview' }}
         run: |
           branch_name='preview-${{ github.event.pull_request.number }}'
-          git add --force resources/collection.tsv || echo "No changes to commit"
-          git commit -m 'Add collection file' || echo "No changes to commit"
+          git add --force resources/collection.tsv resources/youtube_metadata.tsv resources/youtube_shorts_data.tsv
+          git commit -m 'Add API query files' || echo "No changes to commit"
           git fetch
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
           git push --force origin $branch_name || echo "No changes to commit"
