@@ -69,6 +69,26 @@ jobs:
         with:
           name: collection
           path: resources/collection.tsv
+          
+      - name: Query Youtube API
+        id: anvil_channel
+        env:
+          YT_KEY: ${{ secrets.yt_key }}
+        run: |
+          sudo apt-get install libcurl4-openssl-dev
+
+          # Need a clean render of the collection every time
+          # rm -f resources/collection.tsv
+          # rm -f index.html
+
+          # Run script
+          Rscript --vanilla "scripts/gather_youtube.R" --yt_key "$YT_KEY"
+          
+      - name: Archive youtube results
+        uses: actions/upload-artifact@v2
+        with:
+          name: channel
+          path: resources/youtube_metadata.tsv
 
       # Commit the rendered bookdown files
       - name: Commit collection .tsv to main
