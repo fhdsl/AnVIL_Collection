@@ -88,13 +88,13 @@ jobs:
       - name: Archive youtube results
         uses: actions/upload-artifact@v2
         with:
-          name: channel
+          name: youtube_metadata
           path: resources/youtube_metadata.tsv
           
       - name: Archive youtube playlist results
         uses: actions/upload-artifact@v2
         with:
-          name: channel
+          name: youtube_shorts_data
           path: resources/youtube_shorts_data.tsv
 
       # Commit the rendered bookdown files
