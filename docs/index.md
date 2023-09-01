@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-08-31 03:05:31
+This page was last updated on 2023-09-01 03:05:36
 
 ## AnVIL Resources {-}
 
@@ -26,11 +26,6 @@ This page was last updated on 2023-08-31 03:05:31
   </tr>
  </thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Book: Subsetting Your Data with WDL](https://hutchdatascience.org/AnVIL_Data_Subsetting/) </td>
-   <td style="text-align:left;"> Tutorial for running the fastq_subsample WDL workflow on AnVIL! </td>
-   <td style="text-align:left;"> anvil, genomics, wdl, wdl-workflow, workflow </td>
-  </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos](https://hutchdatascience.org/AnVIL_Demos/) </td>
    <td style="text-align:left;"> ⏱ 30-minute demos and tutorials from our live AnVIL series </td>
@@ -55,6 +50,11 @@ This page was last updated on 2023-08-31 03:05:31
    <td style="text-align:left;"> [AnVIL: SRA Data](https://hutchdatascience.org/AnVIL_SRA_Data/) </td>
    <td style="text-align:left;"> Pull Sequence Read Archive (SRA) data into AnVIL </td>
    <td style="text-align:left;"> anvil, genomics, ncbi-database, sequence-read-archive </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL: Subsetting Your Data with WDL](https://hutchdatascience.org/AnVIL_Data_Subsetting/) </td>
+   <td style="text-align:left;"> Tutorial for running the fastq_subsample WDL workflow on AnVIL! </td>
+   <td style="text-align:left;"> anvil, genomics, wdl, wdl-workflow, workflow </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Epigenetics on AnVIL: Nature vs Nurture](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/) </td>
