@@ -24,6 +24,8 @@ opt_parser <- optparse::OptionParser(option_list = option_list)
 opt <- optparse::parse_args(opt_parser)
 key <- opt$yt_key
 
+message(is.character(key))
+
 # --------- Set url and token ---------
 
 message(paste("Querying Youtube API..."))
