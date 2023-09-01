@@ -14,7 +14,7 @@ make_youtube_shorts_table <- function() {
       
       # Create actual url of video
       df <- df %>% 
-        mutate(`Video` = paste0("[",snippet.title,"](https://www.youtube.com/watch?v=", snippet.resourceId.videoId, "&list=", snippet.playlistId))
+        mutate(`Video` = paste0("[",snippet.title,"](https://www.youtube.com/watch?v=", snippet.resourceId.videoId, "&list=", snippet.playlistId, ")"))
         
       # Extract slides link
       df$`Google Slides` <-
