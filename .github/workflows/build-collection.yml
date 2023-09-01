@@ -13,7 +13,7 @@ on:
     secrets:
       gh_pat:
         required: true
-      yt_key:
+      YT_KEY:
         required: true
 
 jobs:
@@ -75,7 +75,7 @@ jobs:
       - name: Query Youtube API
         id: anvil_channel
         env:
-          YT_KEY: ${{ secrets.yt_key }}
+          YT_KEY: ${{ secrets.YT_KEY }}
         run: |
           sudo apt-get install libcurl4-openssl-dev
 
