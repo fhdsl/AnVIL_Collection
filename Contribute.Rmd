@@ -54,7 +54,7 @@ Make sure you add any AnVIL "Shorts" videos you create to this playlist! https:/
 
 In order for Google Slides to get linked correctly, please also include this information at the end of your description:
 
-> You can see the slides for this video here: https://docs.google.com/presentation/....
+> You can see the slides for this video here: {link}
 
 For example:
 
