@@ -48,6 +48,8 @@ Make sure you link to the website where your course is being rendered. For examp
 Finally, you should add any relevant topics, as they will be listed in the Collection table!
 
 ![Add tags to the repository.](https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/screenshots/repo-tags.png)
+
+
 ## AnVIL Shorts {-}
 
 Make sure you add any AnVIL "Shorts" videos you create to this playlist! https://www.youtube.com/playlist?list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio
