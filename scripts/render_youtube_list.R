@@ -14,7 +14,7 @@ make_youtube_shorts_table <- function() {
       
       # Create actual url of video
       df <- df %>% 
-        mutate(`Video link` = paste0("https://www.youtube.com/watch?v=", snippet.resourceId.videoId, "&list=", snippet.playlistId))
+        mutate(`Video` = paste0("[",snippet.title,"](https://www.youtube.com/watch?v=", snippet.resourceId.videoId, "&list=", snippet.playlistId))
         
       # Extract slides link
       df$`Google Slides` <-
@@ -24,10 +24,10 @@ make_youtube_shorts_table <- function() {
         str_trim() %>% # Remove whitespace
         str_remove_all("\\.$") # Remove trailing period
       
-      # Rename and clean up
+      # Create Google Slides link w/ markdown magic
       df <- df %>% 
-        rename(`Video name` = snippet.title) %>% 
-        select(`Video name`, `Video link`, `Google Slides`)
+        mutate(`Google Slides` = paste0("[Go to slides](", `Google Slides`, ")")) %>% 
+        select(Video, `Google Slides`)
       
       # Remove duplicates if necessary
       df <- distinct(df)

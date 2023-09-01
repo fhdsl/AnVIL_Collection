@@ -33,6 +33,8 @@ knitr::kable(make_collection_table(make_gsdcn_only_table = TRUE), format = "html
 
 # YouTube Videos {-}
 
+## AnVIL "Shorts" (AnVIL in 2 minutes) {-}
+
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_youtube_list.R")
 
