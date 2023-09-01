@@ -83,7 +83,7 @@ jobs:
           # rm -f resources/youtube_metadata.tsv
 
           # Run script
-          Rscript --vanilla "scripts/gather_youtube.R" --yt_key "$YT_KEY"
+          Rscript --vanilla "scripts/query_youtube.R" --yt_key "$YT_KEY"
           
       - name: Archive youtube results
         uses: actions/upload-artifact@v2

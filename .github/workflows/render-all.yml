@@ -43,6 +43,7 @@ jobs:
       repository: $GITHUB_REPOSITORY
     secrets:
       gh_pat: ${{ secrets.GH_PAT }}
+      yt_key: ${{ secrets.YT_KEY }}
 
   render-bookdown:
     name: Render bookdown
