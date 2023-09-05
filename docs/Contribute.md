@@ -47,18 +47,20 @@ Make sure you link to the website where your course is being rendered. For examp
 
 Finally, you should add any relevant topics, as they will be listed in the Collection table!
 
-![Add tags to the repository.](https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/screenshots/repo-tags.png)  
+![Add tags to the repository.](https://raw.githubusercontent.com/fhdsl/AnVIL_Collection/main/resources/screenshots/repo-tags.png)
+
+
+
+
+
+
 
 
 ## AnVIL Shorts {-} 
 
 Make sure you add any AnVIL "Shorts" videos you create to this playlist! https://www.youtube.com/playlist?list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio
 
-In order for Google Slides to get linked correctly, please also include this information at the end of your description:
-
-> You can see the slides for this video here: {link}
-
-For example:
+In order for Google Slides to get linked correctly, please include the link somewhere in your video description. For example, you could include text like this:
 
 > You can see the slides for this video here: https://docs.google.com/presentation/d/1IOOzvnKoTMJdRLFjCup_9FqQpumP07NwoBb9mIlD7lM/edit?usp=sharing
 
