@@ -19,9 +19,7 @@ make_youtube_shorts_table <- function() {
       # Extract slides link
       df$`Google Slides` <-
         df$snippet.description %>% 
-        str_extract_all("You can see the slides for this video here:.*") %>% 
-        str_remove_all("You can see the slides for this video here:") %>% 
-        str_trim() %>% # Remove whitespace
+        str_extract_all("https://docs.google.com/presentation/d/.*") %>%
         str_remove_all("\\.$") # Remove trailing period
       
       # Create Google Slides link w/ markdown magic
