@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-09-08 03:05:25
+This page was last updated on 2023-09-09 03:05:32
 
 ## AnVIL Resources {-}
 
@@ -99,11 +99,6 @@ This page was last updated on 2023-09-08 03:05:25
    <td style="text-align:left;"> [Intro R with swirl](https://jhudatascience.org/GDSCN_Book_swirl/) </td>
    <td style="text-align:left;"> Lab exercise: learn basic R programming through interactive swirl lessons </td>
    <td style="text-align:left;"> gdscn, swirl </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Statistics for Genomics: Differential Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression/) </td>
-   <td style="text-align:left;"> A set of lab modules for an introduction to differential gene expression </td>
-   <td style="text-align:left;"> anvil, cloud-computing, gdscn, gene-expression </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Statistics for Genomics: PCA](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA/) </td>
