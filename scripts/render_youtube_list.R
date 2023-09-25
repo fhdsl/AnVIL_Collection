@@ -7,7 +7,7 @@ make_youtube_shorts_table <- function() {
     # Check for the file created by GHA
     expr = {
       df <-
-        readr::read_tsv("resources/youtube_shorts_data.tsv")
+        readr::read_csv("resources/youtube_shorts_data.csv")
       
       df <- df %>% 
         select(snippet.title, snippet.description, snippet.playlistId, snippet.resourceId.videoId)
