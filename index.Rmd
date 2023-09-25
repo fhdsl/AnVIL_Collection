@@ -33,7 +33,7 @@ knitr::kable(make_collection_table(make_gsdcn_only_table = TRUE), format = "html
 
 # YouTube Videos {-}
 
-## AnVIL
+## AnVIL {-}
 
 ### AnVIL "Shorts" (AnVIL in 2 minutes) {-}
 
@@ -59,7 +59,7 @@ source("scripts/render_youtube_list.R")
 knitr::kable(make_youtube_table("resources/youtube_demos_data.csv"), format = "html")
 ```
 
-## GDSCN
+## GDSCN {-}
 
 ### SARS with Galaxy on AnVIL {-}
 
