@@ -121,7 +121,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.gh_pat }}
         run: |
-          git add --force resources/collection.tsv resources/youtube_metadata.tsv resources/youtube_shorts_data.tsv
+          git add --force resources/collection.tsv resources/youtube_metadata.csv resources/youtube_shorts_data.csv resources/youtube_demos_data.csv resources/youtube_getting_started_data.csv resources/youtube_gdscn_sars_data.csv
           git commit -m 'Add API query files' || echo "No changes to commit"
           git fetch
           git merge -s recursive --strategy-option=ours origin/main --allow-unrelated-histories
