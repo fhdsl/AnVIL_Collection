@@ -1,7 +1,7 @@
 
 # 📚 AnVIL & GDSCN Collection
 
-[![Render Bookdown and Coursera](https://github.com/jhudsl/OTTR_Template/actions/workflows/render-all.yml/badge.svg)](https://github.com/jhudsl/OTTR_Template/actions/workflows/render-all.yml)
+[![Render Collection](https://github.com/fhdsl/AnVIL_Collection/actions/workflows/render-all.yml/badge.svg)](https://github.com/fhdsl/AnVIL_Collection/actions/workflows/render-all.yml)
 
 This site was created from [the AnVIL Template](https://github.com/jhudsl/AnVIL_bookdown_style), which is based on [the OTTR Template](https://github.com/jhudsl/OTTR_Template)
 
