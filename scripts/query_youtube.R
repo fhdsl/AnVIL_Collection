@@ -32,6 +32,8 @@ base_api <- "https://www.googleapis.com/youtube/v3/"
 AnVIL_channel_id <- "UCBbHCj7kUogAMFyBAzzzfUw" # https://www.youtube.com/channel/UCBbHCj7kUogAMFyBAzzzfUw
 shorts_playlist_id <- "PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio"
 demos_playlist_id <- "PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E"
+getting_started_playlist_id <- "PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb"
+gdscn_sars_playlist_id <- "PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0"
 
 # --------- Set url and key as first test ---------
 
@@ -151,3 +153,5 @@ write_playlist_details <- function(playlist_id, outfile) {
 
 write_playlist_details(playlist_id = shorts_playlist_id, outfile = "youtube_shorts_data.csv")
 write_playlist_details(playlist_id = demos_playlist_id, outfile = "youtube_demos_data.csv")
+write_playlist_details(playlist_id = getting_started_playlist_id, outfile = "youtube_getting_started_data.csv")
+write_playlist_details(playlist_id = gdscn_sars_playlist_id, outfile = "youtube_gdscn_sars_data.csv")
