@@ -89,16 +89,34 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: youtube_metadata
-          path: resources/youtube_metadata.tsv
+          path: resources/youtube_metadata.csv
           
-      - name: Archive youtube playlist results
+      - name: Archive youtube `shorts` playlist results
         uses: actions/upload-artifact@v2
         with:
           name: youtube_shorts_data
-          path: resources/youtube_shorts_data.tsv
+          path: resources/youtube_shorts_data.csv
+          
+      - name: Archive youtube `demos` playlist results
+        uses: actions/upload-artifact@v2
+        with:
+          name: youtube_demos_data
+          path: resources/youtube_demos_data.csv
+          
+      - name: Archive youtube `getting started` playlist results
+        uses: actions/upload-artifact@v2
+        with:
+          name: youtube_getting_started_data
+          path: resources/youtube_getting_started_data.csv
+          
+      - name: Archive youtube `gdscn sars` playlist results
+        uses: actions/upload-artifact@v2
+        with:
+          name: youtube_getting_gdscn_sars_data
+          path: resources/youtube_gdscn_sars_data.csv
 
       # Commit the created files
-      - name: Commit .tsv files to main
+      - name: Commit .csv files to main
         if: ${{ inputs.render-type == 'main' }}
         env:
           GH_PAT: ${{ secrets.gh_pat }}
@@ -113,7 +131,7 @@ jobs:
         if: ${{ inputs.render-type == 'preview' }}
         run: |
           branch_name='preview-${{ github.event.pull_request.number }}'
-          git add --force resources/collection.tsv resources/youtube_metadata.tsv resources/youtube_shorts_data.tsv
+          git add --force resources/collection.tsv resources/youtube_metadata.csv resources/youtube_shorts_data.csv resources/youtube_demos_data.csv resources/youtube_getting_started_data.csv resources/youtube_gdscn_sars_data.csv
           git commit -m 'Add API query files' || echo "No changes to commit"
           git fetch
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
