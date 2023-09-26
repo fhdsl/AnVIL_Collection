@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-09-26 00:51:55
+This page was last updated on 2023-09-26 01:14:59
 
 ## AnVIL Resources {-}
 
@@ -275,23 +275,23 @@ This page was last updated on 2023-09-26 00:51:55
   </tr>
   <tr>
    <td style="text-align:left;"> [What is a variant?](https://www.youtube.com/watch?v=kELyrelihP8&amp;list=PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1097pZ-m7u22TBs6vqgbqPT1TH4FwdCY4P89WLTp2wT4/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [The sequencing revolution](https://www.youtube.com/watch?v=tXLTHqNT6Jg&amp;list=PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1oWzck0r3djLUkS8t29v0D32-fnZDa7Qcb6GrO_VfFmk/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Alignments &amp; data structure](https://www.youtube.com/watch?v=MEZP_AzlLyg&amp;list=PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1SxbYQyzJ19AmTj2ULhkxv9VZTEZjG2xePaVLTN7z52Q/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Cloud computing](https://www.youtube.com/watch?v=hreCMUQaA6s&amp;list=PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1xj5cfJAA1vSX7GDXbGmNJlooA0lybdW4H3Ux28yhIlg/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL laboratory introduction](https://www.youtube.com/watch?v=D-bkZRA2TQ4&amp;list=PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/182AOzMaiyrreinnsRX2VhH7YsVgvAp4xtIB_7Mzmk6I/edit?usp=sharing) </td>
   </tr>
 </tbody>
 </table>
