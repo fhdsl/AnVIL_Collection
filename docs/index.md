@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-09-26 00:16:20
+This page was last updated on 2023-09-26 00:22:45
 
 ## AnVIL Resources {-}
 
@@ -199,19 +199,19 @@ This page was last updated on 2023-09-26 00:16:20
 <tbody>
   <tr>
    <td style="text-align:left;"> [Why AnVIL?](https://www.youtube.com/watch?v=XC5qzj-yZb8&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1_CXM3bVvauH6eahRg94zjC6fc6NGDrrnCt33jAABPRk/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Starting Jupyter on the AnVIL Platform](https://www.youtube.com/watch?v=T5xCxFHGpPE&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1GYUP874Qd7K3S0Ls6iWY_M4jywpRb53qw0f78OBCFwk/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Starting RStudio on the AnVIL Platform](https://www.youtube.com/watch?v=cdkNbdhxUPc&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Starting Galaxy on the AnVIL Platform](https://www.youtube.com/watch?v=ysLHv4e6X6Y&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1yYCg4cPVBMMDghT17B4XzROieqyMH99Ex9nMm_Scm9Q/edit?usp=sharing) </td>
   </tr>
 </tbody>
 </table>
@@ -252,7 +252,7 @@ This page was last updated on 2023-09-26 00:16:20
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Epigenetics in AnVIL - 2023/09/21](https://www.youtube.com/watch?v=loApm3jUkG0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1kSnuHyF36s6FDTLsAPkmnupyp1RcODidNiYYpijjWKg/edit?usp=sharing) </td>
   </tr>
 </tbody>
 </table>
