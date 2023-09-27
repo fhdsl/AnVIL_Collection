@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-09-27 03:05:11
+This page was last updated on 2023-09-27 14:33:01
 
 ## AnVIL Resources {-}
 
@@ -121,6 +121,8 @@ This page was last updated on 2023-09-27 03:05:11
 # YouTube Videos {-}
 
 ## AnVIL {-}
+
+Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223 
 
 ### AnVIL "Shorts" (AnVIL in 2 minutes) {-}
 
@@ -258,6 +260,8 @@ This page was last updated on 2023-09-27 03:05:11
 </table>
 
 ## GDSCN {-}
+
+Check out the GDSCN YouTube channel: https://www.youtube.com/@genomicdatasciencecommunit2514
 
 ### SARS with Galaxy on AnVIL {-}
 
