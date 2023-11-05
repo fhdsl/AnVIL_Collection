@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-11-04 03:04:57
+This page was last updated on 2023-11-05 03:05:19
 
 ## AnVIL Resources {-}
 
@@ -185,6 +185,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
   <tr>
    <td style="text-align:left;"> [Discover tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=kn5msvMflgM&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/15IFYSHW1CYGe_5kpXRnDMAsi-s_DQd5elKHts0J0Hqs/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [NIH Data Management and Sharing on AnVIL](https://www.youtube.com/watch?v=WWQkr9J3QCg&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1lKNRgjgCvHUCJ5FXXRRv4Dihy46qCHq8gKjVN2oqbIQ/edit?usp=sharing) </td>
   </tr>
 </tbody>
 </table>
