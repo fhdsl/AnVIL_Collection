@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-11-07 03:05:03
+This page was last updated on 2023-11-08 03:05:13
 
 ## AnVIL Resources {-}
 
@@ -259,6 +259,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Epigenetics in AnVIL - 2023/09/21](https://www.youtube.com/watch?v=loApm3jUkG0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1kSnuHyF36s6FDTLsAPkmnupyp1RcODidNiYYpijjWKg/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demo: DUOS - a tour of AnVIL's innovative data sharing platform - 2023/10/26](https://www.youtube.com/watch?v=BVmOtH04qhI&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;">  </td>
   </tr>
 </tbody>
 </table>
