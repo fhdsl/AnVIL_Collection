@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-11-26 03:04:57
+This page was last updated on 2023-11-27 03:04:50
 
 ## AnVIL Resources {-}
 
@@ -85,11 +85,6 @@ This page was last updated on 2023-11-26 03:04:57
   </tr>
  </thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> [GDSCN Book: SARS with Galaxy on AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/) </td>
-   <td style="text-align:left;"> Lab module and lectures for variant detection in SARS-CoV-2 using Galaxy </td>
-   <td style="text-align:left;"> anvil, gdscn, genomics, module, sars-cov-2, variant-detection </td>
-  </tr>
   <tr>
    <td style="text-align:left;"> [GDSCN Book: SARS with RStudio on AnVIL](https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/) </td>
    <td style="text-align:left;"> Lab module and lectures for identifying phylogenetic history of SARS variants using R </td>
