@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-12-01 16:34:34
+This page was last updated on 2023-12-01 16:45:43
 
 ## AnVIL Resources {-}
 
@@ -35,11 +35,6 @@ This page was last updated on 2023-12-01 16:34:34
    <td style="text-align:left;"> [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide) </td>
    <td style="text-align:left;"> A guide for instructors using AnVIL for workshops, lessons, or courses. </td>
    <td style="text-align:left;"> anvil, education </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Urban Genomics: Identifying population structure among feral pigeon populations](https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/) </td>
-   <td style="text-align:left;"> Lab module and lectures for exploring PCA using feral pigeon populations </td>
-   <td style="text-align:left;"> anvil, genomics, pca, urban-data-science </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL WDL Workflows](https://github.com/fhdsl/AnVIL_WDLs/tree/main) </td>
@@ -218,6 +213,14 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
   <tr>
    <td style="text-align:left;"> [Starting Galaxy on the AnVIL Platform](https://www.youtube.com/watch?v=ysLHv4e6X6Y&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1yYCg4cPVBMMDghT17B4XzROieqyMH99Ex9nMm_Scm9Q/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Welcome to AnVIL! Portal homepage tour edition! #anvilproject #bioinformatics #cloudcomputing](https://www.youtube.com/watch?v=pYwvupWnHwk&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Welcome to AnVIL! Getting Help edition! #anvilproject #bioinformatics #cloudcomputing](https://www.youtube.com/watch?v=0FrWmzA5Jbk&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
 </table>
