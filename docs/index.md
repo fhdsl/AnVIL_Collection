@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-11-29 03:04:49
+This page was last updated on 2023-12-01 16:34:34
 
 ## AnVIL Resources {-}
 
@@ -234,23 +234,23 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
 <tbody>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Introduction to AnVIL - 2023/03/23](https://www.youtube.com/watch?v=fcMUU7NrEeM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> N/A </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Using the Human Pangenome on AnVIL - 2023/04/27](https://www.youtube.com/watch?v=0PRCFkLZOeo&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> N/A </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: WARP Pipelines in AnVIL/Terra - 2023/05/18](https://www.youtube.com/watch?v=omaVZgU4aJ0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> N/A </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: How to combine data across workspaces - 06/22/2023](https://www.youtube.com/watch?v=1vz4kupdkms&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> N/A </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Interactive Genomic Data Science with Bioconductor - 07/20/2023](https://www.youtube.com/watch?v=k2DfF3tk6M4&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> N/A </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Running Galaxy in AnVIL - 08/31/2023](https://www.youtube.com/watch?v=_uT0IWL1wso&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
@@ -262,7 +262,26 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demo: DUOS - a tour of AnVIL's innovative data sharing platform - 2023/10/26](https://www.youtube.com/watch?v=BVmOtH04qhI&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+</tbody>
+</table>
+
+### AnVIL WDL {-}
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Book Name </th>
+   <th style="text-align:left;"> Description </th>
+   <th style="text-align:left;"> Topics </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> none </td>
+   <td style="text-align:left;"> none </td>
+   <td style="text-align:left;"> none </td>
   </tr>
 </tbody>
 </table>
@@ -307,3 +326,24 @@ Check out the GDSCN YouTube channel: https://www.youtube.com/@genomicdatascience
   </tr>
 </tbody>
 </table>
+
+### BioDIGS Soil Project Protocols {-} 
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Book Name </th>
+   <th style="text-align:left;"> Description </th>
+   <th style="text-align:left;"> Topics </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> none </td>
+   <td style="text-align:left;"> none </td>
+   <td style="text-align:left;"> none </td>
+  </tr>
+</tbody>
+</table>
+
+
