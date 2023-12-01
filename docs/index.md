@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-12-01 16:45:43
+This page was last updated on 2023-12-01 17:28:46
 
 ## AnVIL Resources {-}
 
@@ -35,6 +35,11 @@ This page was last updated on 2023-12-01 16:45:43
    <td style="text-align:left;"> [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide) </td>
    <td style="text-align:left;"> A guide for instructors using AnVIL for workshops, lessons, or courses. </td>
    <td style="text-align:left;"> anvil, education </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Urban Genomics: Identifying population structure among feral pigeon populations](https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/) </td>
+   <td style="text-align:left;"> Lab module and lectures for exploring PCA using feral pigeon populations </td>
+   <td style="text-align:left;"> anvil, genomics, pca, urban-data-science </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL WDL Workflows](https://github.com/fhdsl/AnVIL_WDLs/tree/main) </td>
