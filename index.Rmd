@@ -61,6 +61,14 @@ source("scripts/render_youtube_list.R")
 knitr::kable(make_youtube_table("resources/youtube_demos_data.csv"), format = "html")
 ```
 
+### AnVIL WDL {-}
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_youtube_list.R")
+
+knitr::kable(make_youtube_table("resources/youtube_anvil_wdl_data.csv"), format = "html")
+```
+
 ## GDSCN {-}
 
 Check out the GDSCN YouTube channel: https://www.youtube.com/@genomicdatasciencecommunit2514
@@ -72,3 +80,13 @@ source("scripts/render_youtube_list.R")
 
 knitr::kable(make_youtube_table("resources/youtube_gdscn_sars_data.csv"), format = "html")
 ```
+
+### BioDIGS Soil Project Protocols {-} 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_youtube_list.R")
+
+knitr::kable(make_youtube_table("youtube_gdscn_soil_project_data.csv"), format = "html")
+```
+
+
