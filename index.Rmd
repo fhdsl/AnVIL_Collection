@@ -81,10 +81,12 @@ source("scripts/render_youtube_list.R")
 knitr::kable(make_youtube_table("resources/youtube_gdscn_sars_data.csv"), format = "html")
 ```
 
-### BioDIGS Soil Project Protocols {-}
+### BioDIGS Soil Project Protocols {-} 
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_youtube_list.R")
 
 knitr::kable(make_youtube_table("youtube_gdscn_soil_project_data.csv"), format = "html")
 ```
+
+
