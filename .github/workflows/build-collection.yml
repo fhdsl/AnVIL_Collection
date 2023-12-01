@@ -67,7 +67,7 @@ jobs:
           Rscript --vanilla "scripts/query_collection.R" --git_pat "$GH_PAT"
 
       - name: Archive collection
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: collection
           path: resources/collection.tsv
@@ -86,43 +86,43 @@ jobs:
           Rscript --vanilla "scripts/query_youtube.R" --yt_key "$YT_KEY"
           
       - name: Archive youtube results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: youtube_metadata
           path: resources/youtube_metadata.csv
           
       - name: Archive youtube `shorts` playlist results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: youtube_shorts_data
           path: resources/youtube_shorts_data.csv
           
       - name: Archive youtube `demos` playlist results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: youtube_demos_data
           path: resources/youtube_demos_data.csv
           
       - name: Archive youtube `getting started` playlist results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: youtube_getting_started_data
           path: resources/youtube_getting_started_data.csv
           
       - name: Archive youtube `WDL` playlist results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: youtube_getting_anvil_wdl_data
           path: resources/youtube_anvil_wdl_data.csv
           
       - name: Archive youtube `gdscn sars` playlist results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: youtube_getting_gdscn_sars_data
           path: resources/youtube_gdscn_sars_data.csv
                     
       - name: Archive youtube `gdscn soil protocols` playlist results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: youtube_getting_gdscn_soil_project_data
           path: resources/youtube_gdscn_soil_project_data.csv
@@ -133,7 +133,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.gh_pat }}
         run: |
-          git add --force resources/collection.tsv resources/youtube_metadata.csv resources/youtube_shorts_data.csv resources/youtube_demos_data.csv resources/youtube_getting_started_data.csv resources/youtube_gdscn_sars_data.csv
+          git add --force resources/collection.tsv resources/youtube_*.csv
           git commit -m 'Add API query files' || echo "No changes to commit"
           git fetch
           git merge -s recursive --strategy-option=ours origin/main --allow-unrelated-histories
@@ -143,7 +143,7 @@ jobs:
         if: ${{ inputs.render-type == 'preview' }}
         run: |
           branch_name='preview-${{ github.event.pull_request.number }}'
-          git add --force resources/collection.tsv resources/youtube_metadata.csv resources/youtube_shorts_data.csv resources/youtube_demos_data.csv resources/youtube_getting_started_data.csv resources/youtube_gdscn_sars_data.csv
+          git add --force resources/collection.tsv resources/youtube_*.csv
           git commit -m 'Add API query files' || echo "No changes to commit"
           git fetch
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
