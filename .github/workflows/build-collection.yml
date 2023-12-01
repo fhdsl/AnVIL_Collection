@@ -133,7 +133,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.gh_pat }}
         run: |
-          git add --force resources/collection.tsv resources/youtube_metadata.csv resources/youtube_shorts_data.csv resources/youtube_demos_data.csv resources/youtube_getting_started_data.csv resources/youtube_gdscn_sars_data.csv
+          git add --force resources/collection.tsv resources/youtube_*.csv
           git commit -m 'Add API query files' || echo "No changes to commit"
           git fetch
           git merge -s recursive --strategy-option=ours origin/main --allow-unrelated-histories
@@ -143,7 +143,7 @@ jobs:
         if: ${{ inputs.render-type == 'preview' }}
         run: |
           branch_name='preview-${{ github.event.pull_request.number }}'
-          git add --force resources/collection.tsv resources/youtube_metadata.csv resources/youtube_shorts_data.csv resources/youtube_demos_data.csv resources/youtube_getting_started_data.csv resources/youtube_gdscn_sars_data.csv
+          git add --force resources/collection.tsv resources/youtube_*.csv
           git commit -m 'Add API query files' || echo "No changes to commit"
           git fetch
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
