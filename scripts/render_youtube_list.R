@@ -36,8 +36,8 @@ make_youtube_table <- function(infile) {
       df <- df %>% 
         mutate(`Google Slides` = paste0("[Go to slides](", `Google Slides`, ")")) %>% 
         select(Video, `Google Slides`) %>% 
-        mutate(`Google Slides` = case_when(`Google Slides` == "[Go to slides](character(0))" ~ " ", # Often, there are no slides on the video description
-                                           `Google Slides` == "[Go to slides](NA)" ~ " ",
+        mutate(`Google Slides` = case_when(`Google Slides` == "[Go to slides](character(0))" ~ "N/A", # Often, there are no slides on the video description
+                                           `Google Slides` == "[Go to slides](NA)" ~ "N/A",
                                            TRUE ~ `Google Slides`))
       
       # Remove duplicates if necessary
