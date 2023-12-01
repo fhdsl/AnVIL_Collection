@@ -109,11 +109,23 @@ jobs:
           name: youtube_getting_started_data
           path: resources/youtube_getting_started_data.csv
           
+      - name: Archive youtube `WDL` playlist results
+        uses: actions/upload-artifact@v2
+        with:
+          name: youtube_getting_anvil_wdl_data
+          path: resources/youtube_anvil_wdl_data.csv
+          
       - name: Archive youtube `gdscn sars` playlist results
         uses: actions/upload-artifact@v2
         with:
           name: youtube_getting_gdscn_sars_data
           path: resources/youtube_gdscn_sars_data.csv
+                    
+      - name: Archive youtube `gdscn soil protocols` playlist results
+        uses: actions/upload-artifact@v2
+        with:
+          name: youtube_getting_gdscn_soil_project_data
+          path: resources/youtube_gdscn_soil_project_data.csv
 
       # Commit the created files
       - name: Commit .csv files to main
