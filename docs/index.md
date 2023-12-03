@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-12-01 17:49:49
+This page was last updated on 2023-12-03 03:07:47
 
 ## AnVIL Resources {-}
 
@@ -280,16 +280,18 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
 <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> Book Name </th>
-   <th style="text-align:left;"> Description </th>
-   <th style="text-align:left;"> Topics </th>
+   <th style="text-align:left;"> Video </th>
+   <th style="text-align:left;"> Google Slides </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> none </td>
-   <td style="text-align:left;"> none </td>
-   <td style="text-align:left;"> none </td>
+   <td style="text-align:left;"> [WDL Workflow Basics](https://www.youtube.com/watch?v=qtRcFEx31lY&amp;list=PL6aYJ_0zJ4uB1dXNWtmisnX51hMSxrE_j) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1Dioe_Qd3hdJ0UAP4LA6gJsm07Lr1wRpax5FLYr6xU3M) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Run Workflow](https://www.youtube.com/watch?v=igHrXV_5_P0&amp;list=PL6aYJ_0zJ4uB1dXNWtmisnX51hMSxrE_j) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1FbTgCnAZTgVzp-lPwOVqOqU4Kw19nu825dMngfyc-Nw) </td>
   </tr>
 </tbody>
 </table>
@@ -340,16 +342,22 @@ Check out the GDSCN YouTube channel: https://www.youtube.com/@genomicdatascience
 <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> Book Name </th>
-   <th style="text-align:left;"> Description </th>
-   <th style="text-align:left;"> Topics </th>
+   <th style="text-align:left;"> Video </th>
+   <th style="text-align:left;"> Google Slides </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> none </td>
-   <td style="text-align:left;"> none </td>
-   <td style="text-align:left;"> none </td>
+   <td style="text-align:left;"> [GDSCN Soil Sampling - Composite Sample Homogenization](https://www.youtube.com/watch?v=bOoZP0UXrt0&amp;list=PLzgm426KgvrhheloBdlSWshM9v2VvJEcX) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [GDSCN Soil Sampling - Preparing DNA Sample](https://www.youtube.com/watch?v=4EvzJpp3Brs&amp;list=PLzgm426KgvrhheloBdlSWshM9v2VvJEcX) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [GDSCN Soil Sampling - Preparing Heavy Metal Testing Sample](https://www.youtube.com/watch?v=OK93vJOqn7s&amp;list=PLzgm426KgvrhheloBdlSWshM9v2VvJEcX) </td>
+   <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
 </table>
