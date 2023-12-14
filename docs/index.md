@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-12-10 03:07:47
+This page was last updated on 2023-12-14 14:20:19
 
 ## AnVIL Resources {-}
 
@@ -163,12 +163,12 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1mGuqXAzzIfDLllH3HoHqo0ni6uZbZvdVI9tefsgXo70/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [Standardization on AnVIL](https://www.youtube.com/watch?v=uHR5-o7bYGk&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1YS1OxIG-u5rZmzdcOEOlJYCXL0UeEWfIz9yXIYB5uDo/edit?usp=sharing) </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [Migrate your tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=wXceBLcNj4s&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1KdOVMq-BzMjEBVCuWNVA4joTB7CpUu59uWy3SK1zeXY/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Standardization on AnVIL](https://www.youtube.com/watch?v=uHR5-o7bYGk&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1YS1OxIG-u5rZmzdcOEOlJYCXL0UeEWfIz9yXIYB5uDo/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Sharing on AnVIL for Instructors](https://www.youtube.com/watch?v=6bjnPtWtHhg&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
