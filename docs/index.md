@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2023-12-31 03:07:46
+This page was last updated on 2024-01-07 03:08:09
 
 ## AnVIL Resources {-}
 
@@ -147,12 +147,12 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1xps-CJbFGxoGy0vAWwSyT2nF3yuUSyNtYm8WGoVBSk8/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [Reproducibility on AnVIL](https://www.youtube.com/watch?v=tVh93e6TzCE&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/11pay_xsBABo8ygQitaEdXo12HNFCbh_K2tarSdskJes/edit?usp=sharing) </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [Sequence Read Archive (SRA) data on AnVIL](https://www.youtube.com/watch?v=PghTze_qd9g&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1bp5zlltpT9HYzm6aBYY8XBoleQ7nrTQNTK34-2Xz6Tg/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Reproducibility on AnVIL](https://www.youtube.com/watch?v=tVh93e6TzCE&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/11pay_xsBABo8ygQitaEdXo12HNFCbh_K2tarSdskJes/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL for Instructors](https://www.youtube.com/watch?v=7qvQ8DZHC9w&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
