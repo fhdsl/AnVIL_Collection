@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2024-01-28 03:07:49
+This page was last updated on 2024-02-04 03:08:11
 
 ## AnVIL Resources {-}
 
@@ -179,12 +179,12 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1BGWiR7yZSyhsOGCmBdF85Bi9d1FbmWWfAo246fSpASA/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [Share tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=XLzoIR-lGL4&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1KRqW9Gy5IPN-5OABHeLQ1OL-VzX2XpCiab4SMCN-_eg/edit?usp=sharing) </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [Discover tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=kn5msvMflgM&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/15IFYSHW1CYGe_5kpXRnDMAsi-s_DQd5elKHts0J0Hqs/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Share tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=XLzoIR-lGL4&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1KRqW9Gy5IPN-5OABHeLQ1OL-VzX2XpCiab4SMCN-_eg/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [NIH Data Management and Sharing on AnVIL](https://www.youtube.com/watch?v=WWQkr9J3QCg&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
