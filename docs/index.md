@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2024-02-04 03:08:11
+This page was last updated on 2024-02-11 03:07:54
 
 ## AnVIL Resources {-}
 
@@ -85,6 +85,11 @@ This page was last updated on 2024-02-04 03:08:11
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> [GDSCN Book: BioDIGS in the Classroom](https://hutchdatascience.org/GDSCN_BioDIGS_Book/) </td>
+   <td style="text-align:left;"> Activities for using BioDIGS data in the classroom. This is the companion book to the BioDIGS project. </td>
+   <td style="text-align:left;"> anvil, biodigs, course, gdscn, r-programming, tutorial </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> [GDSCN Book: SARS with Galaxy on AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/) </td>
    <td style="text-align:left;"> Lab module and lectures for variant detection in SARS-CoV-2 using Galaxy </td>
