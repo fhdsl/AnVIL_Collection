@@ -1,5 +1,5 @@
 kind,etag,id,snippet.publishedAt,snippet.channelId,snippet.title,snippet.description,snippet.channelTitle,snippet.playlistId,snippet.position,snippet.videoOwnerChannelTitle,snippet.videoOwnerChannelId,snippet.thumbnails.default.url,snippet.thumbnails.default.width,snippet.thumbnails.default.height,snippet.thumbnails.medium.url,snippet.thumbnails.medium.width,snippet.thumbnails.medium.height,snippet.thumbnails.high.url,snippet.thumbnails.high.width,snippet.thumbnails.high.height,snippet.thumbnails.standard.url,snippet.thumbnails.standard.width,snippet.thumbnails.standard.height,snippet.resourceId.kind,snippet.resourceId.videoId,contentDetails.videoId,contentDetails.videoPublishedAt,status.privacyStatus
-youtube#playlistItem,HIo3XB91SBDq_iFfjkruDMXePds,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC45NDk1REZENzhEMzU5MDQz,2023-03-06T16:49:11Z,UCpPm7MPoB8uOFSN-6xeCaLw,Introduction to SARS-CoV-2 Variant Detection,"Welcome to the SARS-CoV-2 variant detection activity! This is a short overview of the theory and skills you will learn.
+youtube#playlistItem,gt4oz1RgR94HlVP6E-0zdNabSVg,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC45NDk1REZENzhEMzU5MDQz,2023-03-06T16:49:11Z,UCpPm7MPoB8uOFSN-6xeCaLw,Introduction to SARS-CoV-2 Variant Detection,"Welcome to the SARS-CoV-2 variant detection activity! This is a short overview of the theory and skills you will learn.
 
 Check out the activity! https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/
 
@@ -17,7 +17,7 @@ Check out the activity! https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnV
 AnVIL Help: https://help.anvilproject.org/
 
 Use the slides from this video: https://docs.google.com/presentation/d/1097pZ-m7u22TBs6vqgbqPT1TH4FwdCY4P89WLTp2wT4/edit?usp=sharing",Genomic Data Science Community Network,PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0,1,Genomic Data Science Community Network,UCpPm7MPoB8uOFSN-6xeCaLw,https://i.ytimg.com/vi/kELyrelihP8/default.jpg,120,90,https://i.ytimg.com/vi/kELyrelihP8/mqdefault.jpg,320,180,https://i.ytimg.com/vi/kELyrelihP8/hqdefault.jpg,480,360,https://i.ytimg.com/vi/kELyrelihP8/sddefault.jpg,640,480,youtube#video,kELyrelihP8,kELyrelihP8,2023-03-02T14:39:42Z,public
-youtube#playlistItem,ziwLXxoGAuq6Y9ciHe5H9Yu7Gqk,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC41MzJCQjBCNDIyRkJDN0VD,2023-03-02T14:41:00Z,UCpPm7MPoB8uOFSN-6xeCaLw,The sequencing revolution,"In this video, we’ll talk about the sequencing revolution that has made wide-scale genetic variant detection possible. 
+youtube#playlistItem,MLigT8d5Jn6nbDVu6lNFpBmoZGo,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC41MzJCQjBCNDIyRkJDN0VD,2023-03-02T14:41:00Z,UCpPm7MPoB8uOFSN-6xeCaLw,The sequencing revolution,"In this video, we’ll talk about the sequencing revolution that has made wide-scale genetic variant detection possible. 
 
 Knowing about this technology will help us understand and interpret genomic sequencing results. Remember that detecting variants means finding slightly different versions of an organism that are genetically different from others.
 
@@ -26,7 +26,7 @@ Check out the activity! https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnV
 AnVIL Help: https://help.anvilproject.org/
 
 Use the slides from this video: https://docs.google.com/presentation/d/1oWzck0r3djLUkS8t29v0D32-fnZDa7Qcb6GrO_VfFmk/edit?usp=sharing",Genomic Data Science Community Network,PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0,2,Genomic Data Science Community Network,UCpPm7MPoB8uOFSN-6xeCaLw,https://i.ytimg.com/vi/tXLTHqNT6Jg/default.jpg,120,90,https://i.ytimg.com/vi/tXLTHqNT6Jg/mqdefault.jpg,320,180,https://i.ytimg.com/vi/tXLTHqNT6Jg/hqdefault.jpg,480,360,https://i.ytimg.com/vi/tXLTHqNT6Jg/sddefault.jpg,640,480,youtube#video,tXLTHqNT6Jg,tXLTHqNT6Jg,2023-03-02T14:44:59Z,public
-youtube#playlistItem,ATPHE77EPlD9EyNwd9zHCVj4U5Y,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC4wMTcyMDhGQUE4NTIzM0Y5,2022-04-21T18:05:34Z,UCpPm7MPoB8uOFSN-6xeCaLw,Alignments & data structure,"In this video, we talk about some of the technical tools that have made wide-scale genetic variant detection possible. 
+youtube#playlistItem,VlqN-1XmHLozQdroMqbwdROscPQ,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC4wMTcyMDhGQUE4NTIzM0Y5,2022-04-21T18:05:34Z,UCpPm7MPoB8uOFSN-6xeCaLw,Alignments & data structure,"In this video, we talk about some of the technical tools that have made wide-scale genetic variant detection possible. 
 
 These tools have broad application, from tracking the delta variant of coronavirus, to locating the genes responsible for hair or eye color. Knowing about the software and data structures helps us understand and interpret genomic sequencing results.
 
@@ -35,7 +35,7 @@ Check out the activity! https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnV
 AnVIL Help: https://help.anvilproject.org/
 
 Use the slides from this video: https://docs.google.com/presentation/d/1SxbYQyzJ19AmTj2ULhkxv9VZTEZjG2xePaVLTN7z52Q/edit?usp=sharing",Genomic Data Science Community Network,PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0,3,Genomic Data Science Community Network,UCpPm7MPoB8uOFSN-6xeCaLw,https://i.ytimg.com/vi/MEZP_AzlLyg/default.jpg,120,90,https://i.ytimg.com/vi/MEZP_AzlLyg/mqdefault.jpg,320,180,https://i.ytimg.com/vi/MEZP_AzlLyg/hqdefault.jpg,480,360,https://i.ytimg.com/vi/MEZP_AzlLyg/sddefault.jpg,640,480,youtube#video,MEZP_AzlLyg,MEZP_AzlLyg,2022-04-21T18:06:04Z,public
-youtube#playlistItem,IaHncQB69nOvH5Yha-0NAxcmw0Q,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC5DQUNERDQ2NkIzRUQxNTY1,2023-03-02T14:45:29Z,UCpPm7MPoB8uOFSN-6xeCaLw,Cloud computing,"In this video, we talk about how cloud computing and genetic variant detection work together. 
+youtube#playlistItem,--hFQ7O8XOYT77GXdItMME1JKX8,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC5DQUNERDQ2NkIzRUQxNTY1,2023-03-02T14:45:29Z,UCpPm7MPoB8uOFSN-6xeCaLw,Cloud computing,"In this video, we talk about how cloud computing and genetic variant detection work together. 
 
 Cloud computing is a powerful way to perform cutting-edge data science work, without having to worry about having the right equipment. After learning the basics, anyone with an internet connection can use cloud computing to look for genomic variants.
 
@@ -44,7 +44,7 @@ Check out the activity! https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnV
 AnVIL Help: https://help.anvilproject.org/
 
 Use the slides from this video: https://docs.google.com/presentation/d/1xj5cfJAA1vSX7GDXbGmNJlooA0lybdW4H3Ux28yhIlg/edit?usp=sharing",Genomic Data Science Community Network,PLzgm426KgvriINOUpgrBjTZXHIDZXOOz0,4,Genomic Data Science Community Network,UCpPm7MPoB8uOFSN-6xeCaLw,https://i.ytimg.com/vi/hreCMUQaA6s/default.jpg,120,90,https://i.ytimg.com/vi/hreCMUQaA6s/mqdefault.jpg,320,180,https://i.ytimg.com/vi/hreCMUQaA6s/hqdefault.jpg,480,360,https://i.ytimg.com/vi/hreCMUQaA6s/sddefault.jpg,640,480,youtube#video,hreCMUQaA6s,hreCMUQaA6s,2023-03-02T14:47:18Z,public
-youtube#playlistItem,h9eEJiIeIgQJxSEikohgnGvtdBM,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC5GNjNDRDREMDQxOThCMDQ2,2023-03-29T17:16:56Z,UCpPm7MPoB8uOFSN-6xeCaLw,AnVIL laboratory introduction,"In this introduction video, we’ll talk about the details of the bioinformatics and data science behind variant detection. This video walks you through the steps you'll take on AnVIL when doing this activity. 
+youtube#playlistItem,rdwg_4McPC7EdrsmWDOyCuhI9rc,UEx6Z200MjZLZ3ZyaUlOT1VwZ3JCalRaWEhJRFpYT096MC5GNjNDRDREMDQxOThCMDQ2,2023-03-29T17:16:56Z,UCpPm7MPoB8uOFSN-6xeCaLw,AnVIL laboratory introduction,"In this introduction video, we’ll talk about the details of the bioinformatics and data science behind variant detection. This video walks you through the steps you'll take on AnVIL when doing this activity. 
 
 Our ultimate goal is to see how our coronavirus sample is different from the original coronavirus. We are especially curious if our sample belongs to the delta variant group. We will be using the same techniques used by scientists to detect variants.
 
