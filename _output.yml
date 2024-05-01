@@ -1,6 +1,7 @@
 bookdown::gitbook:
   css: assets/AnVIL_style/style.css
   includes:
+    in_header: GA_Script.Rhtml
     before_body: assets/AnVIL_style/big-image_anvil.html
     after_body: assets/AnVIL_style/footer.html
   highlight: tango
