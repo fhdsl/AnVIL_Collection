@@ -1,5 +1,5 @@
 kind,etag,id,snippet.publishedAt,snippet.channelId,snippet.title,snippet.description,snippet.channelTitle,snippet.playlistId,snippet.position,snippet.videoOwnerChannelTitle,snippet.videoOwnerChannelId,snippet.thumbnails.default.url,snippet.thumbnails.default.width,snippet.thumbnails.default.height,snippet.thumbnails.medium.url,snippet.thumbnails.medium.width,snippet.thumbnails.medium.height,snippet.thumbnails.high.url,snippet.thumbnails.high.width,snippet.thumbnails.high.height,snippet.thumbnails.standard.url,snippet.thumbnails.standard.width,snippet.thumbnails.standard.height,snippet.thumbnails.maxres.url,snippet.thumbnails.maxres.width,snippet.thumbnails.maxres.height,snippet.resourceId.kind,snippet.resourceId.videoId,contentDetails.videoId,contentDetails.videoPublishedAt,status.privacyStatus
-youtube#playlistItem,WTttuolF0bd0RKguTpWjGkfAqCY,UEw2YVlKXzB6SjR1QjFkWE5XdG1pc25YNTFoTVN4ckVfai4yODlGNEE0NkRGMEEzMEQy,2023-10-27T14:24:05Z,UCBbHCj7kUogAMFyBAzzzfUw,WDL Workflow Basics,"This video will give you a quick introduction to WDL Workflow Basics.
+youtube#playlistItem,s-AtQGv6uYhEd5nTcaYT3p-ehhY,UEw2YVlKXzB6SjR1QjFkWE5XdG1pc25YNTFoTVN4ckVfai4yODlGNEE0NkRGMEEzMEQy,2023-10-27T14:24:05Z,UCBbHCj7kUogAMFyBAzzzfUw,WDL Workflow Basics,"This video will give you a quick introduction to WDL Workflow Basics.
 
 WDL Workflows Guide: https://jhudatascience.org/AnVIL_Book_WDL
 
@@ -8,7 +8,7 @@ Check out the Getting Started Guide here: https://jhudatascience.org/AnVIL_Book_
 AnVIL Help: https://help.anvilproject.org/
 
 You can see the slides for this video here: https://docs.google.com/presentation/d/1Dioe_Qd3hdJ0UAP4LA6gJsm07Lr1wRpax5FLYr6xU3M",AnVIL Project,PL6aYJ_0zJ4uB1dXNWtmisnX51hMSxrE_j,0,AnVIL Project,UCBbHCj7kUogAMFyBAzzzfUw,https://i.ytimg.com/vi/qtRcFEx31lY/default.jpg,120,90,https://i.ytimg.com/vi/qtRcFEx31lY/mqdefault.jpg,320,180,https://i.ytimg.com/vi/qtRcFEx31lY/hqdefault.jpg,480,360,https://i.ytimg.com/vi/qtRcFEx31lY/sddefault.jpg,640,480,https://i.ytimg.com/vi/qtRcFEx31lY/maxresdefault.jpg,1280,720,youtube#video,qtRcFEx31lY,qtRcFEx31lY,2023-10-27T10:48:59Z,public
-youtube#playlistItem,O-97FN5G1xp2PlkO85JJgvJxgjE,UEw2YVlKXzB6SjR1QjFkWE5XdG1pc25YNTFoTVN4ckVfai4wMTcyMDhGQUE4NTIzM0Y5,2023-10-27T14:25:11Z,UCBbHCj7kUogAMFyBAzzzfUw,Run Workflow,"This video will give you a quick introduction to Run Workflow.
+youtube#playlistItem,JyosEHtx92AT5AYODfyJbKzUuNw,UEw2YVlKXzB6SjR1QjFkWE5XdG1pc25YNTFoTVN4ckVfai4wMTcyMDhGQUE4NTIzM0Y5,2023-10-27T14:25:11Z,UCBbHCj7kUogAMFyBAzzzfUw,Run Workflow,"This video will give you a quick introduction to Run Workflow.
 
 WDL Workflows Guide: https://jhudatascience.org/AnVIL_Book_WDL
 
