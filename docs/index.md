@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2024-05-26 03:08:16
+This page was last updated on 2024-06-02 03:09:02
 
 ## AnVIL Resources {-}
 
@@ -85,6 +85,11 @@ This page was last updated on 2024-05-26 03:08:16
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Book Name](http://hutchdatascience.org/GDSCN_BioDIGS_AMR/) </td>
+   <td style="text-align:left;"> This activity guides students through an investigation of antimicrobial resistance in the BioDIGS samples using Galaxy. </td>
+   <td style="text-align:left;"> biodigs, gdscn </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> [GDSCN Book: BioDIGS in the Classroom](https://hutchdatascience.org/GDSCN_BioDIGS_Book/) </td>
    <td style="text-align:left;"> Activities for using BioDIGS data in the classroom. This is the companion book to the BioDIGS project. </td>
