@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2024-07-07 03:09:04
+This page was last updated on 2024-08-28 16:29:29
 
 ## AnVIL Resources {-}
 
@@ -91,14 +91,14 @@ This page was last updated on 2024-07-07 03:09:04
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> [AnVIL Book Name](http://hutchdatascience.org/GDSCN_BioDIGS_Soil/) </td>
-   <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration and visualization of the soil characteristics data using R. </td>
-   <td style="text-align:left;"> anvil, biodigs, course, gdscn, module </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [AnVIL Collection](https://hutchdatascience.org/AnVIL_Collection/) </td>
    <td style="text-align:left;"> 📚 An auto-generating collection of all materials related to the AnVIL and GDSCN projects </td>
    <td style="text-align:left;"> anvil, content-library, edtech-software, gdscn, website </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [BioDIGS in the Classroom: Exploring Soil Data](http://hutchdatascience.org/GDSCN_BioDIGS_Soil/) </td>
+   <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration and visualization of the soil characteristics data using R. </td>
+   <td style="text-align:left;"> anvil, biodigs, course, gdscn, module </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGS in the Classroom: Investigating Antimicrobial Resistance](http://hutchdatascience.org/GDSCN_BioDIGS_AMR/) </td>
@@ -106,7 +106,7 @@ This page was last updated on 2024-07-07 03:09:04
    <td style="text-align:left;"> biodigs, course, gdscn, module </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [BioDIGSData &lt;img src=&quot;man/hex_logo.png&quot; align=&quot;right&quot; height=&quot;138&quot; /&gt;](https://github.com/fhdsl/BioDIGSData) </td>
+   <td style="text-align:left;"> [BioDIGSData](https://github.com/fhdsl/BioDIGSData) </td>
    <td style="text-align:left;"> Data Package for BioDIGS Project </td>
    <td style="text-align:left;"> biodigs, edtech-software, gdscn </td>
   </tr>
