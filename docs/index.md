@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2024-08-28 16:29:29
+This page was last updated on 2024-08-28 19:50:32.84471
 
 ## AnVIL Resources {-}
 
@@ -96,24 +96,24 @@ This page was last updated on 2024-08-28 16:29:29
    <td style="text-align:left;"> anvil, content-library, edtech-software, gdscn, website </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [BioDIGS in the Classroom: Exploring Soil Data](http://hutchdatascience.org/GDSCN_BioDIGS_Soil/) </td>
+   <td style="text-align:left;"> [BioDIGS in the Classroom: Antimicrobial Resistance](http://hutchdatascience.org/GDSCN_BioDIGS_AMR/) </td>
+   <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through an investigation of antimicrobial resistance in the BioDIGS samples using Galaxy. </td>
+   <td style="text-align:left;"> biodigs, course, gdscn, module </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [BioDIGS: Exploring Soil Data](http://hutchdatascience.org/GDSCN_BioDIGS_Soil/) </td>
    <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration and visualization of the soil characteristics data using R. </td>
    <td style="text-align:left;"> anvil, biodigs, course, gdscn, module </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [BioDIGS in the Classroom: Investigating Antimicrobial Resistance](http://hutchdatascience.org/GDSCN_BioDIGS_AMR/) </td>
-   <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through an investigation of antimicrobial resistance in the BioDIGS samples using Galaxy. </td>
-   <td style="text-align:left;"> biodigs, course, gdscn, module </td>
+   <td style="text-align:left;"> [BioDIGS: Getting Started](https://hutchdatascience.org/GDSCN_BioDIGS_Book/) </td>
+   <td style="text-align:left;"> Getting started guide for using BioDIGS data in the classroom. Includes general information about BioDIGS. </td>
+   <td style="text-align:left;"> anvil, biodigs, course, gdscn, r-programming, tutorial </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGSData](https://github.com/fhdsl/BioDIGSData) </td>
    <td style="text-align:left;"> Data Package for BioDIGS Project </td>
    <td style="text-align:left;"> biodigs, edtech-software, gdscn </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [GDSCN Book: BioDIGS in the Classroom](https://hutchdatascience.org/GDSCN_BioDIGS_Book/) </td>
-   <td style="text-align:left;"> Getting started guide for using BioDIGS data in the classroom. </td>
-   <td style="text-align:left;"> anvil, biodigs, course, gdscn, r-programming, tutorial </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [GDSCN Book: SARS with Galaxy on AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/) </td>
@@ -246,7 +246,7 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [Starting Galaxy on the AnVIL Platform](https://www.youtube.com/watch?v=ysLHv4e6X6Y&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> [Starting Galaxy on the AnVIL Platform](https://www.youtube.com/watch?v=9TEVu7QobOo&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1yYCg4cPVBMMDghT17B4XzROieqyMH99Ex9nMm_Scm9Q/edit?usp=sharing) </td>
   </tr>
   <tr>
