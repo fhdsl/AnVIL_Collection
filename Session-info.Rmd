@@ -1,6 +1,8 @@
 
 # Session Info {-}
 
+Below is software version information used to render this collection.
+
 ```{r, echo = FALSE}
 devtools::session_info()
 ```
