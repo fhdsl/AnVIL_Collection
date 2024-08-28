@@ -44,7 +44,6 @@ jobs:
       toggle_student_guide: "${{ env.RENDER_STUDENT_GUIDE }}"
       rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
       toggle_quiz_check: "${{ env.CHECK_QUIZZES }}"
-      render_student_guide: "${{ env.RENDER_STUDENT_GUIDE }}"
 
   build-collection:
     name: Build Collection
