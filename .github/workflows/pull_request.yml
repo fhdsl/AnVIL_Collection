@@ -63,6 +63,7 @@ jobs:
     secrets:	
       gh_pat: ${{ secrets.GH_PAT }}	
       yt_key: ${{ secrets.YT_KEY }}
+      
 ########################## Make the error reports ##############################
   spell-check:
     name: Check spelling
