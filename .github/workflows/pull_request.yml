@@ -52,17 +52,6 @@ jobs:
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
       toggle_student_guide: "${{ env.RENDER_STUDENT_GUIDE }}"
       rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
-      
-  build-collection:
-    name: Build Collection
-    needs: yaml-check
-    uses: ./.github/workflows/build-collection.yml
-    with:
-      render-type: 'preview'
-      repository: $GITHUB_REPOSITORY
-    secrets:
-      gh_pat: ${{ secrets.GH_PAT }}
-      yt_key: ${{ secrets.YT_KEY }}
 
 ########################## Make the error reports ##############################
   spell-check:
@@ -127,7 +116,7 @@ jobs:
 
   render-preview:
     name: Render preview
-    needs: [yaml-check, build-collection]
+    needs: yaml-check
     runs-on: ubuntu-latest
     container:
       image: ${{needs.yaml-check.outputs.rendering_docker_image}}
