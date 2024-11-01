@@ -55,7 +55,7 @@ jobs:
       gh_pat: ${{ secrets.GH_PAT }}
       yt_key: ${{ secrets.YT_KEY }}
 
-  render-bookdown:
+  render-course:
     name: Render bookdown
     needs: [yaml-check, build-collection]
     runs-on: ubuntu-latest
