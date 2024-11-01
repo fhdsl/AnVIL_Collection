@@ -53,17 +53,17 @@ jobs:
       toggle_student_guide: "${{ env.RENDER_STUDENT_GUIDE }}"
       rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
 
-  build-collection:	
-    name: Build Collection	
-    needs: yaml-check	
-    uses: ./.github/workflows/build-collection.yml	
-    with:	
-      render-type: 'preview'	
-      repository: $GITHUB_REPOSITORY	
-    secrets:	
-      gh_pat: ${{ secrets.GH_PAT }}	
+  build-collection:
+    name: Build Collection
+    needs: yaml-check
+    uses: ./.github/workflows/build-collection.yml
+    with:
+      render-type: 'preview'
+      repository: $GITHUB_REPOSITORY
+    secrets:
+      gh_pat: ${{ secrets.GH_PAT }}
       yt_key: ${{ secrets.YT_KEY }}
-      
+
 ########################## Make the error reports ##############################
   spell-check:
     name: Check spelling
