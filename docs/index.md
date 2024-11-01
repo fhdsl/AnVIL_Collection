@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2024-08-28 19:50:32.84471
+This page was last updated on 2024-11-01 16:44:05.39985
 
 ## AnVIL Resources {-}
 
@@ -26,6 +26,16 @@ This page was last updated on 2024-08-28 19:50:32.84471
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Champions](https://jhudatascience.org/AnVIL_Book_Champions/) </td>
+   <td style="text-align:left;"> One-stop resource for AnVIL Champions </td>
+   <td style="text-align:left;"> anvil, guide </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL CoFests! 2024](https://jhudatascience.org/AnVIL_CoFests_2024) </td>
+   <td style="text-align:left;"> Information about AnVIL Community Conference CoFest Sessions - November 2024 </td>
+   <td style="text-align:left;"> anvil, conference, workshops </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos](https://hutchdatascience.org/AnVIL_Demos/) </td>
    <td style="text-align:left;"> ⏱ 30-minute demos and tutorials from our live AnVIL series </td>
@@ -96,9 +106,14 @@ This page was last updated on 2024-08-28 19:50:32.84471
    <td style="text-align:left;"> anvil, content-library, edtech-software, gdscn, website </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [BioDIGS in the Classroom: Antimicrobial Resistance](http://hutchdatascience.org/GDSCN_BioDIGS_AMR/) </td>
+   <td style="text-align:left;"> [BioDIGS: Antimicrobial Resistance](http://hutchdatascience.org/GDSCN_BioDIGS_AMR/) </td>
    <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through an investigation of antimicrobial resistance in the BioDIGS samples using Galaxy. </td>
    <td style="text-align:left;"> biodigs, course, gdscn, module </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [BioDIGS: Biosynthetic Gene Clusters](https://hutchdatascience.org/GDSCN_BioDIGS_BGC/) </td>
+   <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration of biosynthetic gene clusters in the BioDIGS samples using Galaxy </td>
+   <td style="text-align:left;"> biodigs, biosynthetic-gene-clusters, course, gdscn, metagenomics, module </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGS: Exploring Soil Data](http://hutchdatascience.org/GDSCN_BioDIGS_Soil/) </td>
@@ -219,6 +234,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
   <tr>
    <td style="text-align:left;"> [NIH Data Management and Sharing on AnVIL](https://www.youtube.com/watch?v=WWQkr9J3QCg&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1lKNRgjgCvHUCJ5FXXRRv4Dihy46qCHq8gKjVN2oqbIQ/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Champions](https://www.youtube.com/watch?v=PptqHHXke54&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1FmFO5URoe_Eh1kL22fFBBM0p9crXg29xpkfhE5677_s/edit?usp=sharing) </td>
   </tr>
 </tbody>
 </table>
