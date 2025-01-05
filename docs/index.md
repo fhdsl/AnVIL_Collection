@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2024-12-29 03:16:17.606486
+This page was last updated on 2025-01-05 03:15:18.14164
 
 ## AnVIL Resources {-}
 
