@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-01-19 03:11:50.67008
+This page was last updated on 2025-01-26 03:10:29.813437
 
 ## AnVIL Resources {-}
 
@@ -335,6 +335,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Sharing Data in the AnVIL](https://www.youtube.com/watch?v=nIqQsse1aYM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Getting Started with your Analysis in AnVIL and Running FastQC with Galaxy in AnVIL](https://www.youtube.com/watch?v=MH2GDqsbUCs&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
