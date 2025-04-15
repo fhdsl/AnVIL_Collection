@@ -75,7 +75,6 @@ jobs:
       error_min: 3
     secrets:
       gh_pat: ${{ secrets.GH_PAT }}
-    branch_name: ${GITHUB_HEAD_REF}
 
   url-check:
     name: Check URLs
@@ -87,7 +86,6 @@ jobs:
       error_min: 0
     secrets:
       gh_pat: ${{ secrets.GH_PAT }}
-    branch_name: ${GITHUB_HEAD_REF}
 
   quiz-check:
     name: Check quiz formatting
@@ -99,7 +97,6 @@ jobs:
       error_min: 0
     secrets:
       gh_pat: ${{ secrets.GH_PAT }}
-    branch_name: ${GITHUB_HEAD_REF}
 
 ############################# Style the code ###################################
   style-code:
