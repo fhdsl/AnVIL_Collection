@@ -23,7 +23,7 @@ jobs:
       - name: Load environment from YAML
         uses: doughepi/yaml-env-action@v1.0.0
         with:
-          files: config_automation.yml # Pass a space-separated list of configuration files. Rightmost files take precedence.
+            files: config_automation.yml # Pass a space-separated list of configuration files. Rightmost files take precedence.
 
       # Delete the branch if this has been run before
       - name: Delete branch locally and remotely
@@ -73,8 +73,9 @@ jobs:
     with:
       check_type: spelling
       error_min: 3
+    secrets:
       gh_pat: ${{ secrets.GH_PAT }}
-      branch_name: ${GITHUB_HEAD_REF}
+    branch_name: ${GITHUB_HEAD_REF}
 
   url-check:
     name: Check URLs
@@ -84,8 +85,9 @@ jobs:
     with:
       check_type: urls
       error_min: 0
+    secrets:
       gh_pat: ${{ secrets.GH_PAT }}
-      branch_name: ${GITHUB_HEAD_REF}
+    branch_name: ${GITHUB_HEAD_REF}
 
   quiz-check:
     name: Check quiz formatting
@@ -95,8 +97,9 @@ jobs:
     with:
       check_type: quiz_format
       error_min: 0
+    secrets:
       gh_pat: ${{ secrets.GH_PAT }}
-      branch_name: ${GITHUB_HEAD_REF}
+    branch_name: ${GITHUB_HEAD_REF}
 
 ############################# Style the code ###################################
   style-code:
@@ -182,7 +185,7 @@ jobs:
           rm -r tmp1
           git add student-guide/*
           git commit -m 'Create student guide' || echo "No changes to commit"
-          
+
       # Run TOC-less version
       # Rendered content for Leanpub and Coursera is very similar.
       # This job creates a shared scaffold for both.
@@ -229,7 +232,7 @@ jobs:
           course_name=$(head -n 1 student-guide/_bookdown.yml | cut -d'"' -f 2| tr " " "-")
           bookdown_link=$(echo "https://htmlpreview.github.io/?https://raw.githubusercontent.com/$GITHUB_REPOSITORY/preview-${{ github.event.pull_request.number }}/docs/index.html")
           tocless_link=$(echo "https://htmlpreview.github.io/?https://raw.githubusercontent.com/$GITHUB_REPOSITORY/preview-${{ github.event.pull_request.number }}/docs/no_toc/index.html")
-          student_guide=$(echo "https://github.com/$GITHUB_REPOSITORY/raw/preview-${{ github.event.pull_request.number }}/student-guide/Student_Guide.docx")          
+          student_guide=$(echo "https://github.com/$GITHUB_REPOSITORY/raw/preview-${{ github.event.pull_request.number }}/student-guide/Student_Guide.docx")
           zip_link=$(echo "https://github.com/$GITHUB_REPOSITORY/raw/preview-${{ github.event.pull_request.number }}/website-preview.zip")
           echo "zip_link=$zip_link" >> $GITHUB_OUTPUT
           echo "bookdown_link=$bookdown_link" >> $GITHUB_OUTPUT
