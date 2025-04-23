@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-01-26 03:10:29.813437
+This page was last updated on 2025-04-23 13:36:56.176164
 
 ## AnVIL Resources {-}
 
@@ -47,11 +47,6 @@ This page was last updated on 2025-01-26 03:10:29.813437
    <td style="text-align:left;"> anvil, course, education, guide </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [AnVIL Urban Genomics: Identifying population structure among feral pigeon populations](https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/) </td>
-   <td style="text-align:left;"> Lab module and lectures for exploring PCA using feral pigeon populations </td>
-   <td style="text-align:left;"> anvil, course, genomics, pca, urban-data-science </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [AnVIL WDL Workflows](https://github.com/fhdsl/AnVIL_WDLs/tree/main) </td>
    <td style="text-align:left;"> Raw WDL workflow files for use on AnVIL and other platforms </td>
    <td style="text-align:left;"> anvil, genomics, wdl, workflows </td>
@@ -65,6 +60,11 @@ This page was last updated on 2025-01-26 03:10:29.813437
    <td style="text-align:left;"> [AnVIL: Subsetting Your Data with WDL](https://hutchdatascience.org/AnVIL_Data_Subsetting/) </td>
    <td style="text-align:left;"> Tutorial for running the fastq_subsample WDL workflow on AnVIL! </td>
    <td style="text-align:left;"> anvil, course, genomics, module, wdl, wdl-workflow, workflow </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Analysis of the State of the AnVIL 2024 Poll](https://hutchdatascience.org/AnVIL_Poll_2024/) </td>
+   <td style="text-align:left;"> A summary of our findings from the 2024 State of the AnVIL user poll. </td>
+   <td style="text-align:left;"> 2024, anvil, state-of-the-anvil, user-poll, website </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Epigenetics on AnVIL: Nature vs Nurture](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/) </td>
@@ -167,7 +167,7 @@ This page was last updated on 2025-01-26 03:10:29.813437
 
 ## AnVIL {-}
 
-Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223 
+Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg 
 
 ### AnVIL "Shorts" (AnVIL in 2 minutes) {-}
 
@@ -180,40 +180,16 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> [AnVIL for Analysts](https://www.youtube.com/watch?v=3YXlF1mbsWI&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1Xcvxnm-PW0uhAWEOSpG2SOzvo3f9Zno2tnNkdzVR2ZE/edit?usp=sharing) </td>
+   <td style="text-align:left;"> [AnVIL Champions](https://www.youtube.com/watch?v=PptqHHXke54&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1FmFO5URoe_Eh1kL22fFBBM0p9crXg29xpkfhE5677_s/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [AnVIL for Data Submitters](https://www.youtube.com/watch?v=WHtuBIR7MSk&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1xps-CJbFGxoGy0vAWwSyT2nF3yuUSyNtYm8WGoVBSk8/edit?usp=sharing) </td>
+   <td style="text-align:left;"> [NIH Data Management and Sharing on AnVIL](https://www.youtube.com/watch?v=WWQkr9J3QCg&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1lKNRgjgCvHUCJ5FXXRRv4Dihy46qCHq8gKjVN2oqbIQ/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [AnVIL for Lead Investigators](https://www.youtube.com/watch?v=oww2j-11AN4&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1BGWiR7yZSyhsOGCmBdF85Bi9d1FbmWWfAo246fSpASA/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL for Instructors](https://www.youtube.com/watch?v=7qvQ8DZHC9w&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1U0ylONtIpxjVSua0w3t1-pZ0hqxBcnakNH9teVIC0Og/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Scalability on AnVIL](https://www.youtube.com/watch?v=PJBuPW3cjkw&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1mGuqXAzzIfDLllH3HoHqo0ni6uZbZvdVI9tefsgXo70/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Discover tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=kn5msvMflgM&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/15IFYSHW1CYGe_5kpXRnDMAsi-s_DQd5elKHts0J0Hqs/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Sharing on AnVIL](https://www.youtube.com/watch?v=VKDBT4lTDv8&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1IOOzvnKoTMJdRLFjCup_9FqQpumP07NwoBb9mIlD7lM/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Reproducibility on AnVIL](https://www.youtube.com/watch?v=tVh93e6TzCE&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/11pay_xsBABo8ygQitaEdXo12HNFCbh_K2tarSdskJes/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Standardization on AnVIL](https://www.youtube.com/watch?v=uHR5-o7bYGk&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1YS1OxIG-u5rZmzdcOEOlJYCXL0UeEWfIz9yXIYB5uDo/edit?usp=sharing) </td>
+   <td style="text-align:left;"> [Sequence Read Archive (SRA) data on AnVIL](https://www.youtube.com/watch?v=PghTze_qd9g&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1bp5zlltpT9HYzm6aBYY8XBoleQ7nrTQNTK34-2Xz6Tg/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Migrate your tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=wXceBLcNj4s&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
@@ -224,20 +200,44 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1KRqW9Gy5IPN-5OABHeLQ1OL-VzX2XpCiab4SMCN-_eg/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [Sequence Read Archive (SRA) data on AnVIL](https://www.youtube.com/watch?v=PghTze_qd9g&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1bp5zlltpT9HYzm6aBYY8XBoleQ7nrTQNTK34-2Xz6Tg/edit?usp=sharing) </td>
+   <td style="text-align:left;"> [Discover tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=kn5msvMflgM&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/15IFYSHW1CYGe_5kpXRnDMAsi-s_DQd5elKHts0J0Hqs/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Sharing on AnVIL](https://www.youtube.com/watch?v=VKDBT4lTDv8&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1IOOzvnKoTMJdRLFjCup_9FqQpumP07NwoBb9mIlD7lM/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL for Data Submitters](https://www.youtube.com/watch?v=WHtuBIR7MSk&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1xps-CJbFGxoGy0vAWwSyT2nF3yuUSyNtYm8WGoVBSk8/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Scalability on AnVIL](https://www.youtube.com/watch?v=PJBuPW3cjkw&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1mGuqXAzzIfDLllH3HoHqo0ni6uZbZvdVI9tefsgXo70/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Sharing on AnVIL for Instructors](https://www.youtube.com/watch?v=6bjnPtWtHhg&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1QJfkcwhCN0KzOC9zmfxhmsUI3I8UbSnDMUdyM2yJnEo/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [NIH Data Management and Sharing on AnVIL](https://www.youtube.com/watch?v=WWQkr9J3QCg&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1lKNRgjgCvHUCJ5FXXRRv4Dihy46qCHq8gKjVN2oqbIQ/edit?usp=sharing) </td>
+   <td style="text-align:left;"> [AnVIL for Analysts](https://www.youtube.com/watch?v=3YXlF1mbsWI&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1Xcvxnm-PW0uhAWEOSpG2SOzvo3f9Zno2tnNkdzVR2ZE/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [AnVIL Champions](https://www.youtube.com/watch?v=PptqHHXke54&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1FmFO5URoe_Eh1kL22fFBBM0p9crXg29xpkfhE5677_s/edit?usp=sharing) </td>
+   <td style="text-align:left;"> [Standardization on AnVIL](https://www.youtube.com/watch?v=uHR5-o7bYGk&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1YS1OxIG-u5rZmzdcOEOlJYCXL0UeEWfIz9yXIYB5uDo/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL for Lead Investigators](https://www.youtube.com/watch?v=oww2j-11AN4&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1BGWiR7yZSyhsOGCmBdF85Bi9d1FbmWWfAo246fSpASA/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL for Instructors](https://www.youtube.com/watch?v=7qvQ8DZHC9w&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1U0ylONtIpxjVSua0w3t1-pZ0hqxBcnakNH9teVIC0Og/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Reproducibility on AnVIL](https://www.youtube.com/watch?v=tVh93e6TzCE&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/11pay_xsBABo8ygQitaEdXo12HNFCbh_K2tarSdskJes/edit?usp=sharing) </td>
   </tr>
 </tbody>
 </table>
@@ -339,6 +339,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Getting Started with your Analysis in AnVIL and Running FastQC with Galaxy in AnVIL](https://www.youtube.com/watch?v=MH2GDqsbUCs&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Variant Analysis with the VRS Toolkit in AnVIL](https://www.youtube.com/watch?v=9t6rYA4Sx8E&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
