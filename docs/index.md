@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-05-18 03:29:47.128919
+This page was last updated on 2025-05-25 03:31:52.155951
 
 ## AnVIL Resources {-}
 
@@ -26,11 +26,6 @@ This page was last updated on 2025-05-18 03:29:47.128919
   </tr>
  </thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> [#DaSL Course Templates](https://jhudatascience.org/AnVIL_Book_WDL) </td>
-   <td style="text-align:left;"> Running and writing your first WDL workflow on AnVIL for absolute beginners. </td>
-   <td style="text-align:left;"> anvil, course, genomics, module, wdl, workflows </td>
-  </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Champions](https://jhudatascience.org/AnVIL_Book_Champions/) </td>
    <td style="text-align:left;"> One-stop resource for AnVIL Champions </td>
@@ -67,6 +62,11 @@ This page was last updated on 2025-05-18 03:29:47.128919
    <td style="text-align:left;"> anvil, course, genomics, module, wdl, wdl-workflow, workflow </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> [Analysis of the State of the AnVIL 2024 Poll](https://hutchdatascience.org/AnVIL_Poll_2024/) </td>
+   <td style="text-align:left;"> A summary of our findings from the 2024 State of the AnVIL user poll. </td>
+   <td style="text-align:left;"> 2024, anvil, state-of-the-anvil, user-poll, website </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> [Epigenetics on AnVIL: Nature vs Nurture](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/) </td>
    <td style="text-align:left;"> An introductory activity for epigenetics, or the idea of &quot;nature versus nurture&quot; in genetics. Learners use the UCSC Genome Browser. </td>
    <td style="text-align:left;"> anvil, course, epigenetics, human-genomes, module, ucsc-browser </td>
@@ -82,9 +82,9 @@ This page was last updated on 2025-05-18 03:29:47.128919
    <td style="text-align:left;"> anvil, course, phylogenetics, r-programming </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [NA](https://hutchdatascience.org/AnVIL_Poll_2024/) </td>
-   <td style="text-align:left;"> A summary of our findings from the 2024 State of the AnVIL user poll. </td>
-   <td style="text-align:left;"> 2024, anvil, state-of-the-anvil, user-poll, website </td>
+   <td style="text-align:left;"> [WDL Workflows](https://jhudatascience.org/AnVIL_Book_WDL) </td>
+   <td style="text-align:left;"> Running and writing your first WDL workflow on AnVIL for absolute beginners. </td>
+   <td style="text-align:left;"> anvil, course, genomics, module, wdl, workflows </td>
   </tr>
 </tbody>
 </table>
@@ -101,19 +101,9 @@ This page was last updated on 2025-05-18 03:29:47.128919
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> [#AnVIL Template](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression/) </td>
-   <td style="text-align:left;"> A set of lab modules for an introduction to differential gene expression </td>
-   <td style="text-align:left;"> anvil, cloud-computing, course, gdscn, gene-expression, genomics, module </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [AnVIL Collection](https://hutchdatascience.org/AnVIL_Collection/) </td>
    <td style="text-align:left;"> 📚 An auto-generating collection of all materials related to the AnVIL and GDSCN projects </td>
    <td style="text-align:left;"> anvil, content-library, edtech-software, gdscn, website </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [BioDIGS in the Classroom: Exploring Soil Data](http://hutchdatascience.org/GDSCN_BioDIGS_Soil/) </td>
-   <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration and visualization of the soil characteristics data using R. </td>
-   <td style="text-align:left;"> anvil, biodigs, course, gdscn, module </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGS: Antimicrobial Resistance](http://hutchdatascience.org/GDSCN_BioDIGS_AMR/) </td>
@@ -124,6 +114,11 @@ This page was last updated on 2025-05-18 03:29:47.128919
    <td style="text-align:left;"> [BioDIGS: Biosynthetic Gene Clusters](https://hutchdatascience.org/GDSCN_BioDIGS_BGC/) </td>
    <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration of biosynthetic gene clusters in the BioDIGS samples using Galaxy </td>
    <td style="text-align:left;"> biodigs, biosynthetic-gene-clusters, course, gdscn, metagenomics, module </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [BioDIGS: Exploring Soil Data](http://hutchdatascience.org/GDSCN_BioDIGS_Soil/) </td>
+   <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration and visualization of the soil characteristics data using R. </td>
+   <td style="text-align:left;"> anvil, biodigs, course, gdscn, module </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGS: Getting Started](https://hutchdatascience.org/GDSCN_BioDIGS_Book/) </td>
@@ -146,6 +141,16 @@ This page was last updated on 2025-05-18 03:29:47.128919
    <td style="text-align:left;"> anvil, course, gdscn, module, phylogenetic-analysis, sars-cov-2 </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> [Intro R with swirl](https://jhudatascience.org/GDSCN_Book_swirl/) </td>
+   <td style="text-align:left;"> Lab exercise: learn basic R programming through interactive swirl lessons </td>
+   <td style="text-align:left;"> course, gdscn, module, swirl </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Statistics for Genomics: Differential Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression/) </td>
+   <td style="text-align:left;"> A set of lab modules for an introduction to differential gene expression </td>
+   <td style="text-align:left;"> anvil, cloud-computing, course, gdscn, gene-expression, genomics, module </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> [Statistics for Genomics: PCA](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA/) </td>
    <td style="text-align:left;"> A set of lab modules for PCA analysis </td>
    <td style="text-align:left;"> anvil, course, gdscn, genomics, module, pca </td>
@@ -154,11 +159,6 @@ This page was last updated on 2025-05-18 03:29:47.128919
    <td style="text-align:left;"> [Statistics for Genomics: scRNAseq](http://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_scRNA-seq/) </td>
    <td style="text-align:left;"> A set of lab modules for single cell RNA-seq analysis </td>
    <td style="text-align:left;"> anvil, course, gdscn, module, rna-seq, scrna-seq </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [NA](https://jhudatascience.org/GDSCN_Book_swirl/) </td>
-   <td style="text-align:left;"> Lab exercise: learn basic R programming through interactive swirl lessons </td>
-   <td style="text-align:left;"> course, gdscn, module, swirl </td>
   </tr>
 </tbody>
 </table>
