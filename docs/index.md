@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-07-13 03:38:08.077471
+This page was last updated on 2025-09-14 03:22:33.149157
 
 ## AnVIL Resources {-}
 
@@ -68,7 +68,7 @@ This page was last updated on 2025-07-13 03:38:08.077471
   </tr>
   <tr>
    <td style="text-align:left;"> [Epigenetics on AnVIL: Nature vs Nurture](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/) </td>
-   <td style="text-align:left;"> An introductory activity for epigenetics, or the idea of &quot;nature versus nurture&quot; in genetics. Learners use the UCSC Genome Browser. </td>
+   <td style="text-align:left;"> An introductory activity for epigenetics, or the idea of "nature versus nurture" in genetics. Learners use the UCSC Genome Browser. </td>
    <td style="text-align:left;"> anvil, course, epigenetics, human-genomes, module, ucsc-browser </td>
   </tr>
   <tr>
