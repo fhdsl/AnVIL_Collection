@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-09-14 03:22:33.149157
+This page was last updated on 2025-09-17 22:24:23.093832
 
 ## AnVIL Resources {-}
 
@@ -34,6 +34,11 @@ This page was last updated on 2025-09-14 03:22:33.149157
   <tr>
    <td style="text-align:left;"> [AnVIL CoFests! 2024](https://jhudatascience.org/AnVIL_CoFests_2024) </td>
    <td style="text-align:left;"> Information about AnVIL Community Conference CoFest Sessions - November 2024 </td>
+   <td style="text-align:left;"> anvil, conference, workshops </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL CoFests! 2025](https://jhudatascience.org/AnVIL_CoFests_2025/) </td>
+   <td style="text-align:left;"> Information about AnVIL Community Conference CoFest Sessions - Sept 2025 </td>
    <td style="text-align:left;"> anvil, conference, workshops </td>
   </tr>
   <tr>
@@ -228,12 +233,12 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1QJfkcwhCN0KzOC9zmfxhmsUI3I8UbSnDMUdyM2yJnEo/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [AnVIL for Lead Investigators](https://www.youtube.com/watch?v=oww2j-11AN4&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1BGWiR7yZSyhsOGCmBdF85Bi9d1FbmWWfAo246fSpASA/edit?usp=sharing) </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [Migrate your tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=wXceBLcNj4s&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1KdOVMq-BzMjEBVCuWNVA4joTB7CpUu59uWy3SK1zeXY/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL for Lead Investigators](https://www.youtube.com/watch?v=oww2j-11AN4&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1BGWiR7yZSyhsOGCmBdF85Bi9d1FbmWWfAo246fSpASA/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Share tools &amp; pipelines on AnVIL](https://www.youtube.com/watch?v=XLzoIR-lGL4&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
@@ -343,6 +348,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Variant Analysis with the VRS Toolkit in AnVIL](https://www.youtube.com/watch?v=9t6rYA4Sx8E&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Galaxy Learning and Modeling (GLEAM): Machine Learning accessible and best practices](https://www.youtube.com/watch?v=tkeVZY2HJfM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
