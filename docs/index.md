@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-10-12 03:23:46.667389
+This page was last updated on 2025-10-19 03:30:14.695988
 
 ## AnVIL Resources {-}
 
@@ -352,6 +352,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Galaxy Learning and Modeling (GLEAM): Machine Learning accessible and best practices](https://www.youtube.com/watch?v=tkeVZY2HJfM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: The All of Us and AnVIL Imputation Service](https://www.youtube.com/watch?v=Ubk8EZ1Vw1I&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
