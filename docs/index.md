@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-11-17 14:37:47.531809
+This page was last updated on 2025-11-23 03:37:50.963115
 
 ## AnVIL Resources {-}
 
@@ -356,6 +356,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: The All of Us and AnVIL Imputation Service](https://www.youtube.com/watch?v=Ubk8EZ1Vw1I&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: AnVIL meets the new security requirements under the Genomic Data Sharing Policy](https://www.youtube.com/watch?v=0vP0b8ItuPM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
