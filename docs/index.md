@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-12-07 03:37:41.102979
+This page was last updated on 2025-12-14 03:38:23.547377
 
 ## AnVIL Resources {-}
 
@@ -213,12 +213,12 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1FmFO5URoe_Eh1kL22fFBBM0p9crXg29xpkfhE5677_s/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [Scalability on AnVIL](https://www.youtube.com/watch?v=PJBuPW3cjkw&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1mGuqXAzzIfDLllH3HoHqo0ni6uZbZvdVI9tefsgXo70/edit?usp=sharing) </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [AnVIL for Instructors](https://www.youtube.com/watch?v=7qvQ8DZHC9w&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1U0ylONtIpxjVSua0w3t1-pZ0hqxBcnakNH9teVIC0Og/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Scalability on AnVIL](https://www.youtube.com/watch?v=PJBuPW3cjkw&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1mGuqXAzzIfDLllH3HoHqo0ni6uZbZvdVI9tefsgXo70/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [NIH Data Management and Sharing on AnVIL](https://www.youtube.com/watch?v=WWQkr9J3QCg&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
