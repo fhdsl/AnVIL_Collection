@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2025-12-14 03:38:23.547377
+This page was last updated on 2025-12-21 03:38:28.028089
 
 ## AnVIL Resources {-}
 
@@ -44,12 +44,12 @@ This page was last updated on 2025-12-14 03:38:23.547377
   <tr>
    <td style="text-align:left;"> [AnVIL Demos](https://hutchdatascience.org/AnVIL_Demos/) </td>
    <td style="text-align:left;"> ⏱ 30-minute demos and tutorials from our live AnVIL series </td>
-   <td style="text-align:left;"> anvil, cloud, cloud-computing, course, genomics, module, research </td>
+   <td style="text-align:left;"> anvil, cloud, cloud-computing, course, genomics, module, research, scalable-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Instructor Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide) </td>
    <td style="text-align:left;"> A guide for instructors using AnVIL for workshops, lessons, or courses. </td>
-   <td style="text-align:left;"> anvil, course, education, guide </td>
+   <td style="text-align:left;"> anvil, course, education, guide, scalable-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL WDL Workflows](https://github.com/fhdsl/AnVIL_WDLs/tree/main) </td>
@@ -59,12 +59,12 @@ This page was last updated on 2025-12-14 03:38:23.547377
   <tr>
    <td style="text-align:left;"> [AnVIL: SRA Data](https://hutchdatascience.org/AnVIL_SRA_Data/) </td>
    <td style="text-align:left;"> Pull Sequence Read Archive (SRA) data into AnVIL </td>
-   <td style="text-align:left;"> anvil, course, genomics, module, ncbi-database, sequence-read-archive </td>
+   <td style="text-align:left;"> anvil, course, genomics, module, ncbi-database, scalable-computing, sequence-read-archive </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL: Subsetting Your Data with WDL](https://hutchdatascience.org/AnVIL_Data_Subsetting/) </td>
    <td style="text-align:left;"> Tutorial for running the fastq_subsample WDL workflow on AnVIL! </td>
-   <td style="text-align:left;"> anvil, course, genomics, module, wdl, wdl-workflow, workflow </td>
+   <td style="text-align:left;"> anvil, course, genomics, module, scalable-computing, wdl, wdl-workflow, workflow </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Analysis of the State of the AnVIL 2024 Poll](https://hutchdatascience.org/AnVIL_Poll_2024/) </td>
@@ -74,22 +74,22 @@ This page was last updated on 2025-12-14 03:38:23.547377
   <tr>
    <td style="text-align:left;"> [Epigenetics on AnVIL: Nature vs Nurture](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/) </td>
    <td style="text-align:left;"> An introductory activity for epigenetics, or the idea of "nature versus nurture" in genetics. Learners use the UCSC Genome Browser. </td>
-   <td style="text-align:left;"> anvil, course, epigenetics, human-genomes, module, ucsc-browser </td>
+   <td style="text-align:left;"> anvil, course, epigenetics, human-genomes, module, scalable-computing, ucsc-browser </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Getting Started on AnVIL](https://jhudatascience.org/AnVIL_Book_Getting_Started) </td>
    <td style="text-align:left;"> A guide for getting started using AnVIL </td>
-   <td style="text-align:left;"> anvil, cloud-computing, course, genomics, guide </td>
+   <td style="text-align:left;"> anvil, cloud-computing, course, genomics, guide, scalable-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Molecular Phylogenetic Techniques](https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/) </td>
    <td style="text-align:left;"> A semester-long course on the basics of molecular phylogenetic techniques </td>
-   <td style="text-align:left;"> anvil, course, phylogenetics, r-programming </td>
+   <td style="text-align:left;"> anvil, course, phylogenetics, r-programming, scalable-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [WDL Workflows](https://jhudatascience.org/AnVIL_Book_WDL) </td>
    <td style="text-align:left;"> Running and writing your first WDL workflow on AnVIL for absolute beginners. </td>
-   <td style="text-align:left;"> anvil, course, genomics, module, wdl, workflows </td>
+   <td style="text-align:left;"> anvil, course, genomics, module, scalable-computing, wdl, workflows </td>
   </tr>
 </tbody>
 </table>
@@ -113,57 +113,57 @@ This page was last updated on 2025-12-14 03:38:23.547377
   <tr>
    <td style="text-align:left;"> [BioDIGS: Antimicrobial Resistance](http://hutchdatascience.org/GDSCN_BioDIGS_AMR/) </td>
    <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through an investigation of antimicrobial resistance in the BioDIGS samples using Galaxy. </td>
-   <td style="text-align:left;"> biodigs, course, gdscn, module </td>
+   <td style="text-align:left;"> biodigs, course, data4all, gdscn, module </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGS: Biosynthetic Gene Clusters](https://hutchdatascience.org/GDSCN_BioDIGS_BGC/) </td>
    <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration of biosynthetic gene clusters in the BioDIGS samples using Galaxy </td>
-   <td style="text-align:left;"> biodigs, biosynthetic-gene-clusters, course, gdscn, metagenomics, module </td>
+   <td style="text-align:left;"> biodigs, biosynthetic-gene-clusters, course, data4all, gdscn, metagenomics, module </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGS: Exploring Soil Data](http://hutchdatascience.org/GDSCN_BioDIGS_Soil/) </td>
    <td style="text-align:left;"> This is a BioDIGS in the Classroom companion guide for the BioDIGS project. This particular activity guides students through exploration and visualization of the soil characteristics data using R. </td>
-   <td style="text-align:left;"> anvil, biodigs, course, gdscn, module </td>
+   <td style="text-align:left;"> anvil, biodigs, course, data4all, gdscn, module </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGS: Getting Started](https://hutchdatascience.org/GDSCN_BioDIGS_Book/) </td>
    <td style="text-align:left;"> Getting started guide for using BioDIGS data in the classroom. Includes general information about BioDIGS. </td>
-   <td style="text-align:left;"> anvil, biodigs, course, gdscn, r-programming, tutorial </td>
+   <td style="text-align:left;"> anvil, biodigs, course, data4all, gdscn, r-programming, tutorial </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [BioDIGSData](https://github.com/fhdsl/BioDIGSData) </td>
    <td style="text-align:left;"> Data Package for BioDIGS Project </td>
-   <td style="text-align:left;"> biodigs, edtech-software, gdscn </td>
+   <td style="text-align:left;"> biodigs, data4all, edtech-software, gdscn </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [GDSCN Book: SARS with Galaxy on AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/) </td>
    <td style="text-align:left;"> Lab module and lectures for variant detection in SARS-CoV-2 using Galaxy </td>
-   <td style="text-align:left;"> anvil, course, gdscn, genomics, module, sars-cov-2, variant-detection </td>
+   <td style="text-align:left;"> anvil, course, gdscn, genomics, module, sars-cov-2, scalable-computing, variant-detection </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [GDSCN Book: SARS with RStudio on AnVIL](https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/) </td>
    <td style="text-align:left;"> Lab module and lectures for identifying phylogenetic history of SARS variants using R </td>
-   <td style="text-align:left;"> anvil, course, gdscn, module, phylogenetic-analysis, sars-cov-2 </td>
+   <td style="text-align:left;"> anvil, course, gdscn, module, phylogenetic-analysis, sars-cov-2, scalable-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Intro R with swirl](https://jhudatascience.org/GDSCN_Book_swirl/) </td>
    <td style="text-align:left;"> Lab exercise: learn basic R programming through interactive swirl lessons </td>
-   <td style="text-align:left;"> course, gdscn, module, swirl </td>
+   <td style="text-align:left;"> course, data-science-programming, gdscn, module, swirl </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Statistics for Genomics: Differential Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression/) </td>
    <td style="text-align:left;"> A set of lab modules for an introduction to differential gene expression </td>
-   <td style="text-align:left;"> anvil, cloud-computing, course, gdscn, gene-expression, genomics, module </td>
+   <td style="text-align:left;"> anvil, cloud-computing, course, gdscn, gene-expression, genomics, module, scalable-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Statistics for Genomics: PCA](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA/) </td>
    <td style="text-align:left;"> A set of lab modules for PCA analysis </td>
-   <td style="text-align:left;"> anvil, course, gdscn, genomics, module, pca </td>
+   <td style="text-align:left;"> anvil, course, gdscn, genomics, module, pca, scalable-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Statistics for Genomics: scRNAseq](http://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_scRNA-seq/) </td>
    <td style="text-align:left;"> A set of lab modules for single cell RNA-seq analysis </td>
-   <td style="text-align:left;"> anvil, course, gdscn, module, rna-seq, scrna-seq </td>
+   <td style="text-align:left;"> anvil, course, gdscn, module, rna-seq, scalable-computing, scrna-seq </td>
   </tr>
 </tbody>
 </table>
@@ -360,6 +360,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: AnVIL meets the new security requirements under the Genomic Data Sharing Policy](https://www.youtube.com/watch?v=0vP0b8ItuPM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: AnVIL Data Explorer: Building and Exporting Dataset Cohorts](https://www.youtube.com/watch?v=J2kIZLG5Xnc&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
