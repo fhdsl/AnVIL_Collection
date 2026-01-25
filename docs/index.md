@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2026-01-18 03:40:24.348212
+This page was last updated on 2026-01-25 03:43:09.041587
 
 ## AnVIL Resources {-}
 
@@ -364,6 +364,10 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: AnVIL Data Explorer: Building and Exporting Dataset Cohorts](https://www.youtube.com/watch?v=J2kIZLG5Xnc&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Supporting Self-Service Data Ingestion for AnVIL](https://www.youtube.com/watch?v=TJe0K_XOkK0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> N/A </td>
   </tr>
 </tbody>
