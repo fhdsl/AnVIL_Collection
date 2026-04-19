@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2026-04-12 04:08:40.06208
+This page was last updated on 2026-04-19 04:10:23.186774
 
 ## AnVIL Resources {-}
 
@@ -70,6 +70,11 @@ This page was last updated on 2026-04-12 04:08:40.06208
    <td style="text-align:left;"> [Analysis of the State of the AnVIL 2024 Poll](https://hutchdatascience.org/AnVIL_Poll_2024/) </td>
    <td style="text-align:left;"> A summary of our findings from the 2024 State of the AnVIL user poll. </td>
    <td style="text-align:left;"> 2024, anvil, state-of-the-anvil, user-poll, website </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Data on AnVIL](http://hutchdatascience.org/Data_on_AnVIL/) </td>
+   <td style="text-align:left;"> This is a guide to all the ways to access, upload, and use data on NHGRI's AnVIL platform. </td>
+   <td style="text-align:left;"> anvil, scalable-computing </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [Epigenetics on AnVIL: Nature vs Nurture](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/) </td>
