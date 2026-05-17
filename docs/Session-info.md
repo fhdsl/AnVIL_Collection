@@ -15,7 +15,7 @@ Below is software version information used to render this collection.
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       Etc/UTC
-##  date     2026-05-10
+##  date     2026-05-17
 ##  pandoc   3.1.1 @ /usr/local/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
