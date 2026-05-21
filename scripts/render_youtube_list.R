@@ -20,7 +20,7 @@ make_youtube_table <- function(infile) {
       
       df <- df %>% 
         filter(status.privacyStatus == "public") %>% # Don't print unlisted videos
-        select(snippet.title, snippet.publishedAt, snippet.description, snippet.playlistId, snippet.resourceId.videoId)
+        select(snippet.title, contentDetails.videoPublishedAt, snippet.description, snippet.playlistId, snippet.resourceId.videoId)
       
       # Create actual url of video
       df <- df %>% 
@@ -28,7 +28,7 @@ make_youtube_table <- function(infile) {
       
       # Create date posted
       df <- df %>% 
-        mutate(Date = format(snippet.publishedAt, "%Y-%m-%d"))
+        mutate(Date = format(contentDetails.videoPublishedAt, "%Y-%m-%d"))
         
       # Extract slides link
       df$`Google Slides` <-
