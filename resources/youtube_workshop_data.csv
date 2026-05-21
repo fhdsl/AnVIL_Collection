@@ -1,0 +1,17 @@
+kind,etag,id,snippet.publishedAt,snippet.channelId,snippet.title,snippet.description,snippet.channelTitle,snippet.playlistId,snippet.position,snippet.videoOwnerChannelTitle,snippet.videoOwnerChannelId,snippet.thumbnails.default.url,snippet.thumbnails.default.width,snippet.thumbnails.default.height,snippet.thumbnails.medium.url,snippet.thumbnails.medium.width,snippet.thumbnails.medium.height,snippet.thumbnails.high.url,snippet.thumbnails.high.width,snippet.thumbnails.high.height,snippet.thumbnails.standard.url,snippet.thumbnails.standard.width,snippet.thumbnails.standard.height,snippet.thumbnails.maxres.url,snippet.thumbnails.maxres.width,snippet.thumbnails.maxres.height,snippet.resourceId.kind,snippet.resourceId.videoId,contentDetails.videoId,contentDetails.videoPublishedAt,status.privacyStatus
+youtube#playlistItem,1Ae8br6zEKmMWuGFpIm_ybZaph4,UEw2YVlKXzB6SjR1QmJMRC1ZZjVRT2NRTU1WWV9YdWZ0WS41NkI0NEY2RDEwNTU3Q0M2,2026-05-21T17:33:56Z,UCBbHCj7kUogAMFyBAzzzfUw,AnVIL Community Conference: AnVIL 101 CoFest Workshop,"This is a recorded version of our AnVIL 101 Workshop from the 2025 AnVIL Community Conference. 
+
+👉🏻 Please note that you will need to use your own billing project to follow along.
+
+Materials
+Slides: https://docs.google.com/presentation/d/16Xd-0XPB0yCH9-v-OuOMGf4pDxR0rk0MLFhMQPuDRc0/edit?usp=sharing
+Agenda: https://docs.google.com/document/d/1xnnZTpxBy3WCqIBHTG6QtFNWnBa42RZxCeyxNGibE6o/edit?usp=sharing
+
+Chapters
+0:00 Intro
+2:27 What is AnVIL?
+10:35 Data on AnVIL
+13:16 ACTIVITY: Data from a public repository (SRA)
+23:27 ACTIVITY: Buckets and persistent disks
+33:26 ACTIVITY: Bring your own data & analysis
+46:03 Wrap up",AnVIL Project,PL6aYJ_0zJ4uBbLD-Yf5QOcQMMVY_XuftY,0,AnVIL Project,UCBbHCj7kUogAMFyBAzzzfUw,https://i.ytimg.com/vi/fIWHxrPEyFo/default.jpg,120,90,https://i.ytimg.com/vi/fIWHxrPEyFo/mqdefault.jpg,320,180,https://i.ytimg.com/vi/fIWHxrPEyFo/hqdefault.jpg,480,360,https://i.ytimg.com/vi/fIWHxrPEyFo/sddefault.jpg,640,480,https://i.ytimg.com/vi/fIWHxrPEyFo/maxresdefault.jpg,1280,720,youtube#video,fIWHxrPEyFo,fIWHxrPEyFo,2025-09-10T14:10:35Z,public
