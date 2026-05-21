@@ -79,7 +79,7 @@ knitr::kable(make_youtube_table("resources/youtube_anvil_wdl_data.csv"), format 
 
 ## GDSCN {-}
 
-Check out the GDSCN YouTube channel: https://www.youtube.com/@genomicdatasciencecommunit2514
+Check out the GDSCN YouTube channel: https://www.youtube.com/@genomicDScommunity
 
 ### SARS with Galaxy on AnVIL {-}
 
