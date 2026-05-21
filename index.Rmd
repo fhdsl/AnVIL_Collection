@@ -61,6 +61,14 @@ source("scripts/render_youtube_list.R")
 knitr::kable(make_youtube_table("resources/youtube_demos_data.csv"), format = "html")
 ```
 
+### AnVIL Workshops {-}
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_youtube_list.R")
+
+knitr::kable(make_youtube_table("resources/youtube_workshop_data.csv"), format = "html")
+```
+
 ### AnVIL WDL {-}
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
@@ -71,7 +79,7 @@ knitr::kable(make_youtube_table("resources/youtube_anvil_wdl_data.csv"), format 
 
 ## GDSCN {-}
 
-Check out the GDSCN YouTube channel: https://www.youtube.com/@genomicdatasciencecommunit2514
+Check out the GDSCN YouTube channel: https://www.youtube.com/@genomicDScommunity
 
 ### SARS with Galaxy on AnVIL {-}
 

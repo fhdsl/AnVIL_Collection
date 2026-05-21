@@ -20,28 +20,33 @@ make_youtube_table <- function(infile) {
       
       df <- df %>% 
         filter(status.privacyStatus == "public") %>% # Don't print unlisted videos
-        select(snippet.title, snippet.description, snippet.playlistId, snippet.resourceId.videoId)
+        select(snippet.title, contentDetails.videoPublishedAt, snippet.description, snippet.playlistId, snippet.resourceId.videoId)
       
       # Create actual url of video
       df <- df %>% 
         mutate(`Video` = paste0("[",snippet.title,"](https://www.youtube.com/watch?v=", snippet.resourceId.videoId, "&list=", snippet.playlistId, ")"))
+      
+      # Create date posted
+      df <- df %>% 
+        mutate(Date = format(contentDetails.videoPublishedAt, "%Y-%m-%d"))
         
       # Extract slides link
-      df$`Google Slides` <-
+      df$Slides <-
         df$snippet.description %>% 
-        str_extract_all("https://docs.google.com/presentation/d/.*") %>%
+        str_extract_all("https://docs.google.com/presentation/d/.*|https://drive.google.com/file/d/.*") %>%
         str_remove_all("\\.$") # Remove trailing period
       
       # Create Google Slides link w/ markdown magic
       df <- df %>% 
-        mutate(`Google Slides` = paste0("[Go to slides](", `Google Slides`, ")")) %>% 
-        select(Video, `Google Slides`) %>% 
-        mutate(`Google Slides` = case_when(`Google Slides` == "[Go to slides](character(0))" ~ "N/A", # Often, there are no slides on the video description
-                                           `Google Slides` == "[Go to slides](NA)" ~ "N/A",
-                                           TRUE ~ `Google Slides`))
+        mutate(Slides = paste0("[Go to slides](", Slides, ")")) %>% 
+        select(Video, Date, Slides) %>% 
+        mutate(Slides = case_when(Slides == "[Go to slides](character(0))" ~ "N/A", # Often, there are no slides on the video description
+                                  Slides == "[Go to slides](NA)" ~ "N/A",
+                                  TRUE ~ Slides))
       
       # Remove duplicates if necessary
-      df <- distinct(df)
+      df <- distinct(df) %>% 
+        arrange(desc(Date))
       
       return(df)
     },
