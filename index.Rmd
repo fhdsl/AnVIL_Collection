@@ -35,7 +35,7 @@ knitr::kable(make_collection_table(make_gsdcn_only_table = TRUE), format = "html
 
 ## AnVIL {-}
 
-Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilproject1223 
+Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg 
 
 ### AnVIL "Shorts" (AnVIL in 2 minutes) {-}
 
