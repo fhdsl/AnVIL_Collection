@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2026-05-21 18:30:31.533117
+This page was last updated on 2026-05-22 15:36:47.206486
 
 ## AnVIL Resources {-}
 
@@ -179,6 +179,188 @@ This page was last updated on 2026-05-21 18:30:31.533117
 
 Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg 
 
+### AnVIL Monthly Demos  {-}
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Video </th>
+   <th style="text-align:left;"> Date </th>
+   <th style="text-align:left;"> Slides </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Data Validation Workflows in AnVIL](https://www.youtube.com/watch?v=1TKoml78SC0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2026-05-20 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1tjk9nCOhuDimK1s4vt1eWDqrE2Xr5bCF_0yu-V6r4S4) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Genomic Analysis using seqr in AnVIL](https://www.youtube.com/watch?v=n7eNLDz1MDo&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2026-02-18 </td>
+   <td style="text-align:left;"> [Go to slides](https://drive.google.com/file/d/1fVREqUmb6BlFZ_6jZaV9NZeZ7vPesHak/view?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Supporting Self-Service Data Ingestion for AnVIL](https://www.youtube.com/watch?v=TJe0K_XOkK0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2026-01-22 </td>
+   <td style="text-align:left;"> [Go to slides](https://drive.google.com/file/d/1NhbrcYRTCNUjSYmQ7c2jN-r8U3LzYKBf/view?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: AnVIL Data Explorer: Building and Exporting Dataset Cohorts](https://www.youtube.com/watch?v=J2kIZLG5Xnc&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2025-12-17 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: AnVIL meets the new security requirements under the Genomic Data Sharing Policy](https://www.youtube.com/watch?v=0vP0b8ItuPM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2025-11-19 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: The All of Us and AnVIL Imputation Service](https://www.youtube.com/watch?v=Ubk8EZ1Vw1I&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2025-10-15 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Galaxy Learning and Modeling (GLEAM): Machine Learning accessible and best practices](https://www.youtube.com/watch?v=tkeVZY2HJfM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2025-09-17 </td>
+   <td style="text-align:left;"> [Go to slides](https://drive.google.com/file/d/1YlERxRvdONMCw9F_hEducz1b_dAKl4fV/view?usp=drive_link) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Variant Analysis with the VRS Toolkit in AnVIL](https://www.youtube.com/watch?v=9t6rYA4Sx8E&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2025-03-19 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Getting Started with your Analysis in AnVIL and Running FastQC with Galaxy in AnVIL](https://www.youtube.com/watch?v=MH2GDqsbUCs&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2025-01-16 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1zre8qeE9x56RSjusIF3XcuHoxqGf30nfdvjwCoEMd8o/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Sharing Data in the AnVIL](https://www.youtube.com/watch?v=nIqQsse1aYM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2024-11-01 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: QC Analysis Pipeline from CCDG on AnVIL](https://www.youtube.com/watch?v=IB3c-6UpocI&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2024-06-28 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Single Cell with Bioconductor](https://www.youtube.com/watch?v=44X-m-JLPTA&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2024-06-27 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/18J1x5rkWJisiv3EOMVZOma52XWxAVKANTg0Q2FXbOWU/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Collecting and subsetting SRA data](https://www.youtube.com/watch?v=yAwQKft1LS8&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2024-06-27 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1pUbAPYCm5w_W9X-itUOV-4JbLlDOWgNjUBnRaO_bFXE/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: DUOS - a tour of AnVIL's innovative data sharing platform](https://www.youtube.com/watch?v=BVmOtH04qhI&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-11-06 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Epigenetics in AnVIL](https://www.youtube.com/watch?v=loApm3jUkG0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-09-21 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1kSnuHyF36s6FDTLsAPkmnupyp1RcODidNiYYpijjWKg/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Running Galaxy in AnVIL](https://www.youtube.com/watch?v=_uT0IWL1wso&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-08-31 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1sKbNoOEKnhQUVGY7jCEeiSWkGfkJfNF6pP7uCUhTNGo/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Interactive Genomic Data Science with Bioconductor](https://www.youtube.com/watch?v=k2DfF3tk6M4&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-08-31 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: How to combine data across workspaces](https://www.youtube.com/watch?v=1vz4kupdkms&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-06-23 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/19A1h1t_hy14sb1W80LYmACRTT6Hl-azKuKxEBWxjtRc/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: WARP Pipelines in AnVIL/Terra](https://www.youtube.com/watch?v=omaVZgU4aJ0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-05-19 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Using the Human Pangenome on AnVIL](https://www.youtube.com/watch?v=0PRCFkLZOeo&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-04-27 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1jaOsP5qVrdjjBn7TvJAUBx0iPuQV4z-t/edit?usp=sharing&amp;ouid=106713518483096877389&amp;rtpof=true&amp;sd=true) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Introduction to AnVIL](https://www.youtube.com/watch?v=fcMUU7NrEeM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-03-23 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1urVRJVcwqTrrVK1Da-b33B-4Owv_m_iSPFraxMED22Q/edit?usp=sharing) </td>
+  </tr>
+</tbody>
+</table>
+
+### AnVIL Workshops {-}
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Video </th>
+   <th style="text-align:left;"> Date </th>
+   <th style="text-align:left;"> Slides </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Community Conference: AnVIL 101 CoFest Workshop](https://www.youtube.com/watch?v=fIWHxrPEyFo&amp;list=PL6aYJ_0zJ4uBbLD-Yf5QOcQMMVY_XuftY) </td>
+   <td style="text-align:left;"> 2025-09-10 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/16Xd-0XPB0yCH9-v-OuOMGf4pDxR0rk0MLFhMQPuDRc0/edit?usp=sharing) </td>
+  </tr>
+</tbody>
+</table>
+
+### AnVIL Getting Started  {-}
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Video </th>
+   <th style="text-align:left;"> Date </th>
+   <th style="text-align:left;"> Slides </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> [Starting Galaxy on the AnVIL Platform](https://www.youtube.com/watch?v=9TEVu7QobOo&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> 2024-08-27 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1yYCg4cPVBMMDghT17B4XzROieqyMH99Ex9nMm_Scm9Q/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Welcome to AnVIL! Portal homepage tour edition! #anvilproject #bioinformatics #cloudcomputing](https://www.youtube.com/watch?v=pYwvupWnHwk&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> 2023-11-30 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Welcome to AnVIL! Getting Help edition! #anvilproject #bioinformatics #cloudcomputing](https://www.youtube.com/watch?v=0FrWmzA5Jbk&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> 2023-11-30 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Why AnVIL?](https://www.youtube.com/watch?v=XC5qzj-yZb8&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> 2021-08-27 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1_CXM3bVvauH6eahRg94zjC6fc6NGDrrnCt33jAABPRk/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Starting Jupyter on the AnVIL Platform](https://www.youtube.com/watch?v=T5xCxFHGpPE&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> 2021-08-26 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1GYUP874Qd7K3S0Ls6iWY_M4jywpRb53qw0f78OBCFwk/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Starting RStudio on the AnVIL Platform](https://www.youtube.com/watch?v=cdkNbdhxUPc&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
+   <td style="text-align:left;"> 2021-08-26 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw/edit?usp=sharing) </td>
+  </tr>
+</tbody>
+</table>
+
 ### AnVIL "Shorts" (AnVIL in 2 minutes) {-}
 
 <table>
@@ -264,188 +446,6 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
    <td style="text-align:left;"> [AnVIL for Lead Investigators](https://www.youtube.com/watch?v=oww2j-11AN4&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> 2022-05-03 </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1BGWiR7yZSyhsOGCmBdF85Bi9d1FbmWWfAo246fSpASA/edit?usp=sharing) </td>
-  </tr>
-</tbody>
-</table>
-
-### AnVIL Getting Started  {-}
-
-<table>
- <thead>
-  <tr>
-   <th style="text-align:left;"> Video </th>
-   <th style="text-align:left;"> Date </th>
-   <th style="text-align:left;"> Slides </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> [Starting Galaxy on the AnVIL Platform](https://www.youtube.com/watch?v=9TEVu7QobOo&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;"> 2024-08-27 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1yYCg4cPVBMMDghT17B4XzROieqyMH99Ex9nMm_Scm9Q/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Welcome to AnVIL! Portal homepage tour edition! #anvilproject #bioinformatics #cloudcomputing](https://www.youtube.com/watch?v=pYwvupWnHwk&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;"> 2023-11-30 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Welcome to AnVIL! Getting Help edition! #anvilproject #bioinformatics #cloudcomputing](https://www.youtube.com/watch?v=0FrWmzA5Jbk&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;"> 2023-11-30 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Why AnVIL?](https://www.youtube.com/watch?v=XC5qzj-yZb8&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;"> 2021-08-27 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1_CXM3bVvauH6eahRg94zjC6fc6NGDrrnCt33jAABPRk/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Starting Jupyter on the AnVIL Platform](https://www.youtube.com/watch?v=T5xCxFHGpPE&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;"> 2021-08-26 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1GYUP874Qd7K3S0Ls6iWY_M4jywpRb53qw0f78OBCFwk/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [Starting RStudio on the AnVIL Platform](https://www.youtube.com/watch?v=cdkNbdhxUPc&amp;list=PL6aYJ_0zJ4uD6SSVIuES9b79-00qvecHb) </td>
-   <td style="text-align:left;"> 2021-08-26 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1eypYLLqD11-NwHLs4adGpcuSB07dYEJfAaALSMvgzqw/edit?usp=sharing) </td>
-  </tr>
-</tbody>
-</table>
-
-### AnVIL Monthly Demos  {-}
-
-<table>
- <thead>
-  <tr>
-   <th style="text-align:left;"> Video </th>
-   <th style="text-align:left;"> Date </th>
-   <th style="text-align:left;"> Slides </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Data Validation Workflows in AnVIL](https://www.youtube.com/watch?v=1TKoml78SC0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2026-05-20 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1tjk9nCOhuDimK1s4vt1eWDqrE2Xr5bCF_0yu-V6r4S4) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Genomic Analysis using seqr in AnVIL](https://www.youtube.com/watch?v=n7eNLDz1MDo&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2026-02-18 </td>
-   <td style="text-align:left;"> [Go to slides](https://drive.google.com/file/d/1fVREqUmb6BlFZ_6jZaV9NZeZ7vPesHak/view?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Supporting Self-Service Data Ingestion for AnVIL](https://www.youtube.com/watch?v=TJe0K_XOkK0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2026-01-22 </td>
-   <td style="text-align:left;"> [Go to slides](https://drive.google.com/file/d/1NhbrcYRTCNUjSYmQ7c2jN-r8U3LzYKBf/view?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: AnVIL Data Explorer: Building and Exporting Dataset Cohorts](https://www.youtube.com/watch?v=J2kIZLG5Xnc&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2025-12-17 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: AnVIL meets the new security requirements under the Genomic Data Sharing Policy](https://www.youtube.com/watch?v=0vP0b8ItuPM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2025-11-19 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: The All of Us and AnVIL Imputation Service](https://www.youtube.com/watch?v=Ubk8EZ1Vw1I&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2025-10-15 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Galaxy Learning and Modeling (GLEAM): Machine Learning accessible and best practices](https://www.youtube.com/watch?v=tkeVZY2HJfM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2025-09-17 </td>
-   <td style="text-align:left;"> [Go to slides](https://drive.google.com/file/d/1YlERxRvdONMCw9F_hEducz1b_dAKl4fV/view?usp=drive_link) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Variant Analysis with the VRS Toolkit in AnVIL](https://www.youtube.com/watch?v=9t6rYA4Sx8E&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2025-03-19 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Getting Started with your Analysis in AnVIL and Running FastQC with Galaxy in AnVIL](https://www.youtube.com/watch?v=MH2GDqsbUCs&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2025-01-16 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Sharing Data in the AnVIL](https://www.youtube.com/watch?v=nIqQsse1aYM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2024-11-01 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: QC Analysis Pipeline from CCDG on AnVIL](https://www.youtube.com/watch?v=IB3c-6UpocI&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2024-06-28 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Single Cell with Bioconductor](https://www.youtube.com/watch?v=44X-m-JLPTA&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2024-06-27 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Collecting and subsetting SRA data](https://www.youtube.com/watch?v=yAwQKft1LS8&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2024-06-27 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: DUOS - a tour of AnVIL's innovative data sharing platform](https://www.youtube.com/watch?v=BVmOtH04qhI&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-11-06 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Epigenetics in AnVIL](https://www.youtube.com/watch?v=loApm3jUkG0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-09-21 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1kSnuHyF36s6FDTLsAPkmnupyp1RcODidNiYYpijjWKg/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Running Galaxy in AnVIL](https://www.youtube.com/watch?v=_uT0IWL1wso&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-08-31 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1sKbNoOEKnhQUVGY7jCEeiSWkGfkJfNF6pP7uCUhTNGo/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Interactive Genomic Data Science with Bioconductor](https://www.youtube.com/watch?v=k2DfF3tk6M4&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-08-31 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: How to combine data across workspaces](https://www.youtube.com/watch?v=1vz4kupdkms&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-06-23 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/19A1h1t_hy14sb1W80LYmACRTT6Hl-azKuKxEBWxjtRc/edit?usp=sharing) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: WARP Pipelines in AnVIL/Terra](https://www.youtube.com/watch?v=omaVZgU4aJ0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-05-19 </td>
-   <td style="text-align:left;"> N/A </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Using the Human Pangenome on AnVIL](https://www.youtube.com/watch?v=0PRCFkLZOeo&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-04-27 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1jaOsP5qVrdjjBn7TvJAUBx0iPuQV4z-t/edit?usp=sharing&amp;ouid=106713518483096877389&amp;rtpof=true&amp;sd=true) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Introduction to AnVIL](https://www.youtube.com/watch?v=fcMUU7NrEeM&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-03-23 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1urVRJVcwqTrrVK1Da-b33B-4Owv_m_iSPFraxMED22Q/edit?usp=sharing) </td>
-  </tr>
-</tbody>
-</table>
-
-### AnVIL Workshops {-}
-
-<table>
- <thead>
-  <tr>
-   <th style="text-align:left;"> Video </th>
-   <th style="text-align:left;"> Date </th>
-   <th style="text-align:left;"> Slides </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> [AnVIL Community Conference: AnVIL 101 CoFest Workshop](https://www.youtube.com/watch?v=fIWHxrPEyFo&amp;list=PL6aYJ_0zJ4uBbLD-Yf5QOcQMMVY_XuftY) </td>
-   <td style="text-align:left;"> 2025-09-10 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/16Xd-0XPB0yCH9-v-OuOMGf4pDxR0rk0MLFhMQPuDRc0/edit?usp=sharing) </td>
   </tr>
 </tbody>
 </table>
