@@ -37,22 +37,6 @@ knitr::kable(make_collection_table(make_gsdcn_only_table = TRUE), format = "html
 
 Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg 
 
-### AnVIL "Shorts" (AnVIL in 2 minutes) {-}
-
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-source("scripts/render_youtube_list.R")
-
-knitr::kable(make_youtube_table("resources/youtube_shorts_data.csv"), format = "html")
-```
-
-### AnVIL Getting Started  {-}
-
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-source("scripts/render_youtube_list.R")
-
-knitr::kable(make_youtube_table("resources/youtube_getting_started_data.csv"), format = "html")
-```
-
 ### AnVIL Monthly Demos  {-}
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
@@ -67,6 +51,22 @@ knitr::kable(make_youtube_table("resources/youtube_demos_data.csv"), format = "h
 source("scripts/render_youtube_list.R")
 
 knitr::kable(make_youtube_table("resources/youtube_workshop_data.csv"), format = "html")
+```
+
+### AnVIL Getting Started  {-}
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_youtube_list.R")
+
+knitr::kable(make_youtube_table("resources/youtube_getting_started_data.csv"), format = "html")
+```
+
+### AnVIL "Shorts" (AnVIL in 2 minutes) {-}
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_youtube_list.R")
+
+knitr::kable(make_youtube_table("resources/youtube_shorts_data.csv"), format = "html")
 ```
 
 ### AnVIL WDL {-}
