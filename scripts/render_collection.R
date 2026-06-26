@@ -1,7 +1,7 @@
 library(dplyr)
 library(stringr)
 
-make_collection_table <- function(infile = "resources/collection.tsv", make_gsdcn_only_table = FALSE, exclude_gdscn_from_table = FALSE) {
+make_collection_table <- function(infile = "resources/collection.tsv", make_gsdcn_only_table = FALSE, exclude_gdscn_from_table = FALSE, kable = TRUE) {
   # Read in repos found by GHA
   df <- tryCatch(
     # Check for the file created by GHA
@@ -27,12 +27,23 @@ make_collection_table <- function(infile = "resources/collection.tsv", make_gsdc
       }
       
       # Concatenate columns to create links
+      if(kable){
+        df <-
+          df %>%
+          mutate(`Book Name` = paste0("[", book_title, "](", homepage, ")"))
+      } else {
+        # Alternative is HTML styling of links
+        df <-
+          df %>%
+          mutate(`Book Name` = paste0('<a href="', homepage, '">', name, '</a>'))
+      }
+      
+      # Rename and clip unnecessary columns
       df <-
-        df %>%
+        df %>% 
         dplyr::arrange(book_title) %>% 
-        mutate(`Book Name` = paste0("[", book_title, "](", homepage, ")")) %>%
         rename(Description = description, Topics = topics) %>%
-        select(`Book Name`, Description, Topics)
+        select(`Book Name`, Description, Topics) 
       
       # Remove duplicates if necessary
       df <- distinct(df)
