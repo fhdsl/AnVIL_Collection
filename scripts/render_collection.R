@@ -1,13 +1,13 @@
 library(dplyr)
 library(stringr)
 
-make_collection_table <- function(make_gsdcn_only_table = FALSE, exclude_gdscn_from_table = FALSE) {
+make_collection_table <- function(infile = "resources/collection.tsv", make_gsdcn_only_table = FALSE, exclude_gdscn_from_table = FALSE) {
   # Read in repos found by GHA
   df <- tryCatch(
     # Check for the file created by GHA
     expr = {
       df <-
-        readr::read_tsv("resources/collection.tsv")
+        readr::read_tsv(infile)
       
       # Do some cleaning of strings
       df$name <-
