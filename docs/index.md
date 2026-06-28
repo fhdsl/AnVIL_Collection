@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2026-06-21 04:39:19.51761
+This page was last updated on 2026-06-28 04:38:17.864861
 
 ## AnVIL Resources {-}
 
@@ -190,6 +190,11 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Polygenic Risk Score (PRS) Analysis in AnVIL](https://www.youtube.com/watch?v=r6xeUr3UUo4&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2026-06-26 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: Data Validation Workflows in AnVIL](https://www.youtube.com/watch?v=1TKoml78SC0&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> 2026-05-20 </td>
