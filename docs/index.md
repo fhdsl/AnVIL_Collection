@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2026-07-12 06:10:55.105306
+This page was last updated on 2026-07-19 06:05:28.969919
 
 ## AnVIL Resources {-}
 
@@ -423,14 +423,14 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1xps-CJbFGxoGy0vAWwSyT2nF3yuUSyNtYm8WGoVBSk8/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [Reproducibility on AnVIL](https://www.youtube.com/watch?v=tVh93e6TzCE&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
-   <td style="text-align:left;"> 2022-05-03 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/11pay_xsBABo8ygQitaEdXo12HNFCbh_K2tarSdskJes/edit?usp=sharing) </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [Scalability on AnVIL](https://www.youtube.com/watch?v=PJBuPW3cjkw&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
    <td style="text-align:left;"> 2022-05-03 </td>
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1mGuqXAzzIfDLllH3HoHqo0ni6uZbZvdVI9tefsgXo70/edit?usp=sharing) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [Reproducibility on AnVIL](https://www.youtube.com/watch?v=tVh93e6TzCE&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
+   <td style="text-align:left;"> 2022-05-03 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/11pay_xsBABo8ygQitaEdXo12HNFCbh_K2tarSdskJes/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL for Instructors](https://www.youtube.com/watch?v=7qvQ8DZHC9w&amp;list=PL6aYJ_0zJ4uCABkMngSYjPo_3c-nUUmio) </td>
