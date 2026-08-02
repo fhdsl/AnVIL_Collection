@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2026-07-26 06:12:38.997438
+This page was last updated on 2026-08-02 06:08:52.190906
 
 ## AnVIL Resources {-}
 
@@ -314,6 +314,11 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> [AnVIL101 Virtual Workshop - July 2026](https://www.youtube.com/watch?v=LKoOEpA8NMk&amp;list=PL6aYJ_0zJ4uBbLD-Yf5QOcQMMVY_XuftY) </td>
+   <td style="text-align:left;"> 2026-07-30 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Community Conference: AnVIL 101 CoFest Workshop](https://www.youtube.com/watch?v=fIWHxrPEyFo&amp;list=PL6aYJ_0zJ4uBbLD-Yf5QOcQMMVY_XuftY) </td>
    <td style="text-align:left;"> 2025-09-10 </td>
