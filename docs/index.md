@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2026-10-11 09:53:00.066305
+This page was last updated on 2026-10-18 07:56:24.121408
 
 ## AnVIL Resources {-}
 
@@ -271,14 +271,14 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
    <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1kSnuHyF36s6FDTLsAPkmnupyp1RcODidNiYYpijjWKg/edit?usp=sharing) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> [AnVIL Demos: Running Galaxy in AnVIL](https://www.youtube.com/watch?v=_uT0IWL1wso&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
-   <td style="text-align:left;"> 2023-08-31 </td>
-   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1sKbNoOEKnhQUVGY7jCEeiSWkGfkJfNF6pP7uCUhTNGo/edit?usp=sharing) </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> [AnVIL Demos: Interactive Genomic Data Science with Bioconductor](https://www.youtube.com/watch?v=k2DfF3tk6M4&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> 2023-08-31 </td>
    <td style="text-align:left;"> N/A </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: Running Galaxy in AnVIL](https://www.youtube.com/watch?v=_uT0IWL1wso&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2023-08-31 </td>
+   <td style="text-align:left;"> [Go to slides](https://docs.google.com/presentation/d/1sKbNoOEKnhQUVGY7jCEeiSWkGfkJfNF6pP7uCUhTNGo/edit?usp=sharing) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: How to combine data across workspaces](https://www.youtube.com/watch?v=1vz4kupdkms&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
