@@ -13,7 +13,7 @@ favicon: assets/AnVIL_style/anvil_favicon.ico
 
 Please check out our full collection of AnVIL and related resources below!
 
-This page was last updated on 2026-11-15 03:14:54.125533
+This page was last updated on 2026-11-22 03:14:38.924927
 
 ## AnVIL Resources {-}
 
@@ -190,6 +190,11 @@ Check out the AnVIL YouTube channel: https://www.youtube.com/@anvilprojectorg
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> [AnVIL Demos: CM4AI AnVIL Cell Map Prediction DREAM Challenge](https://www.youtube.com/watch?v=vALVzFMjHa4&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
+   <td style="text-align:left;"> 2026-11-18 </td>
+   <td style="text-align:left;"> N/A </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> [AnVIL Demos: A new Galaxy on AnVIL: lower costs, greater scale, and Galaxy 26.1](https://www.youtube.com/watch?v=bKek1NtcGNY&amp;list=PL6aYJ_0zJ4uC978C57P3TgAAfB38uy58E) </td>
    <td style="text-align:left;"> 2026-10-21 </td>
